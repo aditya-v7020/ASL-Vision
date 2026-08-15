@@ -81,8 +81,13 @@ class SignLanguagePredictor:
             else:
                 self.multi_prototypes = None
 
-            if os.path.exists(MODEL_PATH):
-                logger.info(f"Loading trained model from {MODEL_PATH}...")
+            # Check and load trained model
+            model_exists = os.path.exists(MODEL_PATH)
+            logger.info(f"Checking model at path: '{MODEL_PATH}' (exists: {model_exists})")
+
+            if model_exists:
+                model_size_mb = os.path.getsize(MODEL_PATH) / (1024 * 1024)
+                logger.info(f"Loading trained Keras model from '{MODEL_PATH}' ({model_size_mb:.2f} MB)...")
                 self.model = keras.models.load_model(MODEL_PATH)
                 
                 # Warm-up inference and initialize functional graph
@@ -99,9 +104,13 @@ class SignLanguagePredictor:
                     logger.warning(f"Could not build feature extractor: {fe}")
                     self.feat_model = None
                     
-                logger.info("Model loaded and warmed up successfully.")
+                logger.info(f"Model successfully loaded, verified, and warmed up from '{MODEL_PATH}'.")
             else:
-                logger.warning(f"Model file not found at {MODEL_PATH}. Prediction endpoint will return 503 until trained.")
+                logger.error(
+                    f"Model file NOT found at '{MODEL_PATH}'. "
+                    f"(Current working directory: '{os.getcwd()}'). "
+                    f"Prediction endpoint will return 503 until model is present."
+                )
                 self.model = None
                 self.feat_model = None
         except Exception as e:

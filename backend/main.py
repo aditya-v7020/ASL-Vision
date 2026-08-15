@@ -66,9 +66,11 @@ async def root():
 
 @app.get("/health", tags=["General"])
 def health():
+    is_loaded = predictor.model is not None
     return {
         "status": "ok",
-        "service": "ASL-Vision"
+        "service": "ASL-Vision",
+        "model_loaded": is_loaded
     }
 
 @app.get("/classes", response_model=ClassesResponse, tags=["Metadata"])

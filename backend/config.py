@@ -1,13 +1,16 @@
-import os
+from pathlib import Path
 
-BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+# Robust Project Root Directory (independent of current working directory / environment)
+BASE_DIR = Path(__file__).resolve().parent.parent
 
-MODEL_PATH = os.path.join(BASE_DIR, "ml", "models", "sign_language_model.keras")
-CLASSES_PATH = os.path.join(BASE_DIR, "ml", "models", "classes.json")
-PROTOTYPES_PATH = os.path.join(BASE_DIR, "ml", "models", "class_prototypes.npy")
-METADATA_PATH = os.path.join(BASE_DIR, "ml", "models", "reference_metadata.json")
-MULTI_PROTOTYPES_PATH = os.path.join(BASE_DIR, "ml", "models", "class_multi_prototypes.npy")
-MULTI_METADATA_PATH = os.path.join(BASE_DIR, "ml", "models", "multi_reference_metadata.json")
+# Absolute Paths for Model & Artifacts
+MODELS_DIR = BASE_DIR / "ml" / "models"
+MODEL_PATH = str(MODELS_DIR / "sign_language_model.keras")
+CLASSES_PATH = str(MODELS_DIR / "classes.json")
+PROTOTYPES_PATH = str(MODELS_DIR / "class_prototypes.npy")
+METADATA_PATH = str(MODELS_DIR / "reference_metadata.json")
+MULTI_PROTOTYPES_PATH = str(MODELS_DIR / "class_multi_prototypes.npy")
+MULTI_METADATA_PATH = str(MODELS_DIR / "multi_reference_metadata.json")
 
 IMAGE_SIZE = (128, 128)
 
