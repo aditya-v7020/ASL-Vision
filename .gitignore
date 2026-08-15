@@ -40,5 +40,3 @@ node_modules/
 dist/
 build/
 .env
-*.h5
-*.keras
