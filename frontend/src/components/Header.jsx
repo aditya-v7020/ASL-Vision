@@ -2,7 +2,10 @@ import React from 'react';
 import { Activity, Layers, Sparkles } from 'lucide-react';
 
 export default function Header({ backendHealth, loadingHealth }) {
-  const isHealthy = backendHealth?.status === 'healthy';
+  const isHealthy = Boolean(
+    backendHealth &&
+    (backendHealth.status === 'ok' || backendHealth.status === 'healthy' || backendHealth.model_loaded === true)
+  );
 
   return (
     <header className="glass-card" style={{ marginBottom: '24px' }}>

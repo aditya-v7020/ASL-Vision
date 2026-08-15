@@ -1,10 +1,19 @@
 import axios from 'axios';
 
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://127.0.0.1:8000';
+// Resolve and sanitize API base URL from environment or local development fallback
+const getApiBaseUrl = () => {
+  const envUrl = import.meta.env.VITE_API_URL;
+  if (envUrl && typeof envUrl === 'string' && envUrl.trim() !== '') {
+    return envUrl.trim().replace(/\/+$/, '');
+  }
+  return 'http://127.0.0.1:8000';
+};
+
+const API_BASE_URL = getApiBaseUrl();
 
 const apiClient = axios.create({
   baseURL: API_BASE_URL,
-  timeout: 15000,
+  timeout: 45000, // 45s timeout to gracefully accommodate Render cold starts
 });
 
 /**
@@ -48,10 +57,13 @@ export function getReferenceImageUrl(className) {
   return `${API_BASE_URL}/reference/${encodeURIComponent(className)}`;
 }
 
+export { API_BASE_URL };
+
 export default {
   checkHealth,
   getClasses,
   predictImage,
   getReferenceImageUrl,
+  API_BASE_URL,
 };
 
