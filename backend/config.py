@@ -12,10 +12,10 @@ MULTI_METADATA_PATH = os.path.join(BASE_DIR, "ml", "models", "multi_reference_me
 IMAGE_SIZE = (128, 128)
 
 CORS_ORIGINS = [
+    "https://asl-vision-xi.vercel.app",
     "http://localhost:5173",
     "http://127.0.0.1:5173",
     "http://localhost:3000",
     "http://127.0.0.1:3000",
-    "*"
 ]
 

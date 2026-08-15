@@ -11,13 +11,21 @@ from contextlib import asynccontextmanager
 from fastapi import FastAPI, File, UploadFile, HTTPException, status
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse, FileResponse
-from backend.config import CORS_ORIGINS
 from backend.schemas import HealthResponse, PredictionResponse, ClassesResponse
 from backend.predictor import predictor
 from ml.config import TRAIN_DIR
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(name)s: %(message)s")
 logger = logging.getLogger("backend.main")
+
+# Allowed Origins for Production (Vercel) and Local Development
+CORS_ORIGINS = [
+    "https://asl-vision-xi.vercel.app",
+    "http://localhost:5173",
+    "http://127.0.0.1:5173",
+    "http://localhost:3000",
+    "http://127.0.0.1:3000",
+]
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
@@ -56,15 +64,12 @@ async def root():
         }
     }
 
-@app.get("/health", response_model=HealthResponse, tags=["General"])
-async def health_check():
-    is_loaded = predictor.model is not None
-    return HealthResponse(
-        status="healthy" if is_loaded else "model_pending",
-        model_loaded=is_loaded,
-        classes_count=len(predictor.classes),
-        framework="TensorFlow 2.x + Keras"
-    )
+@app.get("/health", tags=["General"])
+def health():
+    return {
+        "status": "ok",
+        "service": "ASL-Vision"
+    }
 
 @app.get("/classes", response_model=ClassesResponse, tags=["Metadata"])
 async def get_classes():
