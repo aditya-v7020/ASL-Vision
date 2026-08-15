@@ -1,0 +1,147 @@
+==========================================================================================
+WEBCAM INFERENCE FAILURE & UNCERTAINTY ANALYSIS REPORT
+==========================================================================================
+
+Total Evaluated Frames : 870
+Total Correct Frames   : 780 (89.66%)
+Total Incorrect Frames : 71
+Total Uncertain Frames : 19
+Certain-Frame Accuracy : 91.66%
+
+------------------------------------------------------------------------------------------
+RANKED CONFUSION GROUPS & CAUSES:
+------------------------------------------------------------------------------------------
+  K -> V                                           : 19 occurrences
+  F -> W                                           : 10 occurrences
+  A -> X                                           :  7 occurrences
+  I -> space                                       :  6 occurrences
+  M -> Q                                           :  4 occurrences
+  A -> M                                           :  3 occurrences
+  M -> N                                           :  3 occurrences
+  R -> space                                       :  3 occurrences
+  R -> del                                         :  3 occurrences
+  E -> G                                           :  2 occurrences
+  E -> del                                         :  2 occurrences
+  M -> G                                           :  2 occurrences
+  A -> Uncertain (Low recognition confidence (44.51%) — align hand with guide) :  1 occurrences
+  A -> Uncertain (Low recognition confidence (44.76%) — align hand with guide) :  1 occurrences
+  A -> Uncertain (Ambiguous sign between 'M' and 'A') :  1 occurrences
+  B -> del                                         :  1 occurrences
+  B -> S                                           :  1 occurrences
+  B -> Uncertain (Low recognition confidence (37.23%) — align hand with guide) :  1 occurrences
+  B -> Uncertain (Low recognition confidence (36.35%) — align hand with guide) :  1 occurrences
+  B -> Uncertain (Low recognition confidence (34.01%) — align hand with guide) :  1 occurrences
+  B -> Uncertain (Low recognition confidence (29.69%) — align hand with guide) :  1 occurrences
+  B -> Uncertain (Low recognition confidence (32.59%) — align hand with guide) :  1 occurrences
+  B -> U                                           :  1 occurrences
+  B -> Uncertain (Low recognition confidence (39.96%) — align hand with guide) :  1 occurrences
+  D -> Uncertain (Ambiguous sign between 'D' and 'space') :  1 occurrences
+  E -> Uncertain (Low recognition confidence (40.74%) — align hand with guide) :  1 occurrences
+  E -> Uncertain (Low recognition confidence (41.49%) — align hand with guide) :  1 occurrences
+  F -> Uncertain (Ambiguous sign between 'W' and 'F') :  1 occurrences
+  I -> Uncertain (Low recognition confidence (43.67%) — align hand with guide) :  1 occurrences
+  I -> Uncertain (Low recognition confidence (44.37%) — align hand with guide) :  1 occurrences
+  J -> Y                                           :  1 occurrences
+  J -> Uncertain (Low recognition confidence (44.65%) — align hand with guide) :  1 occurrences
+  L -> C                                           :  1 occurrences
+  M -> Uncertain (Low recognition confidence (36.39%) — align hand with guide) :  1 occurrences
+  M -> Uncertain (Low recognition confidence (36.85%) — align hand with guide) :  1 occurrences
+  M -> Uncertain (Low recognition confidence (41.91%) — align hand with guide) :  1 occurrences
+  R -> X                                           :  1 occurrences
+  U -> X                                           :  1 occurrences
+
+------------------------------------------------------------------------------------------
+DETAILED BREAKDOWN OF ALL INCORRECT & UNCERTAIN FRAMES:
+------------------------------------------------------------------------------------------
+Frame ID   | True   | Pred         | Conf    | Top-2  | Margin  | Proto  | Sim    | Status/Reason
+------------------------------------------------------------------------------------------
+A_05       | A      | X            |  67.1% | A      |  35.5% | X      | 0.8663 | None
+A_10       | A      | X            |  81.2% | A      |  64.0% | X      | 0.8648 | None
+A_11       | A      | X            |  67.6% | A      |  37.8% | X      | 0.8835 | None
+A_15       | A      | X            |  86.2% | A      |  76.1% | X      | 0.8611 | None
+A_16       | A      | X            |  74.4% | A      |  52.5% | X      | 0.8757 | None
+A_17       | A      | X            |  82.8% | A      |  75.3% | S      | 0.8515 | None
+A_19       | A      | M            |  85.4% | A      |  74.4% | M      | 0.8419 | None
+A_20       | A      | X            |  49.6% | A      |   6.0% | X      | 0.8404 | None
+A_22       | A      | M            |  48.2% | S      |  27.9% | S      | 0.8426 | None
+A_24       | A      | M            |  89.1% | A      |  84.2% | M      | 0.8346 | None
+B_00       | B      | del          |  77.8% | B      |  67.7% | E      | 0.7596 | None
+B_02       | B      | S            |  63.7% | R      |  53.2% | S      | 0.8721 | None
+B_24       | B      | U            |  55.8% | U      |  13.2% | U      | 0.8646 | None
+E_05       | E      | G            |  86.3% | P      |  79.5% | J      | 0.804  | None
+E_15       | E      | del          |  63.5% | E      |  31.2% | del    | 0.822  | None
+E_20       | E      | G            |  64.0% | del    |  47.7% | S      | 0.8216 | None
+E_25       | E      | del          |  79.6% | G      |  66.7% | del    | 0.8263 | None
+F_10       | F      | W            |  83.7% | F      |  67.4% | W      | 0.8064 | None
+F_11       | F      | W            |  79.0% | F      |  58.0% | W      | 0.7981 | None
+F_13       | F      | W            |  76.2% | F      |  52.5% | W      | 0.7751 | None
+F_15       | F      | W            |  86.0% | F      |  71.9% | W      | 0.8134 | None
+F_18       | F      | W            |  62.8% | F      |  26.1% | W      | 0.7615 | None
+F_19       | F      | W            |  54.4% | F      |   8.8% | F      | 0.7585 | None
+F_20       | F      | W            |  53.2% | F      |   6.4% | F      | 0.8257 | None
+F_24       | F      | W            |  87.4% | F      |  74.9% | F      | 0.7823 | None
+F_27       | F      | W            |  80.5% | F      |  60.9% | W      | 0.8119 | None
+F_28       | F      | W            |  89.0% | F      |  78.0% | W      | 0.7858 | None
+I_05       | I      | space        |  82.6% | del    |  69.7% | space  | 0.8277 | None
+I_10       | I      | space        |  61.6% | Y      |  44.4% | space  | 0.8138 | None
+I_11       | I      | space        |  94.6% | I      |  91.0% | space  | 0.8513 | None
+I_15       | I      | space        |  62.6% | Y      |  40.9% | space  | 0.8146 | None
+I_20       | I      | space        |  85.4% | I      |  79.3% | space  | 0.8331 | None
+I_25       | I      | space        |  63.9% | del    |  31.5% | space  | 0.8135 | None
+J_00       | J      | Y            |  91.5% | J      |  83.1% | J      | 0.8702 | None
+K_00       | K      | V            |  75.3% | K      |  54.7% | V      | 0.843  | None
+K_02       | K      | V            |  76.8% | K      |  53.6% | V      | 0.8985 | None
+K_03       | K      | V            |  71.9% | K      |  43.9% | V      | 0.8832 | None
+K_05       | K      | V            |  99.6% | K      |  99.4% | V      | 0.8521 | None
+K_06       | K      | V            |  99.1% | K      |  98.2% | V      | 0.892  | None
+K_07       | K      | V            |  81.5% | K      |  63.4% | V      | 0.8849 | None
+K_10       | K      | V            |  99.8% | K      |  99.6% | V      | 0.8628 | None
+K_11       | K      | V            |  86.7% | K      |  74.7% | V      | 0.8852 | None
+K_13       | K      | V            |  73.3% | K      |  46.7% | V      | 0.892  | None
+K_15       | K      | V            |  99.9% | K      |  99.8% | V      | 0.8719 | None
+K_16       | K      | V            |  93.2% | K      |  87.2% | V      | 0.8774 | None
+K_17       | K      | V            |  89.2% | K      |  78.4% | V      | 0.8889 | None
+K_20       | K      | V            |  99.1% | K      |  98.2% | V      | 0.8608 | None
+K_21       | K      | V            |  90.1% | W      |  82.6% | V      | 0.8566 | None
+K_25       | K      | V            |  99.7% | K      |  99.6% | V      | 0.8645 | None
+K_26       | K      | V            |  76.3% | K      |  53.2% | V      | 0.8715 | None
+K_27       | K      | V            |  89.3% | K      |  79.9% | V      | 0.8821 | None
+K_28       | K      | V            |  87.3% | W      |  77.8% | V      | 0.8558 | None
+K_29       | K      | V            |  50.7% | K      |   5.2% | V      | 0.8716 | None
+L_20       | L      | C            |  56.0% | C      |  12.8% | C      | 0.8677 | None
+M_02       | M      | N            |  60.1% | M      |  20.7% | M      | 0.8901 | None
+M_06       | M      | N            |  95.1% | M      |  92.4% | N      | 0.8643 | None
+M_10       | M      | Q            |  60.2% | G      |  31.7% | N      | 0.7949 | None
+M_11       | M      | Q            |  46.6% | N      |  15.3% | P      | 0.8426 | None
+M_15       | M      | G            |  49.2% | N      |  28.8% | N      | 0.8253 | None
+M_17       | M      | N            |  78.9% | M      |  60.0% | N      | 0.8563 | None
+M_20       | M      | Q            |  88.2% | del    |  79.3% | del    | 0.8457 | None
+M_25       | M      | Q            |  81.6% | del    |  71.7% | N      | 0.8066 | None
+M_26       | M      | G            |  46.0% | Q      |  13.9% | P      | 0.8231 | None
+R_00       | R      | X            |  62.8% | R      |  26.6% | R      | 0.8489 | None
+R_05       | R      | space        |  70.0% | R      |  57.4% | space  | 0.8378 | None
+R_10       | R      | space        |  54.2% | del    |  33.1% | R      | 0.8227 | None
+R_15       | R      | del          |  59.6% | space  |  32.8% | space  | 0.8171 | None
+R_20       | R      | del          |  75.2% | space  |  52.0% | space  | 0.8377 | None
+R_21       | R      | space        |  72.9% | R      |  48.6% | R      | 0.8436 | None
+R_25       | R      | del          |  77.8% | space  |  56.7% | space  | 0.8131 | None
+U_00       | U      | X            |  57.6% | U      |  38.1% | U      | 0.8372 | None
+A_18       | A      | Uncertain — adjust your hand position |  44.5% | A      |  12.4% | S      | 0.8649 | Low recognition confidenc
+A_27       | A      | Uncertain — adjust your hand position |  44.8% | A      |   0.5% | M      | 0.8564 | Low recognition confidenc
+A_29       | A      | Uncertain — adjust your hand position |  51.1% | A      |   3.0% | M      | 0.8574 | Ambiguous sign between 'M
+B_05       | B      | Uncertain — adjust your hand position |  37.2% | del    |   1.9% | U      | 0.7934 | Low recognition confidenc
+B_10       | B      | Uncertain — adjust your hand position |  36.4% | del    |   3.3% | U      | 0.8107 | Low recognition confidenc
+B_11       | B      | Uncertain — adjust your hand position |  34.0% | B      |  16.8% | N      | 0.8534 | Low recognition confidenc
+B_15       | B      | Uncertain — adjust your hand position |  29.7% | del    |   1.1% | X      | 0.8193 | Low recognition confidenc
+B_20       | B      | Uncertain — adjust your hand position |  32.6% | del    |   1.3% | U      | 0.827  | Low recognition confidenc
+B_25       | B      | Uncertain — adjust your hand position |  40.0% | B      |   4.5% | U      | 0.8063 | Low recognition confidenc
+D_26       | D      | Uncertain — adjust your hand position |  51.6% | space  |   4.2% | D      | 0.889  | Ambiguous sign between 'D
+E_00       | E      | Uncertain — adjust your hand position |  40.7% | X      |  10.1% | E      | 0.7871 | Low recognition confidenc
+E_10       | E      | Uncertain — adjust your hand position |  41.5% | E      |  15.4% | P      | 0.7863 | Low recognition confidenc
+F_22       | F      | Uncertain — adjust your hand position |  51.2% | F      |   2.5% | F      | 0.7998 | Ambiguous sign between 'W
+I_21       | I      | Uncertain — adjust your hand position |  43.7% | Y      |  12.7% | I      | 0.8352 | Low recognition confidenc
+I_26       | I      | Uncertain — adjust your hand position |  44.4% | space  |  22.6% | space  | 0.827  | Low recognition confidenc
+J_05       | J      | Uncertain — adjust your hand position |  44.6% | P      |  12.1% | J      | 0.8792 | Low recognition confidenc
+M_05       | M      | Uncertain — adjust your hand position |  36.4% | G      |   6.8% | N      | 0.8259 | Low recognition confidenc
+M_16       | M      | Uncertain — adjust your hand position |  36.9% | G      |   4.1% | N      | 0.8228 | Low recognition confidenc
+M_21       | M      | Uncertain — adjust your hand position |  41.9% | M      |  17.6% | N      | 0.8422 | Low recognition confidenc

@@ -1,0 +1,109 @@
+==========================================================================================
+AI-BASED SIGN LANGUAGE RECOGNITION - LARGE-SCALE WEBCAM BENCHMARK REPORT
+==========================================================================================
+
+Total Evaluated Webcam Frames : 870 (30 independent frames × 29 classes)
+Webcam Accuracy BEFORE        : 51.49%
+Webcam Accuracy AFTER (Raw)   : 90.57%
+Webcam Accuracy AFTER (Gated) : 93.10%
+Accuracy on Certain Frames    : 95.01% (N=821)
+Total Uncertain Frames Gated  : 49 (5.6%)
+
+WEAK CLASSES BEFORE VS AFTER SUMMARY:
+  Class B : Before =   6.7%  -->  After =  70.0% (Change: + 63.3%)
+  Class K : Before =  30.0%  -->  After =  73.3% (Change: + 43.3%)
+  Class I : Before =   0.0%  -->  After =  90.0% (Change: + 90.0%)
+  Class D : Before =  73.3%  -->  After =  96.7% (Change: + 23.3%)
+  Class F : Before =   6.7%  -->  After =  83.3% (Change: + 76.7%)
+
+------------------------------------------------------------------------------------------
+PER-CLASS WEBCAM ACCURACY BREAKDOWN:
+------------------------------------------------------------------------------------------
+Class    | Before Acc   | After Acc    | Uncertain  | Avg Conf   | Avg ProtoSim
+------------------------------------------------------------------------------------------
+A        | 100.0%       |  76.7%       |  3 frames   |  79.5%     | 0.8801
+B        |   6.7%       |  70.0%       |  6 frames   |  72.9%     | 0.8539
+C        | 100.0%       | 100.0%       |  0 frames   | 100.0%     | 0.9350
+D        |  73.3%       |  96.7%       |  1 frames   |  87.0%     | 0.8908
+E        |   3.3%       |  80.0%       |  2 frames   |  82.2%     | 0.8619
+F        |   6.7%       |  83.3%       |  1 frames   |  84.3%     | 0.8573
+G        | 100.0%       | 100.0%       |  0 frames   | 100.0%     | 0.8569
+H        |  23.3%       | 100.0%       |  0 frames   |  98.9%     | 0.8921
+I        |   0.0%       |  90.0%       |  2 frames   |  83.7%     | 0.8773
+J        |  13.3%       |  93.3%       |  1 frames   |  96.1%     | 0.9254
+K        |  30.0%       |  73.3%       |  0 frames   |  87.5%     | 0.8831
+L        |  56.7%       |  96.7%       |  0 frames   |  96.5%     | 0.9020
+M        |  30.0%       |  60.0%       |  3 frames   |  78.4%     | 0.8770
+N        |  93.3%       | 100.0%       |  0 frames   |  99.8%     | 0.9139
+O        |  56.7%       | 100.0%       |  0 frames   |  99.8%     | 0.8898
+P        |  63.3%       | 100.0%       |  0 frames   | 100.0%     | 0.9079
+Q        |  86.7%       | 100.0%       |  0 frames   |  99.9%     | 0.9101
+R        |   3.3%       |  83.3%       |  0 frames   |  89.4%     | 0.8968
+S        |   0.0%       | 100.0%       |  0 frames   |  98.3%     | 0.8681
+T        |  50.0%       | 100.0%       |  0 frames   |  99.2%     | 0.8763
+U        |  56.7%       |  96.7%       |  0 frames   |  98.3%     | 0.8795
+V        |   6.7%       | 100.0%       |  0 frames   |  99.4%     | 0.8988
+W        |  83.3%       | 100.0%       |  0 frames   | 100.0%     | 0.9042
+X        |  46.7%       | 100.0%       |  0 frames   |  99.8%     | 0.8893
+Y        |  96.7%       | 100.0%       |  0 frames   |  99.8%     | 0.8927
+Z        |  63.3%       | 100.0%       |  0 frames   | 100.0%     | 0.9118
+del      |  80.0%       | 100.0%       |  0 frames   | 100.0%     | 0.9021
+nothing  | 100.0%       | 100.0%       | 30 frames   | 100.0%     | 0.8432
+space    |  63.3%       | 100.0%       |  0 frames   | 100.0%     | 0.9115
+
+==========================================================================================
+CLASSIFICATION REPORT (PRECISION / RECALL / F1 PER CLASS):
+==========================================================================================
+              precision    recall  f1-score   support
+
+           A     1.0000    0.5667    0.7234        30
+           B     1.0000    0.8000    0.8889        30
+           C     1.0000    1.0000    1.0000        30
+           D     1.0000    1.0000    1.0000        30
+           E     1.0000    0.8000    0.8889        30
+           F     1.0000    0.6333    0.7755        30
+           G     0.8333    1.0000    0.9091        30
+           H     1.0000    1.0000    1.0000        30
+           I     1.0000    0.8000    0.8889        30
+           J     1.0000    0.9667    0.9831        30
+           K     1.0000    0.3667    0.5366        30
+           L     1.0000    1.0000    1.0000        30
+           M     0.7500    0.6000    0.6667        30
+           N     0.8824    1.0000    0.9375        30
+           O     1.0000    1.0000    1.0000        30
+           P     1.0000    1.0000    1.0000        30
+           Q     0.8571    1.0000    0.9231        30
+           R     1.0000    0.7667    0.8679        30
+           S     0.9677    1.0000    0.9836        30
+           T     1.0000    1.0000    1.0000        30
+           U     0.9355    0.9667    0.9508        30
+           V     0.6122    1.0000    0.7595        30
+           W     0.7317    1.0000    0.8451        30
+           X     0.7500    1.0000    0.8571        30
+           Y     0.9677    1.0000    0.9836        30
+           Z     1.0000    1.0000    1.0000        30
+         del     0.7895    1.0000    0.8824        30
+     nothing     1.0000    1.0000    1.0000        30
+       space     0.7692    1.0000    0.8696        30
+
+    accuracy                         0.9057       870
+   macro avg     0.9257    0.9057    0.9007       870
+weighted avg     0.9257    0.9057    0.9007       870
+
+
+TOP CONFUSED PAIRS:
+   1. True 'K' -> Predicted 'V': 19 occurrences
+   2. True 'F' -> Predicted 'W': 11 occurrences
+   3. True 'A' -> Predicted 'X': 7 occurrences
+   4. True 'A' -> Predicted 'M': 6 occurrences
+   5. True 'I' -> Predicted 'space': 6 occurrences
+   6. True 'M' -> Predicted 'Q': 5 occurrences
+   7. True 'M' -> Predicted 'N': 4 occurrences
+   8. True 'E' -> Predicted 'G': 3 occurrences
+   9. True 'E' -> Predicted 'del': 3 occurrences
+  10. True 'M' -> Predicted 'G': 3 occurrences
+  11. True 'R' -> Predicted 'del': 3 occurrences
+  12. True 'R' -> Predicted 'space': 3 occurrences
+  13. True 'B' -> Predicted 'U': 2 occurrences
+  14. True 'B' -> Predicted 'del': 2 occurrences
+  15. True 'B' -> Predicted 'S': 1 occurrences

@@ -1,0 +1,6786 @@
+{
+  "total_frames": 870,
+  "total_correct": 782,
+  "total_incorrect": 69,
+  "total_uncertain": 49,
+  "raw_accuracy_pct": 89.89,
+  "per_class_summary": {
+    "A": {
+      "total": 30,
+      "correct": 17,
+      "incorrect": 10,
+      "uncertain": 3,
+      "accuracy": 56.7
+    },
+    "B": {
+      "total": 30,
+      "correct": 21,
+      "incorrect": 3,
+      "uncertain": 6,
+      "accuracy": 70.0
+    },
+    "C": {
+      "total": 30,
+      "correct": 30,
+      "incorrect": 0,
+      "uncertain": 0,
+      "accuracy": 100.0
+    },
+    "D": {
+      "total": 30,
+      "correct": 29,
+      "incorrect": 0,
+      "uncertain": 1,
+      "accuracy": 96.7
+    },
+    "E": {
+      "total": 30,
+      "correct": 24,
+      "incorrect": 4,
+      "uncertain": 2,
+      "accuracy": 80.0
+    },
+    "F": {
+      "total": 30,
+      "correct": 19,
+      "incorrect": 10,
+      "uncertain": 1,
+      "accuracy": 63.3
+    },
+    "G": {
+      "total": 30,
+      "correct": 30,
+      "incorrect": 0,
+      "uncertain": 0,
+      "accuracy": 100.0
+    },
+    "H": {
+      "total": 30,
+      "correct": 30,
+      "incorrect": 0,
+      "uncertain": 0,
+      "accuracy": 100.0
+    },
+    "I": {
+      "total": 30,
+      "correct": 24,
+      "incorrect": 4,
+      "uncertain": 2,
+      "accuracy": 80.0
+    },
+    "J": {
+      "total": 30,
+      "correct": 28,
+      "incorrect": 1,
+      "uncertain": 1,
+      "accuracy": 93.3
+    },
+    "K": {
+      "total": 30,
+      "correct": 11,
+      "incorrect": 19,
+      "uncertain": 0,
+      "accuracy": 36.7
+    },
+    "L": {
+      "total": 30,
+      "correct": 29,
+      "incorrect": 1,
+      "uncertain": 0,
+      "accuracy": 96.7
+    },
+    "M": {
+      "total": 30,
+      "correct": 18,
+      "incorrect": 9,
+      "uncertain": 3,
+      "accuracy": 60.0
+    },
+    "N": {
+      "total": 30,
+      "correct": 30,
+      "incorrect": 0,
+      "uncertain": 0,
+      "accuracy": 100.0
+    },
+    "O": {
+      "total": 30,
+      "correct": 30,
+      "incorrect": 0,
+      "uncertain": 0,
+      "accuracy": 100.0
+    },
+    "P": {
+      "total": 30,
+      "correct": 30,
+      "incorrect": 0,
+      "uncertain": 0,
+      "accuracy": 100.0
+    },
+    "Q": {
+      "total": 30,
+      "correct": 30,
+      "incorrect": 0,
+      "uncertain": 0,
+      "accuracy": 100.0
+    },
+    "R": {
+      "total": 30,
+      "correct": 23,
+      "incorrect": 7,
+      "uncertain": 0,
+      "accuracy": 76.7
+    },
+    "S": {
+      "total": 30,
+      "correct": 30,
+      "incorrect": 0,
+      "uncertain": 0,
+      "accuracy": 100.0
+    },
+    "T": {
+      "total": 30,
+      "correct": 30,
+      "incorrect": 0,
+      "uncertain": 0,
+      "accuracy": 100.0
+    },
+    "U": {
+      "total": 30,
+      "correct": 29,
+      "incorrect": 1,
+      "uncertain": 0,
+      "accuracy": 96.7
+    },
+    "V": {
+      "total": 30,
+      "correct": 30,
+      "incorrect": 0,
+      "uncertain": 0,
+      "accuracy": 100.0
+    },
+    "W": {
+      "total": 30,
+      "correct": 30,
+      "incorrect": 0,
+      "uncertain": 0,
+      "accuracy": 100.0
+    },
+    "X": {
+      "total": 30,
+      "correct": 30,
+      "incorrect": 0,
+      "uncertain": 0,
+      "accuracy": 100.0
+    },
+    "Y": {
+      "total": 30,
+      "correct": 30,
+      "incorrect": 0,
+      "uncertain": 0,
+      "accuracy": 100.0
+    },
+    "Z": {
+      "total": 30,
+      "correct": 30,
+      "incorrect": 0,
+      "uncertain": 0,
+      "accuracy": 100.0
+    },
+    "del": {
+      "total": 30,
+      "correct": 30,
+      "incorrect": 0,
+      "uncertain": 0,
+      "accuracy": 100.0
+    },
+    "nothing": {
+      "total": 30,
+      "correct": 30,
+      "incorrect": 0,
+      "uncertain": 30,
+      "accuracy": 100.0
+    },
+    "space": {
+      "total": 30,
+      "correct": 30,
+      "incorrect": 0,
+      "uncertain": 0,
+      "accuracy": 100.0
+    }
+  },
+  "confusion_groups": {
+    "K -> V": 19,
+    "F -> W": 10,
+    "A -> X": 7,
+    "B -> uncertain": 6,
+    "M -> N": 4,
+    "I -> space": 4,
+    "A -> uncertain": 3,
+    "A -> M": 3,
+    "M -> uncertain": 3,
+    "M -> Q": 3,
+    "R -> space": 3,
+    "R -> del": 3,
+    "M -> G": 2,
+    "E -> uncertain": 2,
+    "E -> G": 2,
+    "E -> del": 2,
+    "I -> uncertain": 2,
+    "F -> uncertain": 1,
+    "B -> del": 1,
+    "B -> S": 1,
+    "B -> U": 1,
+    "R -> X": 1
+  },
+  "weak_class_failures": {
+    "K": [
+      {
+        "frame_id": "K_00",
+        "true_class": "K",
+        "file_source": "K28.jpg",
+        "predicted_class": "V",
+        "raw_top_class": "V",
+        "is_correct": false,
+        "confidence": 75.34,
+        "top5_predictions": [
+          {
+            "class": "V",
+            "confidence": 75.34
+          },
+          {
+            "class": "K",
+            "confidence": 20.66
+          },
+          {
+            "class": "G",
+            "confidence": 3.65
+          },
+          {
+            "class": "U",
+            "confidence": 0.17
+          },
+          {
+            "class": "R",
+            "confidence": 0.07
+          }
+        ],
+        "is_uncertain": false,
+        "uncertainty_reason": null,
+        "prototype_ranking_top5": [
+          {
+            "class": "V",
+            "similarity": 0.8692
+          },
+          {
+            "class": "K",
+            "similarity": 0.8546
+          },
+          {
+            "class": "U",
+            "similarity": 0.784
+          },
+          {
+            "class": "R",
+            "similarity": 0.7591
+          },
+          {
+            "class": "del",
+            "similarity": 0.7469
+          }
+        ],
+        "prototype_match": "V",
+        "prototype_similarity": 0.8692,
+        "proto_rank_of_true_class": 1,
+        "proto_sim_of_true_class": 0.8546,
+        "hand_presence_status": "VALID_HAND",
+        "hand_score": 1.0,
+        "fg_ratio": 0.459,
+        "cnt_ratio": 0.405,
+        "edge_density": 0.048,
+        "quality_sharpness": 317.5,
+        "quality_brightness": 108.1,
+        "quality_contrast": 50.1,
+        "scale_factor": 0.68,
+        "hand_px": 326,
+        "dx": -12,
+        "dy": -8,
+        "rotation": -5.0,
+        "brightness_factor": 0.92,
+        "crop_size": 345,
+        "crop_x": 147,
+        "crop_y": 67,
+        "paste_x": 145,
+        "paste_y": 69
+      },
+      {
+        "frame_id": "K_02",
+        "true_class": "K",
+        "file_source": "K2800.jpg",
+        "predicted_class": "V",
+        "raw_top_class": "V",
+        "is_correct": false,
+        "confidence": 76.79,
+        "top5_predictions": [
+          {
+            "class": "V",
+            "confidence": 76.79
+          },
+          {
+            "class": "K",
+            "confidence": 23.14
+          },
+          {
+            "class": "G",
+            "confidence": 0.04
+          },
+          {
+            "class": "W",
+            "confidence": 0.02
+          },
+          {
+            "class": "R",
+            "confidence": 0.0
+          }
+        ],
+        "is_uncertain": false,
+        "uncertainty_reason": null,
+        "prototype_ranking_top5": [
+          {
+            "class": "V",
+            "similarity": 0.9006
+          },
+          {
+            "class": "K",
+            "similarity": 0.8796
+          },
+          {
+            "class": "W",
+            "similarity": 0.8029
+          },
+          {
+            "class": "U",
+            "similarity": 0.7684
+          },
+          {
+            "class": "R",
+            "similarity": 0.7614
+          }
+        ],
+        "prototype_match": "V",
+        "prototype_similarity": 0.9006,
+        "proto_rank_of_true_class": 1,
+        "proto_sim_of_true_class": 0.8796,
+        "hand_presence_status": "VALID_HAND",
+        "hand_score": 0.99,
+        "fg_ratio": 0.426,
+        "cnt_ratio": 0.346,
+        "edge_density": 0.053,
+        "quality_sharpness": 228.2,
+        "quality_brightness": 134.3,
+        "quality_contrast": 85.4,
+        "scale_factor": 0.72,
+        "hand_px": 345,
+        "dx": -4,
+        "dy": 0,
+        "rotation": 0.0,
+        "brightness_factor": 1.0,
+        "crop_size": 345,
+        "crop_x": 147,
+        "crop_y": 67,
+        "paste_x": 143,
+        "paste_y": 67
+      },
+      {
+        "frame_id": "K_03",
+        "true_class": "K",
+        "file_source": "K2801.jpg",
+        "predicted_class": "V",
+        "raw_top_class": "V",
+        "is_correct": false,
+        "confidence": 71.93,
+        "top5_predictions": [
+          {
+            "class": "V",
+            "confidence": 71.93
+          },
+          {
+            "class": "K",
+            "confidence": 28.02
+          },
+          {
+            "class": "W",
+            "confidence": 0.04
+          },
+          {
+            "class": "G",
+            "confidence": 0.02
+          },
+          {
+            "class": "R",
+            "confidence": 0.0
+          }
+        ],
+        "is_uncertain": false,
+        "uncertainty_reason": null,
+        "prototype_ranking_top5": [
+          {
+            "class": "V",
+            "similarity": 0.8889
+          },
+          {
+            "class": "K",
+            "similarity": 0.8692
+          },
+          {
+            "class": "W",
+            "similarity": 0.7893
+          },
+          {
+            "class": "U",
+            "similarity": 0.745
+          },
+          {
+            "class": "R",
+            "similarity": 0.7282
+          }
+        ],
+        "prototype_match": "V",
+        "prototype_similarity": 0.8889,
+        "proto_rank_of_true_class": 1,
+        "proto_sim_of_true_class": 0.8692,
+        "hand_presence_status": "VALID_HAND",
+        "hand_score": 1.0,
+        "fg_ratio": 0.457,
+        "cnt_ratio": 0.368,
+        "edge_density": 0.048,
+        "quality_sharpness": 106.5,
+        "quality_brightness": 138.2,
+        "quality_contrast": 87.8,
+        "scale_factor": 0.74,
+        "hand_px": 355,
+        "dx": 0,
+        "dy": 4,
+        "rotation": 2.5,
+        "brightness_factor": 1.04,
+        "crop_size": 345,
+        "crop_x": 147,
+        "crop_y": 67,
+        "paste_x": 142,
+        "paste_y": 66
+      },
+      {
+        "frame_id": "K_05",
+        "true_class": "K",
+        "file_source": "K2803.jpg",
+        "predicted_class": "V",
+        "raw_top_class": "V",
+        "is_correct": false,
+        "confidence": 99.61,
+        "top5_predictions": [
+          {
+            "class": "V",
+            "confidence": 99.61
+          },
+          {
+            "class": "K",
+            "confidence": 0.2
+          },
+          {
+            "class": "G",
+            "confidence": 0.19
+          },
+          {
+            "class": "W",
+            "confidence": 0.0
+          },
+          {
+            "class": "Q",
+            "confidence": 0.0
+          }
+        ],
+        "is_uncertain": false,
+        "uncertainty_reason": null,
+        "prototype_ranking_top5": [
+          {
+            "class": "V",
+            "similarity": 0.8475
+          },
+          {
+            "class": "K",
+            "similarity": 0.8055
+          },
+          {
+            "class": "W",
+            "similarity": 0.76
+          },
+          {
+            "class": "space",
+            "similarity": 0.6915
+          },
+          {
+            "class": "U",
+            "similarity": 0.6792
+          }
+        ],
+        "prototype_match": "V",
+        "prototype_similarity": 0.8475,
+        "proto_rank_of_true_class": 1,
+        "proto_sim_of_true_class": 0.8055,
+        "hand_presence_status": "VALID_HAND",
+        "hand_score": 0.754,
+        "fg_ratio": 0.359,
+        "cnt_ratio": 0.264,
+        "edge_density": 0.059,
+        "quality_sharpness": 462.5,
+        "quality_brightness": 121.8,
+        "quality_contrast": 76.4,
+        "scale_factor": 0.68,
+        "hand_px": 326,
+        "dx": 8,
+        "dy": -8,
+        "rotation": -5.0,
+        "brightness_factor": 0.92,
+        "crop_size": 345,
+        "crop_x": 147,
+        "crop_y": 67,
+        "paste_x": 165,
+        "paste_y": 69
+      },
+      {
+        "frame_id": "K_06",
+        "true_class": "K",
+        "file_source": "K2804.jpg",
+        "predicted_class": "V",
+        "raw_top_class": "V",
+        "is_correct": false,
+        "confidence": 99.1,
+        "top5_predictions": [
+          {
+            "class": "V",
+            "confidence": 99.1
+          },
+          {
+            "class": "K",
+            "confidence": 0.88
+          },
+          {
+            "class": "W",
+            "confidence": 0.02
+          },
+          {
+            "class": "G",
+            "confidence": 0.01
+          },
+          {
+            "class": "R",
+            "confidence": 0.0
+          }
+        ],
+        "is_uncertain": false,
+        "uncertainty_reason": null,
+        "prototype_ranking_top5": [
+          {
+            "class": "V",
+            "similarity": 0.8893
+          },
+          {
+            "class": "K",
+            "similarity": 0.8513
+          },
+          {
+            "class": "W",
+            "similarity": 0.8094
+          },
+          {
+            "class": "U",
+            "similarity": 0.7056
+          },
+          {
+            "class": "space",
+            "similarity": 0.6829
+          }
+        ],
+        "prototype_match": "V",
+        "prototype_similarity": 0.8893,
+        "proto_rank_of_true_class": 1,
+        "proto_sim_of_true_class": 0.8513,
+        "hand_presence_status": "VALID_HAND",
+        "hand_score": 1.0,
+        "fg_ratio": 0.46,
+        "cnt_ratio": 0.368,
+        "edge_density": 0.057,
+        "quality_sharpness": 362.5,
+        "quality_brightness": 129.1,
+        "quality_contrast": 79.8,
+        "scale_factor": 0.7,
+        "hand_px": 336,
+        "dx": 12,
+        "dy": -4,
+        "rotation": -2.5,
+        "brightness_factor": 0.96,
+        "crop_size": 345,
+        "crop_x": 147,
+        "crop_y": 67,
+        "paste_x": 164,
+        "paste_y": 68
+      },
+      {
+        "frame_id": "K_07",
+        "true_class": "K",
+        "file_source": "K2805.jpg",
+        "predicted_class": "V",
+        "raw_top_class": "V",
+        "is_correct": false,
+        "confidence": 81.46,
+        "top5_predictions": [
+          {
+            "class": "V",
+            "confidence": 81.46
+          },
+          {
+            "class": "K",
+            "confidence": 18.09
+          },
+          {
+            "class": "G",
+            "confidence": 0.35
+          },
+          {
+            "class": "W",
+            "confidence": 0.08
+          },
+          {
+            "class": "R",
+            "confidence": 0.01
+          }
+        ],
+        "is_uncertain": false,
+        "uncertainty_reason": null,
+        "prototype_ranking_top5": [
+          {
+            "class": "V",
+            "similarity": 0.8945
+          },
+          {
+            "class": "K",
+            "similarity": 0.8691
+          },
+          {
+            "class": "W",
+            "similarity": 0.7987
+          },
+          {
+            "class": "U",
+            "similarity": 0.7707
+          },
+          {
+            "class": "R",
+            "similarity": 0.7481
+          }
+        ],
+        "prototype_match": "V",
+        "prototype_similarity": 0.8945,
+        "proto_rank_of_true_class": 1,
+        "proto_sim_of_true_class": 0.8691,
+        "hand_presence_status": "VALID_HAND",
+        "hand_score": 1.0,
+        "fg_ratio": 0.44,
+        "cnt_ratio": 0.357,
+        "edge_density": 0.054,
+        "quality_sharpness": 246.3,
+        "quality_brightness": 133.9,
+        "quality_contrast": 84.1,
+        "scale_factor": 0.72,
+        "hand_px": 345,
+        "dx": -12,
+        "dy": 0,
+        "rotation": 0.0,
+        "brightness_factor": 1.0,
+        "crop_size": 345,
+        "crop_x": 147,
+        "crop_y": 67,
+        "paste_x": 135,
+        "paste_y": 67
+      },
+      {
+        "frame_id": "K_10",
+        "true_class": "K",
+        "file_source": "K2808.jpg",
+        "predicted_class": "V",
+        "raw_top_class": "V",
+        "is_correct": false,
+        "confidence": 99.75,
+        "top5_predictions": [
+          {
+            "class": "V",
+            "confidence": 99.75
+          },
+          {
+            "class": "K",
+            "confidence": 0.19
+          },
+          {
+            "class": "G",
+            "confidence": 0.06
+          },
+          {
+            "class": "W",
+            "confidence": 0.0
+          },
+          {
+            "class": "Q",
+            "confidence": 0.0
+          }
+        ],
+        "is_uncertain": false,
+        "uncertainty_reason": null,
+        "prototype_ranking_top5": [
+          {
+            "class": "V",
+            "similarity": 0.8614
+          },
+          {
+            "class": "K",
+            "similarity": 0.7948
+          },
+          {
+            "class": "W",
+            "similarity": 0.7644
+          },
+          {
+            "class": "U",
+            "similarity": 0.7281
+          },
+          {
+            "class": "space",
+            "similarity": 0.7106
+          }
+        ],
+        "prototype_match": "V",
+        "prototype_similarity": 0.8614,
+        "proto_rank_of_true_class": 1,
+        "proto_sim_of_true_class": 0.7948,
+        "hand_presence_status": "VALID_HAND",
+        "hand_score": 0.832,
+        "fg_ratio": 0.371,
+        "cnt_ratio": 0.291,
+        "edge_density": 0.06,
+        "quality_sharpness": 464.1,
+        "quality_brightness": 122.6,
+        "quality_contrast": 76.3,
+        "scale_factor": 0.68,
+        "hand_px": 326,
+        "dx": 0,
+        "dy": -8,
+        "rotation": -5.0,
+        "brightness_factor": 0.92,
+        "crop_size": 345,
+        "crop_x": 147,
+        "crop_y": 67,
+        "paste_x": 157,
+        "paste_y": 69
+      },
+      {
+        "frame_id": "K_11",
+        "true_class": "K",
+        "file_source": "K2809.jpg",
+        "predicted_class": "V",
+        "raw_top_class": "V",
+        "is_correct": false,
+        "confidence": 86.69,
+        "top5_predictions": [
+          {
+            "class": "V",
+            "confidence": 86.69
+          },
+          {
+            "class": "K",
+            "confidence": 11.98
+          },
+          {
+            "class": "G",
+            "confidence": 1.32
+          },
+          {
+            "class": "W",
+            "confidence": 0.01
+          },
+          {
+            "class": "Q",
+            "confidence": 0.0
+          }
+        ],
+        "is_uncertain": false,
+        "uncertainty_reason": null,
+        "prototype_ranking_top5": [
+          {
+            "class": "V",
+            "similarity": 0.8848
+          },
+          {
+            "class": "K",
+            "similarity": 0.8722
+          },
+          {
+            "class": "W",
+            "similarity": 0.79
+          },
+          {
+            "class": "U",
+            "similarity": 0.7206
+          },
+          {
+            "class": "R",
+            "similarity": 0.7037
+          }
+        ],
+        "prototype_match": "V",
+        "prototype_similarity": 0.8848,
+        "proto_rank_of_true_class": 1,
+        "proto_sim_of_true_class": 0.8722,
+        "hand_presence_status": "VALID_HAND",
+        "hand_score": 1.0,
+        "fg_ratio": 0.458,
+        "cnt_ratio": 0.363,
+        "edge_density": 0.06,
+        "quality_sharpness": 422.9,
+        "quality_brightness": 129.1,
+        "quality_contrast": 80.6,
+        "scale_factor": 0.7,
+        "hand_px": 336,
+        "dx": 4,
+        "dy": -4,
+        "rotation": -2.5,
+        "brightness_factor": 0.96,
+        "crop_size": 345,
+        "crop_x": 147,
+        "crop_y": 67,
+        "paste_x": 156,
+        "paste_y": 68
+      },
+      {
+        "frame_id": "K_13",
+        "true_class": "K",
+        "file_source": "K2810.jpg",
+        "predicted_class": "V",
+        "raw_top_class": "V",
+        "is_correct": false,
+        "confidence": 73.29,
+        "top5_predictions": [
+          {
+            "class": "V",
+            "confidence": 73.29
+          },
+          {
+            "class": "K",
+            "confidence": 26.56
+          },
+          {
+            "class": "W",
+            "confidence": 0.14
+          },
+          {
+            "class": "G",
+            "confidence": 0.01
+          },
+          {
+            "class": "R",
+            "confidence": 0.0
+          }
+        ],
+        "is_uncertain": false,
+        "uncertainty_reason": null,
+        "prototype_ranking_top5": [
+          {
+            "class": "V",
+            "similarity": 0.8981
+          },
+          {
+            "class": "K",
+            "similarity": 0.879
+          },
+          {
+            "class": "W",
+            "similarity": 0.8136
+          },
+          {
+            "class": "U",
+            "similarity": 0.7396
+          },
+          {
+            "class": "L",
+            "similarity": 0.7222
+          }
+        ],
+        "prototype_match": "V",
+        "prototype_similarity": 0.8981,
+        "proto_rank_of_true_class": 1,
+        "proto_sim_of_true_class": 0.879,
+        "hand_presence_status": "VALID_HAND",
+        "hand_score": 1.0,
+        "fg_ratio": 0.463,
+        "cnt_ratio": 0.355,
+        "edge_density": 0.048,
+        "quality_sharpness": 173.4,
+        "quality_brightness": 139.1,
+        "quality_contrast": 86.9,
+        "scale_factor": 0.74,
+        "hand_px": 355,
+        "dx": 12,
+        "dy": 4,
+        "rotation": 2.5,
+        "brightness_factor": 1.04,
+        "crop_size": 345,
+        "crop_x": 147,
+        "crop_y": 67,
+        "paste_x": 154,
+        "paste_y": 66
+      },
+      {
+        "frame_id": "K_15",
+        "true_class": "K",
+        "file_source": "K2812.jpg",
+        "predicted_class": "V",
+        "raw_top_class": "V",
+        "is_correct": false,
+        "confidence": 99.91,
+        "top5_predictions": [
+          {
+            "class": "V",
+            "confidence": 99.91
+          },
+          {
+            "class": "K",
+            "confidence": 0.06
+          },
+          {
+            "class": "G",
+            "confidence": 0.01
+          },
+          {
+            "class": "W",
+            "confidence": 0.01
+          },
+          {
+            "class": "Q",
+            "confidence": 0.0
+          }
+        ],
+        "is_uncertain": false,
+        "uncertainty_reason": null,
+        "prototype_ranking_top5": [
+          {
+            "class": "V",
+            "similarity": 0.8671
+          },
+          {
+            "class": "W",
+            "similarity": 0.8048
+          },
+          {
+            "class": "K",
+            "similarity": 0.803
+          },
+          {
+            "class": "space",
+            "similarity": 0.706
+          },
+          {
+            "class": "U",
+            "similarity": 0.6928
+          }
+        ],
+        "prototype_match": "V",
+        "prototype_similarity": 0.8671,
+        "proto_rank_of_true_class": 2,
+        "proto_sim_of_true_class": 0.803,
+        "hand_presence_status": "VALID_HAND",
+        "hand_score": 0.827,
+        "fg_ratio": 0.368,
+        "cnt_ratio": 0.289,
+        "edge_density": 0.059,
+        "quality_sharpness": 568.4,
+        "quality_brightness": 123.6,
+        "quality_contrast": 76.0,
+        "scale_factor": 0.68,
+        "hand_px": 326,
+        "dx": -8,
+        "dy": -8,
+        "rotation": -5.0,
+        "brightness_factor": 0.92,
+        "crop_size": 345,
+        "crop_x": 147,
+        "crop_y": 67,
+        "paste_x": 149,
+        "paste_y": 69
+      },
+      {
+        "frame_id": "K_16",
+        "true_class": "K",
+        "file_source": "K2813.jpg",
+        "predicted_class": "V",
+        "raw_top_class": "V",
+        "is_correct": false,
+        "confidence": 93.16,
+        "top5_predictions": [
+          {
+            "class": "V",
+            "confidence": 93.16
+          },
+          {
+            "class": "K",
+            "confidence": 5.96
+          },
+          {
+            "class": "G",
+            "confidence": 0.47
+          },
+          {
+            "class": "W",
+            "confidence": 0.42
+          },
+          {
+            "class": "E",
+            "confidence": 0.0
+          }
+        ],
+        "is_uncertain": false,
+        "uncertainty_reason": null,
+        "prototype_ranking_top5": [
+          {
+            "class": "V",
+            "similarity": 0.8637
+          },
+          {
+            "class": "K",
+            "similarity": 0.85
+          },
+          {
+            "class": "W",
+            "similarity": 0.8344
+          },
+          {
+            "class": "T",
+            "similarity": 0.6865
+          },
+          {
+            "class": "U",
+            "similarity": 0.6698
+          }
+        ],
+        "prototype_match": "V",
+        "prototype_similarity": 0.8637,
+        "proto_rank_of_true_class": 1,
+        "proto_sim_of_true_class": 0.85,
+        "hand_presence_status": "VALID_HAND",
+        "hand_score": 1.0,
+        "fg_ratio": 0.465,
+        "cnt_ratio": 0.454,
+        "edge_density": 0.065,
+        "quality_sharpness": 468.6,
+        "quality_brightness": 130.2,
+        "quality_contrast": 80.2,
+        "scale_factor": 0.7,
+        "hand_px": 336,
+        "dx": -4,
+        "dy": -4,
+        "rotation": -2.5,
+        "brightness_factor": 0.96,
+        "crop_size": 345,
+        "crop_x": 147,
+        "crop_y": 67,
+        "paste_x": 148,
+        "paste_y": 68
+      },
+      {
+        "frame_id": "K_17",
+        "true_class": "K",
+        "file_source": "K2814.jpg",
+        "predicted_class": "V",
+        "raw_top_class": "V",
+        "is_correct": false,
+        "confidence": 89.2,
+        "top5_predictions": [
+          {
+            "class": "V",
+            "confidence": 89.2
+          },
+          {
+            "class": "K",
+            "confidence": 10.76
+          },
+          {
+            "class": "W",
+            "confidence": 0.03
+          },
+          {
+            "class": "G",
+            "confidence": 0.0
+          },
+          {
+            "class": "R",
+            "confidence": 0.0
+          }
+        ],
+        "is_uncertain": false,
+        "uncertainty_reason": null,
+        "prototype_ranking_top5": [
+          {
+            "class": "V",
+            "similarity": 0.8893
+          },
+          {
+            "class": "K",
+            "similarity": 0.87
+          },
+          {
+            "class": "W",
+            "similarity": 0.8107
+          },
+          {
+            "class": "U",
+            "similarity": 0.7082
+          },
+          {
+            "class": "R",
+            "similarity": 0.698
+          }
+        ],
+        "prototype_match": "V",
+        "prototype_similarity": 0.8893,
+        "proto_rank_of_true_class": 1,
+        "proto_sim_of_true_class": 0.87,
+        "hand_presence_status": "VALID_HAND",
+        "hand_score": 1.0,
+        "fg_ratio": 0.448,
+        "cnt_ratio": 0.351,
+        "edge_density": 0.059,
+        "quality_sharpness": 439.6,
+        "quality_brightness": 136.5,
+        "quality_contrast": 85.0,
+        "scale_factor": 0.72,
+        "hand_px": 345,
+        "dx": 0,
+        "dy": 0,
+        "rotation": 0.0,
+        "brightness_factor": 1.0,
+        "crop_size": 345,
+        "crop_x": 147,
+        "crop_y": 67,
+        "paste_x": 147,
+        "paste_y": 67
+      },
+      {
+        "frame_id": "K_20",
+        "true_class": "K",
+        "file_source": "K2817.jpg",
+        "predicted_class": "V",
+        "raw_top_class": "V",
+        "is_correct": false,
+        "confidence": 99.06,
+        "top5_predictions": [
+          {
+            "class": "V",
+            "confidence": 99.06
+          },
+          {
+            "class": "K",
+            "confidence": 0.85
+          },
+          {
+            "class": "G",
+            "confidence": 0.07
+          },
+          {
+            "class": "W",
+            "confidence": 0.01
+          },
+          {
+            "class": "Q",
+            "confidence": 0.0
+          }
+        ],
+        "is_uncertain": false,
+        "uncertainty_reason": null,
+        "prototype_ranking_top5": [
+          {
+            "class": "V",
+            "similarity": 0.8626
+          },
+          {
+            "class": "K",
+            "similarity": 0.8193
+          },
+          {
+            "class": "W",
+            "similarity": 0.7766
+          },
+          {
+            "class": "space",
+            "similarity": 0.7054
+          },
+          {
+            "class": "U",
+            "similarity": 0.6888
+          }
+        ],
+        "prototype_match": "V",
+        "prototype_similarity": 0.8626,
+        "proto_rank_of_true_class": 1,
+        "proto_sim_of_true_class": 0.8193,
+        "hand_presence_status": "VALID_HAND",
+        "hand_score": 0.872,
+        "fg_ratio": 0.389,
+        "cnt_ratio": 0.305,
+        "edge_density": 0.056,
+        "quality_sharpness": 390.2,
+        "quality_brightness": 125.3,
+        "quality_contrast": 75.2,
+        "scale_factor": 0.68,
+        "hand_px": 326,
+        "dx": 12,
+        "dy": -8,
+        "rotation": -5.0,
+        "brightness_factor": 0.92,
+        "crop_size": 345,
+        "crop_x": 147,
+        "crop_y": 67,
+        "paste_x": 169,
+        "paste_y": 69
+      },
+      {
+        "frame_id": "K_21",
+        "true_class": "K",
+        "file_source": "K2818.jpg",
+        "predicted_class": "V",
+        "raw_top_class": "V",
+        "is_correct": false,
+        "confidence": 90.11,
+        "top5_predictions": [
+          {
+            "class": "V",
+            "confidence": 90.11
+          },
+          {
+            "class": "W",
+            "confidence": 7.49
+          },
+          {
+            "class": "K",
+            "confidence": 2.39
+          },
+          {
+            "class": "G",
+            "confidence": 0.02
+          },
+          {
+            "class": "F",
+            "confidence": 0.0
+          }
+        ],
+        "is_uncertain": false,
+        "uncertainty_reason": null,
+        "prototype_ranking_top5": [
+          {
+            "class": "V",
+            "similarity": 0.8508
+          },
+          {
+            "class": "W",
+            "similarity": 0.8507
+          },
+          {
+            "class": "K",
+            "similarity": 0.8323
+          },
+          {
+            "class": "Y",
+            "similarity": 0.7086
+          },
+          {
+            "class": "T",
+            "similarity": 0.6748
+          }
+        ],
+        "prototype_match": "V",
+        "prototype_similarity": 0.8508,
+        "proto_rank_of_true_class": 2,
+        "proto_sim_of_true_class": 0.8323,
+        "hand_presence_status": "VALID_HAND",
+        "hand_score": 1.0,
+        "fg_ratio": 0.492,
+        "cnt_ratio": 0.48,
+        "edge_density": 0.062,
+        "quality_sharpness": 369.8,
+        "quality_brightness": 133.4,
+        "quality_contrast": 79.1,
+        "scale_factor": 0.7,
+        "hand_px": 336,
+        "dx": -12,
+        "dy": -4,
+        "rotation": -2.5,
+        "brightness_factor": 0.96,
+        "crop_size": 345,
+        "crop_x": 147,
+        "crop_y": 67,
+        "paste_x": 140,
+        "paste_y": 68
+      },
+      {
+        "frame_id": "K_25",
+        "true_class": "K",
+        "file_source": "K2821.jpg",
+        "predicted_class": "V",
+        "raw_top_class": "V",
+        "is_correct": false,
+        "confidence": 99.74,
+        "top5_predictions": [
+          {
+            "class": "V",
+            "confidence": 99.74
+          },
+          {
+            "class": "K",
+            "confidence": 0.17
+          },
+          {
+            "class": "G",
+            "confidence": 0.06
+          },
+          {
+            "class": "W",
+            "confidence": 0.03
+          },
+          {
+            "class": "Q",
+            "confidence": 0.0
+          }
+        ],
+        "is_uncertain": false,
+        "uncertainty_reason": null,
+        "prototype_ranking_top5": [
+          {
+            "class": "V",
+            "similarity": 0.8605
+          },
+          {
+            "class": "K",
+            "similarity": 0.8041
+          },
+          {
+            "class": "W",
+            "similarity": 0.7801
+          },
+          {
+            "class": "space",
+            "similarity": 0.7232
+          },
+          {
+            "class": "F",
+            "similarity": 0.6971
+          }
+        ],
+        "prototype_match": "V",
+        "prototype_similarity": 0.8605,
+        "proto_rank_of_true_class": 1,
+        "proto_sim_of_true_class": 0.8041,
+        "hand_presence_status": "VALID_HAND",
+        "hand_score": 0.883,
+        "fg_ratio": 0.395,
+        "cnt_ratio": 0.309,
+        "edge_density": 0.062,
+        "quality_sharpness": 451.9,
+        "quality_brightness": 125.7,
+        "quality_contrast": 75.3,
+        "scale_factor": 0.68,
+        "hand_px": 326,
+        "dx": 4,
+        "dy": -8,
+        "rotation": -5.0,
+        "brightness_factor": 0.92,
+        "crop_size": 345,
+        "crop_x": 147,
+        "crop_y": 67,
+        "paste_x": 161,
+        "paste_y": 69
+      },
+      {
+        "frame_id": "K_26",
+        "true_class": "K",
+        "file_source": "K2822.jpg",
+        "predicted_class": "V",
+        "raw_top_class": "V",
+        "is_correct": false,
+        "confidence": 76.34,
+        "top5_predictions": [
+          {
+            "class": "V",
+            "confidence": 76.34
+          },
+          {
+            "class": "K",
+            "confidence": 23.17
+          },
+          {
+            "class": "G",
+            "confidence": 0.39
+          },
+          {
+            "class": "W",
+            "confidence": 0.09
+          },
+          {
+            "class": "E",
+            "confidence": 0.01
+          }
+        ],
+        "is_uncertain": false,
+        "uncertainty_reason": null,
+        "prototype_ranking_top5": [
+          {
+            "class": "V",
+            "similarity": 0.8706
+          },
+          {
+            "class": "K",
+            "similarity": 0.8567
+          },
+          {
+            "class": "W",
+            "similarity": 0.8132
+          },
+          {
+            "class": "space",
+            "similarity": 0.7015
+          },
+          {
+            "class": "U",
+            "similarity": 0.6879
+          }
+        ],
+        "prototype_match": "V",
+        "prototype_similarity": 0.8706,
+        "proto_rank_of_true_class": 1,
+        "proto_sim_of_true_class": 0.8567,
+        "hand_presence_status": "VALID_HAND",
+        "hand_score": 1.0,
+        "fg_ratio": 0.489,
+        "cnt_ratio": 0.39,
+        "edge_density": 0.061,
+        "quality_sharpness": 337.3,
+        "quality_brightness": 133.3,
+        "quality_contrast": 78.8,
+        "scale_factor": 0.7,
+        "hand_px": 336,
+        "dx": 8,
+        "dy": -4,
+        "rotation": -2.5,
+        "brightness_factor": 0.96,
+        "crop_size": 345,
+        "crop_x": 147,
+        "crop_y": 67,
+        "paste_x": 160,
+        "paste_y": 68
+      },
+      {
+        "frame_id": "K_27",
+        "true_class": "K",
+        "file_source": "K2823.jpg",
+        "predicted_class": "V",
+        "raw_top_class": "V",
+        "is_correct": false,
+        "confidence": 89.26,
+        "top5_predictions": [
+          {
+            "class": "V",
+            "confidence": 89.26
+          },
+          {
+            "class": "K",
+            "confidence": 9.34
+          },
+          {
+            "class": "W",
+            "confidence": 1.4
+          },
+          {
+            "class": "E",
+            "confidence": 0.0
+          },
+          {
+            "class": "G",
+            "confidence": 0.0
+          }
+        ],
+        "is_uncertain": false,
+        "uncertainty_reason": null,
+        "prototype_ranking_top5": [
+          {
+            "class": "V",
+            "similarity": 0.8755
+          },
+          {
+            "class": "W",
+            "similarity": 0.8494
+          },
+          {
+            "class": "K",
+            "similarity": 0.849
+          },
+          {
+            "class": "T",
+            "similarity": 0.6821
+          },
+          {
+            "class": "L",
+            "similarity": 0.6805
+          }
+        ],
+        "prototype_match": "V",
+        "prototype_similarity": 0.8755,
+        "proto_rank_of_true_class": 2,
+        "proto_sim_of_true_class": 0.849,
+        "hand_presence_status": "VALID_HAND",
+        "hand_score": 1.0,
+        "fg_ratio": 0.454,
+        "cnt_ratio": 0.358,
+        "edge_density": 0.06,
+        "quality_sharpness": 277.0,
+        "quality_brightness": 138.3,
+        "quality_contrast": 82.9,
+        "scale_factor": 0.72,
+        "hand_px": 345,
+        "dx": 12,
+        "dy": 0,
+        "rotation": 0.0,
+        "brightness_factor": 1.0,
+        "crop_size": 345,
+        "crop_x": 147,
+        "crop_y": 67,
+        "paste_x": 159,
+        "paste_y": 67
+      },
+      {
+        "frame_id": "K_28",
+        "true_class": "K",
+        "file_source": "K2824.jpg",
+        "predicted_class": "V",
+        "raw_top_class": "V",
+        "is_correct": false,
+        "confidence": 87.28,
+        "top5_predictions": [
+          {
+            "class": "V",
+            "confidence": 87.28
+          },
+          {
+            "class": "W",
+            "confidence": 9.45
+          },
+          {
+            "class": "K",
+            "confidence": 3.26
+          },
+          {
+            "class": "G",
+            "confidence": 0.01
+          },
+          {
+            "class": "E",
+            "confidence": 0.0
+          }
+        ],
+        "is_uncertain": false,
+        "uncertainty_reason": null,
+        "prototype_ranking_top5": [
+          {
+            "class": "V",
+            "similarity": 0.8542
+          },
+          {
+            "class": "W",
+            "similarity": 0.8335
+          },
+          {
+            "class": "K",
+            "similarity": 0.8306
+          },
+          {
+            "class": "U",
+            "similarity": 0.6647
+          },
+          {
+            "class": "T",
+            "similarity": 0.6643
+          }
+        ],
+        "prototype_match": "V",
+        "prototype_similarity": 0.8542,
+        "proto_rank_of_true_class": 2,
+        "proto_sim_of_true_class": 0.8306,
+        "hand_presence_status": "VALID_HAND",
+        "hand_score": 1.0,
+        "fg_ratio": 0.5,
+        "cnt_ratio": 0.48,
+        "edge_density": 0.055,
+        "quality_sharpness": 170.1,
+        "quality_brightness": 142.5,
+        "quality_contrast": 84.5,
+        "scale_factor": 0.74,
+        "hand_px": 355,
+        "dx": -12,
+        "dy": 4,
+        "rotation": 2.5,
+        "brightness_factor": 1.04,
+        "crop_size": 345,
+        "crop_x": 147,
+        "crop_y": 67,
+        "paste_x": 130,
+        "paste_y": 66
+      },
+      {
+        "frame_id": "K_29",
+        "true_class": "K",
+        "file_source": "K2825.jpg",
+        "predicted_class": "V",
+        "raw_top_class": "V",
+        "is_correct": false,
+        "confidence": 50.69,
+        "top5_predictions": [
+          {
+            "class": "V",
+            "confidence": 50.69
+          },
+          {
+            "class": "K",
+            "confidence": 45.54
+          },
+          {
+            "class": "W",
+            "confidence": 3.74
+          },
+          {
+            "class": "G",
+            "confidence": 0.02
+          },
+          {
+            "class": "R",
+            "confidence": 0.0
+          }
+        ],
+        "is_uncertain": false,
+        "uncertainty_reason": null,
+        "prototype_ranking_top5": [
+          {
+            "class": "V",
+            "similarity": 0.8897
+          },
+          {
+            "class": "K",
+            "similarity": 0.869
+          },
+          {
+            "class": "W",
+            "similarity": 0.8216
+          },
+          {
+            "class": "M",
+            "similarity": 0.7264
+          },
+          {
+            "class": "U",
+            "similarity": 0.7232
+          }
+        ],
+        "prototype_match": "V",
+        "prototype_similarity": 0.8897,
+        "proto_rank_of_true_class": 1,
+        "proto_sim_of_true_class": 0.869,
+        "hand_presence_status": "VALID_HAND",
+        "hand_score": 1.0,
+        "fg_ratio": 0.486,
+        "cnt_ratio": 0.475,
+        "edge_density": 0.051,
+        "quality_sharpness": 125.7,
+        "quality_brightness": 145.1,
+        "quality_contrast": 86.2,
+        "scale_factor": 0.76,
+        "hand_px": 364,
+        "dx": -8,
+        "dy": 8,
+        "rotation": 5.0,
+        "brightness_factor": 1.08,
+        "crop_size": 345,
+        "crop_x": 147,
+        "crop_y": 67,
+        "paste_x": 130,
+        "paste_y": 66
+      }
+    ],
+    "A": [
+      {
+        "frame_id": "A_05",
+        "true_class": "A",
+        "file_source": "A2803.jpg",
+        "predicted_class": "X",
+        "raw_top_class": "X",
+        "is_correct": false,
+        "confidence": 67.09,
+        "top5_predictions": [
+          {
+            "class": "X",
+            "confidence": 67.09
+          },
+          {
+            "class": "A",
+            "confidence": 31.63
+          },
+          {
+            "class": "Z",
+            "confidence": 0.89
+          },
+          {
+            "class": "S",
+            "confidence": 0.25
+          },
+          {
+            "class": "T",
+            "confidence": 0.04
+          }
+        ],
+        "is_uncertain": false,
+        "uncertainty_reason": null,
+        "prototype_ranking_top5": [
+          {
+            "class": "X",
+            "similarity": 0.8742
+          },
+          {
+            "class": "A",
+            "similarity": 0.87
+          },
+          {
+            "class": "S",
+            "similarity": 0.8471
+          },
+          {
+            "class": "N",
+            "similarity": 0.8285
+          },
+          {
+            "class": "Z",
+            "similarity": 0.8102
+          }
+        ],
+        "prototype_match": "X",
+        "prototype_similarity": 0.8742,
+        "proto_rank_of_true_class": 1,
+        "proto_sim_of_true_class": 0.87,
+        "hand_presence_status": "VALID_HAND",
+        "hand_score": 0.54,
+        "fg_ratio": 0.312,
+        "cnt_ratio": 0.189,
+        "edge_density": 0.057,
+        "quality_sharpness": 467.1,
+        "quality_brightness": 100.7,
+        "quality_contrast": 79.8,
+        "scale_factor": 0.68,
+        "hand_px": 326,
+        "dx": 8,
+        "dy": -8,
+        "rotation": -5.0,
+        "brightness_factor": 0.92,
+        "crop_size": 345,
+        "crop_x": 147,
+        "crop_y": 67,
+        "paste_x": 165,
+        "paste_y": 69
+      },
+      {
+        "frame_id": "A_10",
+        "true_class": "A",
+        "file_source": "A2808.jpg",
+        "predicted_class": "X",
+        "raw_top_class": "X",
+        "is_correct": false,
+        "confidence": 81.23,
+        "top5_predictions": [
+          {
+            "class": "X",
+            "confidence": 81.23
+          },
+          {
+            "class": "A",
+            "confidence": 17.22
+          },
+          {
+            "class": "Z",
+            "confidence": 0.45
+          },
+          {
+            "class": "del",
+            "confidence": 0.3
+          },
+          {
+            "class": "N",
+            "confidence": 0.23
+          }
+        ],
+        "is_uncertain": false,
+        "uncertainty_reason": null,
+        "prototype_ranking_top5": [
+          {
+            "class": "X",
+            "similarity": 0.8681
+          },
+          {
+            "class": "A",
+            "similarity": 0.8583
+          },
+          {
+            "class": "N",
+            "similarity": 0.8394
+          },
+          {
+            "class": "S",
+            "similarity": 0.8337
+          },
+          {
+            "class": "del",
+            "similarity": 0.8232
+          }
+        ],
+        "prototype_match": "X",
+        "prototype_similarity": 0.8681,
+        "proto_rank_of_true_class": 1,
+        "proto_sim_of_true_class": 0.8583,
+        "hand_presence_status": "VALID_HAND",
+        "hand_score": 0.759,
+        "fg_ratio": 0.321,
+        "cnt_ratio": 0.266,
+        "edge_density": 0.056,
+        "quality_sharpness": 458.5,
+        "quality_brightness": 97.8,
+        "quality_contrast": 79.2,
+        "scale_factor": 0.68,
+        "hand_px": 326,
+        "dx": 0,
+        "dy": -8,
+        "rotation": -5.0,
+        "brightness_factor": 0.92,
+        "crop_size": 345,
+        "crop_x": 147,
+        "crop_y": 67,
+        "paste_x": 157,
+        "paste_y": 69
+      },
+      {
+        "frame_id": "A_11",
+        "true_class": "A",
+        "file_source": "A2809.jpg",
+        "predicted_class": "X",
+        "raw_top_class": "X",
+        "is_correct": false,
+        "confidence": 67.63,
+        "top5_predictions": [
+          {
+            "class": "X",
+            "confidence": 67.63
+          },
+          {
+            "class": "A",
+            "confidence": 29.82
+          },
+          {
+            "class": "S",
+            "confidence": 1.93
+          },
+          {
+            "class": "N",
+            "confidence": 0.27
+          },
+          {
+            "class": "T",
+            "confidence": 0.27
+          }
+        ],
+        "is_uncertain": false,
+        "uncertainty_reason": null,
+        "prototype_ranking_top5": [
+          {
+            "class": "X",
+            "similarity": 0.8866
+          },
+          {
+            "class": "S",
+            "similarity": 0.8774
+          },
+          {
+            "class": "A",
+            "similarity": 0.8677
+          },
+          {
+            "class": "N",
+            "similarity": 0.8526
+          },
+          {
+            "class": "T",
+            "similarity": 0.8334
+          }
+        ],
+        "prototype_match": "X",
+        "prototype_similarity": 0.8866,
+        "proto_rank_of_true_class": 2,
+        "proto_sim_of_true_class": 0.8677,
+        "hand_presence_status": "VALID_HAND",
+        "hand_score": 1.0,
+        "fg_ratio": 0.402,
+        "cnt_ratio": 0.38,
+        "edge_density": 0.056,
+        "quality_sharpness": 414.2,
+        "quality_brightness": 101.5,
+        "quality_contrast": 83.8,
+        "scale_factor": 0.7,
+        "hand_px": 336,
+        "dx": 4,
+        "dy": -4,
+        "rotation": -2.5,
+        "brightness_factor": 0.96,
+        "crop_size": 345,
+        "crop_x": 147,
+        "crop_y": 67,
+        "paste_x": 156,
+        "paste_y": 68
+      },
+      {
+        "frame_id": "A_15",
+        "true_class": "A",
+        "file_source": "A2812.jpg",
+        "predicted_class": "X",
+        "raw_top_class": "X",
+        "is_correct": false,
+        "confidence": 86.15,
+        "top5_predictions": [
+          {
+            "class": "X",
+            "confidence": 86.15
+          },
+          {
+            "class": "A",
+            "confidence": 10.07
+          },
+          {
+            "class": "del",
+            "confidence": 2.31
+          },
+          {
+            "class": "Z",
+            "confidence": 0.61
+          },
+          {
+            "class": "N",
+            "confidence": 0.26
+          }
+        ],
+        "is_uncertain": false,
+        "uncertainty_reason": null,
+        "prototype_ranking_top5": [
+          {
+            "class": "X",
+            "similarity": 0.867
+          },
+          {
+            "class": "del",
+            "similarity": 0.8412
+          },
+          {
+            "class": "A",
+            "similarity": 0.8393
+          },
+          {
+            "class": "N",
+            "similarity": 0.8358
+          },
+          {
+            "class": "S",
+            "similarity": 0.8224
+          }
+        ],
+        "prototype_match": "X",
+        "prototype_similarity": 0.867,
+        "proto_rank_of_true_class": 2,
+        "proto_sim_of_true_class": 0.8393,
+        "hand_presence_status": "VALID_HAND",
+        "hand_score": 0.734,
+        "fg_ratio": 0.317,
+        "cnt_ratio": 0.257,
+        "edge_density": 0.056,
+        "quality_sharpness": 563.9,
+        "quality_brightness": 96.7,
+        "quality_contrast": 79.0,
+        "scale_factor": 0.68,
+        "hand_px": 326,
+        "dx": -8,
+        "dy": -8,
+        "rotation": -5.0,
+        "brightness_factor": 0.92,
+        "crop_size": 345,
+        "crop_x": 147,
+        "crop_y": 67,
+        "paste_x": 149,
+        "paste_y": 69
+      },
+      {
+        "frame_id": "A_16",
+        "true_class": "A",
+        "file_source": "A2813.jpg",
+        "predicted_class": "X",
+        "raw_top_class": "X",
+        "is_correct": false,
+        "confidence": 74.42,
+        "top5_predictions": [
+          {
+            "class": "X",
+            "confidence": 74.42
+          },
+          {
+            "class": "A",
+            "confidence": 21.92
+          },
+          {
+            "class": "S",
+            "confidence": 3.36
+          },
+          {
+            "class": "T",
+            "confidence": 0.12
+          },
+          {
+            "class": "M",
+            "confidence": 0.1
+          }
+        ],
+        "is_uncertain": false,
+        "uncertainty_reason": null,
+        "prototype_ranking_top5": [
+          {
+            "class": "X",
+            "similarity": 0.8736
+          },
+          {
+            "class": "S",
+            "similarity": 0.8734
+          },
+          {
+            "class": "A",
+            "similarity": 0.8603
+          },
+          {
+            "class": "N",
+            "similarity": 0.8333
+          },
+          {
+            "class": "T",
+            "similarity": 0.8254
+          }
+        ],
+        "prototype_match": "X",
+        "prototype_similarity": 0.8736,
+        "proto_rank_of_true_class": 2,
+        "proto_sim_of_true_class": 0.8603,
+        "hand_presence_status": "VALID_HAND",
+        "hand_score": 1.0,
+        "fg_ratio": 0.388,
+        "cnt_ratio": 0.459,
+        "edge_density": 0.062,
+        "quality_sharpness": 463.5,
+        "quality_brightness": 100.4,
+        "quality_contrast": 83.6,
+        "scale_factor": 0.7,
+        "hand_px": 336,
+        "dx": -4,
+        "dy": -4,
+        "rotation": -2.5,
+        "brightness_factor": 0.96,
+        "crop_size": 345,
+        "crop_x": 147,
+        "crop_y": 67,
+        "paste_x": 148,
+        "paste_y": 68
+      },
+      {
+        "frame_id": "A_17",
+        "true_class": "A",
+        "file_source": "A2814.jpg",
+        "predicted_class": "X",
+        "raw_top_class": "X",
+        "is_correct": false,
+        "confidence": 82.79,
+        "top5_predictions": [
+          {
+            "class": "X",
+            "confidence": 82.79
+          },
+          {
+            "class": "A",
+            "confidence": 7.48
+          },
+          {
+            "class": "S",
+            "confidence": 6.3
+          },
+          {
+            "class": "M",
+            "confidence": 3.2
+          },
+          {
+            "class": "U",
+            "confidence": 0.19
+          }
+        ],
+        "is_uncertain": false,
+        "uncertainty_reason": null,
+        "prototype_ranking_top5": [
+          {
+            "class": "U",
+            "similarity": 0.8649
+          },
+          {
+            "class": "X",
+            "similarity": 0.8573
+          },
+          {
+            "class": "S",
+            "similarity": 0.8499
+          },
+          {
+            "class": "A",
+            "similarity": 0.8296
+          },
+          {
+            "class": "E",
+            "similarity": 0.8139
+          }
+        ],
+        "prototype_match": "U",
+        "prototype_similarity": 0.8649,
+        "proto_rank_of_true_class": 3,
+        "proto_sim_of_true_class": 0.8296,
+        "hand_presence_status": "VALID_HAND",
+        "hand_score": 0.883,
+        "fg_ratio": 0.393,
+        "cnt_ratio": 0.309,
+        "edge_density": 0.052,
+        "quality_sharpness": 523.3,
+        "quality_brightness": 103.6,
+        "quality_contrast": 88.3,
+        "scale_factor": 0.72,
+        "hand_px": 345,
+        "dx": 0,
+        "dy": 0,
+        "rotation": 0.0,
+        "brightness_factor": 1.0,
+        "crop_size": 345,
+        "crop_x": 147,
+        "crop_y": 67,
+        "paste_x": 147,
+        "paste_y": 67
+      },
+      {
+        "frame_id": "A_18",
+        "true_class": "A",
+        "file_source": "A2815.jpg",
+        "predicted_class": "Uncertain \u2014 adjust your hand position",
+        "raw_top_class": "M",
+        "is_correct": false,
+        "confidence": 44.51,
+        "top5_predictions": [
+          {
+            "class": "M",
+            "confidence": 44.51
+          },
+          {
+            "class": "A",
+            "confidence": 32.15
+          },
+          {
+            "class": "S",
+            "confidence": 21.81
+          },
+          {
+            "class": "X",
+            "confidence": 1.47
+          },
+          {
+            "class": "Z",
+            "confidence": 0.03
+          }
+        ],
+        "is_uncertain": true,
+        "uncertainty_reason": "Low recognition confidence (44.51%) \u2014 align hand with guide",
+        "prototype_ranking_top5": [
+          {
+            "class": "S",
+            "similarity": 0.8703
+          },
+          {
+            "class": "A",
+            "similarity": 0.8427
+          },
+          {
+            "class": "M",
+            "similarity": 0.8422
+          },
+          {
+            "class": "U",
+            "similarity": 0.8388
+          },
+          {
+            "class": "X",
+            "similarity": 0.8317
+          }
+        ],
+        "prototype_match": "S",
+        "prototype_similarity": 0.8703,
+        "proto_rank_of_true_class": 1,
+        "proto_sim_of_true_class": 0.8427,
+        "hand_presence_status": "VALID_HAND",
+        "hand_score": 0.884,
+        "fg_ratio": 0.394,
+        "cnt_ratio": 0.309,
+        "edge_density": 0.043,
+        "quality_sharpness": 125.8,
+        "quality_brightness": 105.0,
+        "quality_contrast": 91.1,
+        "scale_factor": 0.74,
+        "hand_px": 355,
+        "dx": 4,
+        "dy": 4,
+        "rotation": 2.5,
+        "brightness_factor": 1.04,
+        "crop_size": 345,
+        "crop_x": 147,
+        "crop_y": 67,
+        "paste_x": 146,
+        "paste_y": 66
+      },
+      {
+        "frame_id": "A_19",
+        "true_class": "A",
+        "file_source": "A2816.jpg",
+        "predicted_class": "M",
+        "raw_top_class": "M",
+        "is_correct": false,
+        "confidence": 85.36,
+        "top5_predictions": [
+          {
+            "class": "M",
+            "confidence": 85.36
+          },
+          {
+            "class": "A",
+            "confidence": 10.93
+          },
+          {
+            "class": "S",
+            "confidence": 3.56
+          },
+          {
+            "class": "X",
+            "confidence": 0.09
+          },
+          {
+            "class": "Z",
+            "confidence": 0.04
+          }
+        ],
+        "is_uncertain": false,
+        "uncertainty_reason": null,
+        "prototype_ranking_top5": [
+          {
+            "class": "S",
+            "similarity": 0.8472
+          },
+          {
+            "class": "U",
+            "similarity": 0.8447
+          },
+          {
+            "class": "M",
+            "similarity": 0.8374
+          },
+          {
+            "class": "A",
+            "similarity": 0.8267
+          },
+          {
+            "class": "X",
+            "similarity": 0.8137
+          }
+        ],
+        "prototype_match": "S",
+        "prototype_similarity": 0.8472,
+        "proto_rank_of_true_class": 3,
+        "proto_sim_of_true_class": 0.8267,
+        "hand_presence_status": "VALID_HAND",
+        "hand_score": 0.923,
+        "fg_ratio": 0.4,
+        "cnt_ratio": 0.323,
+        "edge_density": 0.042,
+        "quality_sharpness": 111.4,
+        "quality_brightness": 104.6,
+        "quality_contrast": 92.3,
+        "scale_factor": 0.76,
+        "hand_px": 364,
+        "dx": 8,
+        "dy": 8,
+        "rotation": 5.0,
+        "brightness_factor": 1.08,
+        "crop_size": 345,
+        "crop_x": 147,
+        "crop_y": 67,
+        "paste_x": 146,
+        "paste_y": 66
+      },
+      {
+        "frame_id": "A_20",
+        "true_class": "A",
+        "file_source": "A2817.jpg",
+        "predicted_class": "X",
+        "raw_top_class": "X",
+        "is_correct": false,
+        "confidence": 49.62,
+        "top5_predictions": [
+          {
+            "class": "X",
+            "confidence": 49.62
+          },
+          {
+            "class": "A",
+            "confidence": 43.61
+          },
+          {
+            "class": "del",
+            "confidence": 3.09
+          },
+          {
+            "class": "Z",
+            "confidence": 0.9
+          },
+          {
+            "class": "S",
+            "confidence": 0.84
+          }
+        ],
+        "is_uncertain": false,
+        "uncertainty_reason": null,
+        "prototype_ranking_top5": [
+          {
+            "class": "X",
+            "similarity": 0.8521
+          },
+          {
+            "class": "A",
+            "similarity": 0.8377
+          },
+          {
+            "class": "del",
+            "similarity": 0.8334
+          },
+          {
+            "class": "S",
+            "similarity": 0.8294
+          },
+          {
+            "class": "N",
+            "similarity": 0.8034
+          }
+        ],
+        "prototype_match": "X",
+        "prototype_similarity": 0.8521,
+        "proto_rank_of_true_class": 1,
+        "proto_sim_of_true_class": 0.8377,
+        "hand_presence_status": "VALID_HAND",
+        "hand_score": 0.465,
+        "fg_ratio": 0.303,
+        "cnt_ratio": 0.163,
+        "edge_density": 0.051,
+        "quality_sharpness": 393.0,
+        "quality_brightness": 97.0,
+        "quality_contrast": 79.0,
+        "scale_factor": 0.68,
+        "hand_px": 326,
+        "dx": 12,
+        "dy": -8,
+        "rotation": -5.0,
+        "brightness_factor": 0.92,
+        "crop_size": 345,
+        "crop_x": 147,
+        "crop_y": 67,
+        "paste_x": 169,
+        "paste_y": 69
+      },
+      {
+        "frame_id": "A_22",
+        "true_class": "A",
+        "file_source": "A2819.jpg",
+        "predicted_class": "M",
+        "raw_top_class": "M",
+        "is_correct": false,
+        "confidence": 48.21,
+        "top5_predictions": [
+          {
+            "class": "M",
+            "confidence": 48.21
+          },
+          {
+            "class": "S",
+            "confidence": 20.3
+          },
+          {
+            "class": "A",
+            "confidence": 19.78
+          },
+          {
+            "class": "X",
+            "confidence": 11.54
+          },
+          {
+            "class": "U",
+            "confidence": 0.14
+          }
+        ],
+        "is_uncertain": false,
+        "uncertainty_reason": null,
+        "prototype_ranking_top5": [
+          {
+            "class": "U",
+            "similarity": 0.8636
+          },
+          {
+            "class": "S",
+            "similarity": 0.8535
+          },
+          {
+            "class": "X",
+            "similarity": 0.846
+          },
+          {
+            "class": "A",
+            "similarity": 0.8308
+          },
+          {
+            "class": "M",
+            "similarity": 0.8213
+          }
+        ],
+        "prototype_match": "U",
+        "prototype_similarity": 0.8636,
+        "proto_rank_of_true_class": 3,
+        "proto_sim_of_true_class": 0.8308,
+        "hand_presence_status": "VALID_HAND",
+        "hand_score": 0.626,
+        "fg_ratio": 0.389,
+        "cnt_ratio": 0.219,
+        "edge_density": 0.052,
+        "quality_sharpness": 263.8,
+        "quality_brightness": 104.4,
+        "quality_contrast": 87.6,
+        "scale_factor": 0.72,
+        "hand_px": 345,
+        "dx": -8,
+        "dy": 0,
+        "rotation": 0.0,
+        "brightness_factor": 1.0,
+        "crop_size": 345,
+        "crop_x": 147,
+        "crop_y": 67,
+        "paste_x": 139,
+        "paste_y": 67
+      },
+      {
+        "frame_id": "A_24",
+        "true_class": "A",
+        "file_source": "A2820.jpg",
+        "predicted_class": "M",
+        "raw_top_class": "M",
+        "is_correct": false,
+        "confidence": 89.07,
+        "top5_predictions": [
+          {
+            "class": "M",
+            "confidence": 89.07
+          },
+          {
+            "class": "A",
+            "confidence": 4.82
+          },
+          {
+            "class": "S",
+            "confidence": 4.8
+          },
+          {
+            "class": "X",
+            "confidence": 0.79
+          },
+          {
+            "class": "U",
+            "confidence": 0.44
+          }
+        ],
+        "is_uncertain": false,
+        "uncertainty_reason": null,
+        "prototype_ranking_top5": [
+          {
+            "class": "U",
+            "similarity": 0.8574
+          },
+          {
+            "class": "S",
+            "similarity": 0.8347
+          },
+          {
+            "class": "M",
+            "similarity": 0.8317
+          },
+          {
+            "class": "X",
+            "similarity": 0.8142
+          },
+          {
+            "class": "A",
+            "similarity": 0.807
+          }
+        ],
+        "prototype_match": "U",
+        "prototype_similarity": 0.8574,
+        "proto_rank_of_true_class": 4,
+        "proto_sim_of_true_class": 0.807,
+        "hand_presence_status": "VALID_HAND",
+        "hand_score": 0.886,
+        "fg_ratio": 0.409,
+        "cnt_ratio": 0.31,
+        "edge_density": 0.041,
+        "quality_sharpness": 104.8,
+        "quality_brightness": 106.4,
+        "quality_contrast": 92.1,
+        "scale_factor": 0.76,
+        "hand_px": 364,
+        "dx": 0,
+        "dy": 8,
+        "rotation": 5.0,
+        "brightness_factor": 1.08,
+        "crop_size": 345,
+        "crop_x": 147,
+        "crop_y": 67,
+        "paste_x": 138,
+        "paste_y": 66
+      },
+      {
+        "frame_id": "A_27",
+        "true_class": "A",
+        "file_source": "A2823.jpg",
+        "predicted_class": "Uncertain \u2014 adjust your hand position",
+        "raw_top_class": "M",
+        "is_correct": false,
+        "confidence": 44.76,
+        "top5_predictions": [
+          {
+            "class": "M",
+            "confidence": 44.76
+          },
+          {
+            "class": "A",
+            "confidence": 44.31
+          },
+          {
+            "class": "X",
+            "confidence": 9.68
+          },
+          {
+            "class": "S",
+            "confidence": 1.06
+          },
+          {
+            "class": "U",
+            "confidence": 0.09
+          }
+        ],
+        "is_uncertain": true,
+        "uncertainty_reason": "Low recognition confidence (44.76%) \u2014 align hand with guide",
+        "prototype_ranking_top5": [
+          {
+            "class": "U",
+            "similarity": 0.8571
+          },
+          {
+            "class": "X",
+            "similarity": 0.8421
+          },
+          {
+            "class": "M",
+            "similarity": 0.8419
+          },
+          {
+            "class": "S",
+            "similarity": 0.8413
+          },
+          {
+            "class": "A",
+            "similarity": 0.8365
+          }
+        ],
+        "prototype_match": "U",
+        "prototype_similarity": 0.8571,
+        "proto_rank_of_true_class": 4,
+        "proto_sim_of_true_class": 0.8365,
+        "hand_presence_status": "VALID_HAND",
+        "hand_score": 0.811,
+        "fg_ratio": 0.408,
+        "cnt_ratio": 0.284,
+        "edge_density": 0.05,
+        "quality_sharpness": 305.3,
+        "quality_brightness": 104.5,
+        "quality_contrast": 87.4,
+        "scale_factor": 0.72,
+        "hand_px": 345,
+        "dx": 12,
+        "dy": 0,
+        "rotation": 0.0,
+        "brightness_factor": 1.0,
+        "crop_size": 345,
+        "crop_x": 147,
+        "crop_y": 67,
+        "paste_x": 159,
+        "paste_y": 67
+      },
+      {
+        "frame_id": "A_29",
+        "true_class": "A",
+        "file_source": "A2825.jpg",
+        "predicted_class": "Uncertain \u2014 adjust your hand position",
+        "raw_top_class": "M",
+        "is_correct": false,
+        "confidence": 51.06,
+        "top5_predictions": [
+          {
+            "class": "M",
+            "confidence": 51.06
+          },
+          {
+            "class": "A",
+            "confidence": 48.09
+          },
+          {
+            "class": "S",
+            "confidence": 0.65
+          },
+          {
+            "class": "X",
+            "confidence": 0.13
+          },
+          {
+            "class": "Z",
+            "confidence": 0.05
+          }
+        ],
+        "is_uncertain": true,
+        "uncertainty_reason": "Ambiguous sign between 'A' and 'A'",
+        "prototype_ranking_top5": [
+          {
+            "class": "A",
+            "similarity": 0.8635
+          },
+          {
+            "class": "S",
+            "similarity": 0.8624
+          },
+          {
+            "class": "M",
+            "similarity": 0.86
+          },
+          {
+            "class": "X",
+            "similarity": 0.8292
+          },
+          {
+            "class": "U",
+            "similarity": 0.8273
+          }
+        ],
+        "prototype_match": "A",
+        "prototype_similarity": 0.8635,
+        "proto_rank_of_true_class": 0,
+        "proto_sim_of_true_class": 0.8635,
+        "hand_presence_status": "VALID_HAND",
+        "hand_score": 1.0,
+        "fg_ratio": 0.472,
+        "cnt_ratio": 0.437,
+        "edge_density": 0.04,
+        "quality_sharpness": 133.6,
+        "quality_brightness": 108.0,
+        "quality_contrast": 92.2,
+        "scale_factor": 0.76,
+        "hand_px": 364,
+        "dx": -8,
+        "dy": 8,
+        "rotation": 5.0,
+        "brightness_factor": 1.08,
+        "crop_size": 345,
+        "crop_x": 147,
+        "crop_y": 67,
+        "paste_x": 130,
+        "paste_y": 66
+      }
+    ],
+    "F": [
+      {
+        "frame_id": "F_10",
+        "true_class": "F",
+        "file_source": "F2808.jpg",
+        "predicted_class": "W",
+        "raw_top_class": "W",
+        "is_correct": false,
+        "confidence": 83.67,
+        "top5_predictions": [
+          {
+            "class": "W",
+            "confidence": 83.67
+          },
+          {
+            "class": "F",
+            "confidence": 16.31
+          },
+          {
+            "class": "P",
+            "confidence": 0.01
+          },
+          {
+            "class": "Q",
+            "confidence": 0.0
+          },
+          {
+            "class": "H",
+            "confidence": 0.0
+          }
+        ],
+        "is_uncertain": false,
+        "uncertainty_reason": null,
+        "prototype_ranking_top5": [
+          {
+            "class": "W",
+            "similarity": 0.8661
+          },
+          {
+            "class": "F",
+            "similarity": 0.795
+          },
+          {
+            "class": "Y",
+            "similarity": 0.7332
+          },
+          {
+            "class": "B",
+            "similarity": 0.6984
+          },
+          {
+            "class": "V",
+            "similarity": 0.6796
+          }
+        ],
+        "prototype_match": "W",
+        "prototype_similarity": 0.8661,
+        "proto_rank_of_true_class": 1,
+        "proto_sim_of_true_class": 0.795,
+        "hand_presence_status": "VALID_HAND",
+        "hand_score": 1.0,
+        "fg_ratio": 0.437,
+        "cnt_ratio": 0.352,
+        "edge_density": 0.064,
+        "quality_sharpness": 459.9,
+        "quality_brightness": 124.4,
+        "quality_contrast": 72.7,
+        "scale_factor": 0.68,
+        "hand_px": 326,
+        "dx": 0,
+        "dy": -8,
+        "rotation": -5.0,
+        "brightness_factor": 0.92,
+        "crop_size": 345,
+        "crop_x": 147,
+        "crop_y": 67,
+        "paste_x": 157,
+        "paste_y": 69
+      },
+      {
+        "frame_id": "F_11",
+        "true_class": "F",
+        "file_source": "F2809.jpg",
+        "predicted_class": "W",
+        "raw_top_class": "W",
+        "is_correct": false,
+        "confidence": 79.0,
+        "top5_predictions": [
+          {
+            "class": "W",
+            "confidence": 79.0
+          },
+          {
+            "class": "F",
+            "confidence": 20.99
+          },
+          {
+            "class": "B",
+            "confidence": 0.01
+          },
+          {
+            "class": "N",
+            "confidence": 0.0
+          },
+          {
+            "class": "Y",
+            "confidence": 0.0
+          }
+        ],
+        "is_uncertain": false,
+        "uncertainty_reason": null,
+        "prototype_ranking_top5": [
+          {
+            "class": "W",
+            "similarity": 0.9019
+          },
+          {
+            "class": "F",
+            "similarity": 0.8091
+          },
+          {
+            "class": "B",
+            "similarity": 0.759
+          },
+          {
+            "class": "Y",
+            "similarity": 0.7113
+          },
+          {
+            "class": "K",
+            "similarity": 0.6606
+          }
+        ],
+        "prototype_match": "W",
+        "prototype_similarity": 0.9019,
+        "proto_rank_of_true_class": 1,
+        "proto_sim_of_true_class": 0.8091,
+        "hand_presence_status": "VALID_HAND",
+        "hand_score": 1.0,
+        "fg_ratio": 0.52,
+        "cnt_ratio": 0.419,
+        "edge_density": 0.064,
+        "quality_sharpness": 420.0,
+        "quality_brightness": 131.5,
+        "quality_contrast": 76.5,
+        "scale_factor": 0.7,
+        "hand_px": 336,
+        "dx": 4,
+        "dy": -4,
+        "rotation": -2.5,
+        "brightness_factor": 0.96,
+        "crop_size": 345,
+        "crop_x": 147,
+        "crop_y": 67,
+        "paste_x": 156,
+        "paste_y": 68
+      },
+      {
+        "frame_id": "F_13",
+        "true_class": "F",
+        "file_source": "F2810.jpg",
+        "predicted_class": "W",
+        "raw_top_class": "W",
+        "is_correct": false,
+        "confidence": 76.22,
+        "top5_predictions": [
+          {
+            "class": "W",
+            "confidence": 76.22
+          },
+          {
+            "class": "F",
+            "confidence": 23.77
+          },
+          {
+            "class": "N",
+            "confidence": 0.0
+          },
+          {
+            "class": "Y",
+            "confidence": 0.0
+          },
+          {
+            "class": "B",
+            "confidence": 0.0
+          }
+        ],
+        "is_uncertain": false,
+        "uncertainty_reason": null,
+        "prototype_ranking_top5": [
+          {
+            "class": "W",
+            "similarity": 0.8817
+          },
+          {
+            "class": "F",
+            "similarity": 0.7687
+          },
+          {
+            "class": "B",
+            "similarity": 0.7202
+          },
+          {
+            "class": "Y",
+            "similarity": 0.7045
+          },
+          {
+            "class": "M",
+            "similarity": 0.6318
+          }
+        ],
+        "prototype_match": "W",
+        "prototype_similarity": 0.8817,
+        "proto_rank_of_true_class": 1,
+        "proto_sim_of_true_class": 0.7687,
+        "hand_presence_status": "VALID_HAND",
+        "hand_score": 1.0,
+        "fg_ratio": 0.523,
+        "cnt_ratio": 0.403,
+        "edge_density": 0.053,
+        "quality_sharpness": 179.4,
+        "quality_brightness": 142.2,
+        "quality_contrast": 81.9,
+        "scale_factor": 0.74,
+        "hand_px": 355,
+        "dx": 12,
+        "dy": 4,
+        "rotation": 2.5,
+        "brightness_factor": 1.04,
+        "crop_size": 345,
+        "crop_x": 147,
+        "crop_y": 67,
+        "paste_x": 154,
+        "paste_y": 66
+      },
+      {
+        "frame_id": "F_15",
+        "true_class": "F",
+        "file_source": "F2812.jpg",
+        "predicted_class": "W",
+        "raw_top_class": "W",
+        "is_correct": false,
+        "confidence": 85.96,
+        "top5_predictions": [
+          {
+            "class": "W",
+            "confidence": 85.96
+          },
+          {
+            "class": "F",
+            "confidence": 14.04
+          },
+          {
+            "class": "Y",
+            "confidence": 0.0
+          },
+          {
+            "class": "P",
+            "confidence": 0.0
+          },
+          {
+            "class": "Q",
+            "confidence": 0.0
+          }
+        ],
+        "is_uncertain": false,
+        "uncertainty_reason": null,
+        "prototype_ranking_top5": [
+          {
+            "class": "W",
+            "similarity": 0.8844
+          },
+          {
+            "class": "F",
+            "similarity": 0.804
+          },
+          {
+            "class": "Y",
+            "similarity": 0.726
+          },
+          {
+            "class": "B",
+            "similarity": 0.7026
+          },
+          {
+            "class": "V",
+            "similarity": 0.6632
+          }
+        ],
+        "prototype_match": "W",
+        "prototype_similarity": 0.8844,
+        "proto_rank_of_true_class": 1,
+        "proto_sim_of_true_class": 0.804,
+        "hand_presence_status": "VALID_HAND",
+        "hand_score": 0.981,
+        "fg_ratio": 0.434,
+        "cnt_ratio": 0.343,
+        "edge_density": 0.066,
+        "quality_sharpness": 558.3,
+        "quality_brightness": 125.9,
+        "quality_contrast": 72.0,
+        "scale_factor": 0.68,
+        "hand_px": 326,
+        "dx": -8,
+        "dy": -8,
+        "rotation": -5.0,
+        "brightness_factor": 0.92,
+        "crop_size": 345,
+        "crop_x": 147,
+        "crop_y": 67,
+        "paste_x": 149,
+        "paste_y": 69
+      },
+      {
+        "frame_id": "F_18",
+        "true_class": "F",
+        "file_source": "F2815.jpg",
+        "predicted_class": "W",
+        "raw_top_class": "W",
+        "is_correct": false,
+        "confidence": 62.81,
+        "top5_predictions": [
+          {
+            "class": "W",
+            "confidence": 62.81
+          },
+          {
+            "class": "F",
+            "confidence": 36.73
+          },
+          {
+            "class": "Y",
+            "confidence": 0.46
+          },
+          {
+            "class": "P",
+            "confidence": 0.0
+          },
+          {
+            "class": "N",
+            "confidence": 0.0
+          }
+        ],
+        "is_uncertain": false,
+        "uncertainty_reason": null,
+        "prototype_ranking_top5": [
+          {
+            "class": "W",
+            "similarity": 0.8077
+          },
+          {
+            "class": "F",
+            "similarity": 0.772
+          },
+          {
+            "class": "Y",
+            "similarity": 0.7337
+          },
+          {
+            "class": "B",
+            "similarity": 0.6966
+          },
+          {
+            "class": "T",
+            "similarity": 0.6545
+          }
+        ],
+        "prototype_match": "W",
+        "prototype_similarity": 0.8077,
+        "proto_rank_of_true_class": 1,
+        "proto_sim_of_true_class": 0.772,
+        "hand_presence_status": "VALID_HAND",
+        "hand_score": 1.0,
+        "fg_ratio": 0.516,
+        "cnt_ratio": 0.414,
+        "edge_density": 0.051,
+        "quality_sharpness": 124.1,
+        "quality_brightness": 144.3,
+        "quality_contrast": 81.5,
+        "scale_factor": 0.74,
+        "hand_px": 355,
+        "dx": 4,
+        "dy": 4,
+        "rotation": 2.5,
+        "brightness_factor": 1.04,
+        "crop_size": 345,
+        "crop_x": 147,
+        "crop_y": 67,
+        "paste_x": 146,
+        "paste_y": 66
+      },
+      {
+        "frame_id": "F_19",
+        "true_class": "F",
+        "file_source": "F2816.jpg",
+        "predicted_class": "W",
+        "raw_top_class": "W",
+        "is_correct": false,
+        "confidence": 54.35,
+        "top5_predictions": [
+          {
+            "class": "W",
+            "confidence": 54.35
+          },
+          {
+            "class": "F",
+            "confidence": 45.51
+          },
+          {
+            "class": "Y",
+            "confidence": 0.14
+          },
+          {
+            "class": "N",
+            "confidence": 0.0
+          },
+          {
+            "class": "M",
+            "confidence": 0.0
+          }
+        ],
+        "is_uncertain": false,
+        "uncertainty_reason": null,
+        "prototype_ranking_top5": [
+          {
+            "class": "W",
+            "similarity": 0.8095
+          },
+          {
+            "class": "F",
+            "similarity": 0.7898
+          },
+          {
+            "class": "B",
+            "similarity": 0.7322
+          },
+          {
+            "class": "Y",
+            "similarity": 0.6991
+          },
+          {
+            "class": "M",
+            "similarity": 0.635
+          }
+        ],
+        "prototype_match": "W",
+        "prototype_similarity": 0.8095,
+        "proto_rank_of_true_class": 1,
+        "proto_sim_of_true_class": 0.7898,
+        "hand_presence_status": "VALID_HAND",
+        "hand_score": 1.0,
+        "fg_ratio": 0.506,
+        "cnt_ratio": 0.404,
+        "edge_density": 0.052,
+        "quality_sharpness": 114.4,
+        "quality_brightness": 146.8,
+        "quality_contrast": 82.8,
+        "scale_factor": 0.76,
+        "hand_px": 364,
+        "dx": 8,
+        "dy": 8,
+        "rotation": 5.0,
+        "brightness_factor": 1.08,
+        "crop_size": 345,
+        "crop_x": 147,
+        "crop_y": 67,
+        "paste_x": 146,
+        "paste_y": 66
+      },
+      {
+        "frame_id": "F_20",
+        "true_class": "F",
+        "file_source": "F2817.jpg",
+        "predicted_class": "W",
+        "raw_top_class": "W",
+        "is_correct": false,
+        "confidence": 53.21,
+        "top5_predictions": [
+          {
+            "class": "W",
+            "confidence": 53.21
+          },
+          {
+            "class": "F",
+            "confidence": 46.78
+          },
+          {
+            "class": "Y",
+            "confidence": 0.01
+          },
+          {
+            "class": "P",
+            "confidence": 0.0
+          },
+          {
+            "class": "H",
+            "confidence": 0.0
+          }
+        ],
+        "is_uncertain": false,
+        "uncertainty_reason": null,
+        "prototype_ranking_top5": [
+          {
+            "class": "W",
+            "similarity": 0.8596
+          },
+          {
+            "class": "F",
+            "similarity": 0.8375
+          },
+          {
+            "class": "Y",
+            "similarity": 0.7379
+          },
+          {
+            "class": "B",
+            "similarity": 0.7011
+          },
+          {
+            "class": "T",
+            "similarity": 0.6597
+          }
+        ],
+        "prototype_match": "W",
+        "prototype_similarity": 0.8596,
+        "proto_rank_of_true_class": 1,
+        "proto_sim_of_true_class": 0.8375,
+        "hand_presence_status": "VALID_HAND",
+        "hand_score": 0.994,
+        "fg_ratio": 0.426,
+        "cnt_ratio": 0.348,
+        "edge_density": 0.063,
+        "quality_sharpness": 396.3,
+        "quality_brightness": 126.8,
+        "quality_contrast": 71.1,
+        "scale_factor": 0.68,
+        "hand_px": 326,
+        "dx": 12,
+        "dy": -8,
+        "rotation": -5.0,
+        "brightness_factor": 0.92,
+        "crop_size": 345,
+        "crop_x": 147,
+        "crop_y": 67,
+        "paste_x": 169,
+        "paste_y": 69
+      },
+      {
+        "frame_id": "F_22",
+        "true_class": "F",
+        "file_source": "F2819.jpg",
+        "predicted_class": "Uncertain \u2014 adjust your hand position",
+        "raw_top_class": "W",
+        "is_correct": false,
+        "confidence": 51.22,
+        "top5_predictions": [
+          {
+            "class": "W",
+            "confidence": 51.22
+          },
+          {
+            "class": "F",
+            "confidence": 48.67
+          },
+          {
+            "class": "Y",
+            "confidence": 0.11
+          },
+          {
+            "class": "O",
+            "confidence": 0.0
+          },
+          {
+            "class": "H",
+            "confidence": 0.0
+          }
+        ],
+        "is_uncertain": true,
+        "uncertainty_reason": "Ambiguous sign between 'W' and 'F'",
+        "prototype_ranking_top5": [
+          {
+            "class": "W",
+            "similarity": 0.8361
+          },
+          {
+            "class": "F",
+            "similarity": 0.8213
+          },
+          {
+            "class": "Y",
+            "similarity": 0.7326
+          },
+          {
+            "class": "B",
+            "similarity": 0.7101
+          },
+          {
+            "class": "T",
+            "similarity": 0.6592
+          }
+        ],
+        "prototype_match": "W",
+        "prototype_similarity": 0.8361,
+        "proto_rank_of_true_class": 1,
+        "proto_sim_of_true_class": 0.8213,
+        "hand_presence_status": "VALID_HAND",
+        "hand_score": 1.0,
+        "fg_ratio": 0.497,
+        "cnt_ratio": 0.407,
+        "edge_density": 0.065,
+        "quality_sharpness": 248.9,
+        "quality_brightness": 139.8,
+        "quality_contrast": 78.6,
+        "scale_factor": 0.72,
+        "hand_px": 345,
+        "dx": -8,
+        "dy": 0,
+        "rotation": 0.0,
+        "brightness_factor": 1.0,
+        "crop_size": 345,
+        "crop_x": 147,
+        "crop_y": 67,
+        "paste_x": 139,
+        "paste_y": 67
+      },
+      {
+        "frame_id": "F_24",
+        "true_class": "F",
+        "file_source": "F2820.jpg",
+        "predicted_class": "W",
+        "raw_top_class": "W",
+        "is_correct": false,
+        "confidence": 87.39,
+        "top5_predictions": [
+          {
+            "class": "W",
+            "confidence": 87.39
+          },
+          {
+            "class": "F",
+            "confidence": 12.51
+          },
+          {
+            "class": "Y",
+            "confidence": 0.1
+          },
+          {
+            "class": "N",
+            "confidence": 0.0
+          },
+          {
+            "class": "M",
+            "confidence": 0.0
+          }
+        ],
+        "is_uncertain": false,
+        "uncertainty_reason": null,
+        "prototype_ranking_top5": [
+          {
+            "class": "W",
+            "similarity": 0.8343
+          },
+          {
+            "class": "F",
+            "similarity": 0.8085
+          },
+          {
+            "class": "B",
+            "similarity": 0.7375
+          },
+          {
+            "class": "Y",
+            "similarity": 0.7193
+          },
+          {
+            "class": "T",
+            "similarity": 0.663
+          }
+        ],
+        "prototype_match": "W",
+        "prototype_similarity": 0.8343,
+        "proto_rank_of_true_class": 1,
+        "proto_sim_of_true_class": 0.8085,
+        "hand_presence_status": "VALID_HAND",
+        "hand_score": 1.0,
+        "fg_ratio": 0.519,
+        "cnt_ratio": 0.42,
+        "edge_density": 0.052,
+        "quality_sharpness": 123.3,
+        "quality_brightness": 147.3,
+        "quality_contrast": 81.8,
+        "scale_factor": 0.76,
+        "hand_px": 364,
+        "dx": 0,
+        "dy": 8,
+        "rotation": 5.0,
+        "brightness_factor": 1.08,
+        "crop_size": 345,
+        "crop_x": 147,
+        "crop_y": 67,
+        "paste_x": 138,
+        "paste_y": 66
+      },
+      {
+        "frame_id": "F_27",
+        "true_class": "F",
+        "file_source": "F2823.jpg",
+        "predicted_class": "W",
+        "raw_top_class": "W",
+        "is_correct": false,
+        "confidence": 80.46,
+        "top5_predictions": [
+          {
+            "class": "W",
+            "confidence": 80.46
+          },
+          {
+            "class": "F",
+            "confidence": 19.53
+          },
+          {
+            "class": "Y",
+            "confidence": 0.0
+          },
+          {
+            "class": "H",
+            "confidence": 0.0
+          },
+          {
+            "class": "P",
+            "confidence": 0.0
+          }
+        ],
+        "is_uncertain": false,
+        "uncertainty_reason": null,
+        "prototype_ranking_top5": [
+          {
+            "class": "W",
+            "similarity": 0.8478
+          },
+          {
+            "class": "F",
+            "similarity": 0.816
+          },
+          {
+            "class": "Y",
+            "similarity": 0.7247
+          },
+          {
+            "class": "B",
+            "similarity": 0.7158
+          },
+          {
+            "class": "T",
+            "similarity": 0.654
+          }
+        ],
+        "prototype_match": "W",
+        "prototype_similarity": 0.8478,
+        "proto_rank_of_true_class": 1,
+        "proto_sim_of_true_class": 0.816,
+        "hand_presence_status": "VALID_HAND",
+        "hand_score": 1.0,
+        "fg_ratio": 0.486,
+        "cnt_ratio": 0.401,
+        "edge_density": 0.062,
+        "quality_sharpness": 313.5,
+        "quality_brightness": 138.9,
+        "quality_contrast": 78.4,
+        "scale_factor": 0.72,
+        "hand_px": 345,
+        "dx": 12,
+        "dy": 0,
+        "rotation": 0.0,
+        "brightness_factor": 1.0,
+        "crop_size": 345,
+        "crop_x": 147,
+        "crop_y": 67,
+        "paste_x": 159,
+        "paste_y": 67
+      },
+      {
+        "frame_id": "F_28",
+        "true_class": "F",
+        "file_source": "F2824.jpg",
+        "predicted_class": "W",
+        "raw_top_class": "W",
+        "is_correct": false,
+        "confidence": 89.0,
+        "top5_predictions": [
+          {
+            "class": "W",
+            "confidence": 89.0
+          },
+          {
+            "class": "F",
+            "confidence": 11.0
+          },
+          {
+            "class": "Y",
+            "confidence": 0.0
+          },
+          {
+            "class": "N",
+            "confidence": 0.0
+          },
+          {
+            "class": "M",
+            "confidence": 0.0
+          }
+        ],
+        "is_uncertain": false,
+        "uncertainty_reason": null,
+        "prototype_ranking_top5": [
+          {
+            "class": "W",
+            "similarity": 0.8631
+          },
+          {
+            "class": "F",
+            "similarity": 0.8042
+          },
+          {
+            "class": "B",
+            "similarity": 0.7246
+          },
+          {
+            "class": "Y",
+            "similarity": 0.7113
+          },
+          {
+            "class": "T",
+            "similarity": 0.6512
+          }
+        ],
+        "prototype_match": "W",
+        "prototype_similarity": 0.8631,
+        "proto_rank_of_true_class": 1,
+        "proto_sim_of_true_class": 0.8042,
+        "hand_presence_status": "VALID_HAND",
+        "hand_score": 1.0,
+        "fg_ratio": 0.533,
+        "cnt_ratio": 0.429,
+        "edge_density": 0.056,
+        "quality_sharpness": 195.6,
+        "quality_brightness": 143.2,
+        "quality_contrast": 79.7,
+        "scale_factor": 0.74,
+        "hand_px": 355,
+        "dx": -12,
+        "dy": 4,
+        "rotation": 2.5,
+        "brightness_factor": 1.04,
+        "crop_size": 345,
+        "crop_x": 147,
+        "crop_y": 67,
+        "paste_x": 130,
+        "paste_y": 66
+      }
+    ],
+    "M": [
+      {
+        "frame_id": "M_02",
+        "true_class": "M",
+        "file_source": "M2800.jpg",
+        "predicted_class": "N",
+        "raw_top_class": "N",
+        "is_correct": false,
+        "confidence": 60.15,
+        "top5_predictions": [
+          {
+            "class": "N",
+            "confidence": 60.15
+          },
+          {
+            "class": "M",
+            "confidence": 39.44
+          },
+          {
+            "class": "S",
+            "confidence": 0.32
+          },
+          {
+            "class": "X",
+            "confidence": 0.06
+          },
+          {
+            "class": "space",
+            "confidence": 0.02
+          }
+        ],
+        "is_uncertain": false,
+        "uncertainty_reason": null,
+        "prototype_ranking_top5": [
+          {
+            "class": "N",
+            "similarity": 0.9001
+          },
+          {
+            "class": "M",
+            "similarity": 0.896
+          },
+          {
+            "class": "S",
+            "similarity": 0.8786
+          },
+          {
+            "class": "U",
+            "similarity": 0.8445
+          },
+          {
+            "class": "X",
+            "similarity": 0.8432
+          }
+        ],
+        "prototype_match": "N",
+        "prototype_similarity": 0.9001,
+        "proto_rank_of_true_class": 1,
+        "proto_sim_of_true_class": 0.896,
+        "hand_presence_status": "VALID_HAND",
+        "hand_score": 1.0,
+        "fg_ratio": 0.521,
+        "cnt_ratio": 0.443,
+        "edge_density": 0.057,
+        "quality_sharpness": 249.8,
+        "quality_brightness": 141.7,
+        "quality_contrast": 87.7,
+        "scale_factor": 0.72,
+        "hand_px": 345,
+        "dx": -4,
+        "dy": 0,
+        "rotation": 0.0,
+        "brightness_factor": 1.0,
+        "crop_size": 345,
+        "crop_x": 147,
+        "crop_y": 67,
+        "paste_x": 143,
+        "paste_y": 67
+      },
+      {
+        "frame_id": "M_05",
+        "true_class": "M",
+        "file_source": "M2803.jpg",
+        "predicted_class": "Uncertain \u2014 adjust your hand position",
+        "raw_top_class": "N",
+        "is_correct": false,
+        "confidence": 36.39,
+        "top5_predictions": [
+          {
+            "class": "N",
+            "confidence": 36.39
+          },
+          {
+            "class": "G",
+            "confidence": 29.58
+          },
+          {
+            "class": "Q",
+            "confidence": 28.65
+          },
+          {
+            "class": "del",
+            "confidence": 2.31
+          },
+          {
+            "class": "P",
+            "confidence": 2.05
+          }
+        ],
+        "is_uncertain": true,
+        "uncertainty_reason": "Low recognition confidence (36.39%) \u2014 align hand with guide",
+        "prototype_ranking_top5": [
+          {
+            "class": "N",
+            "similarity": 0.8342
+          },
+          {
+            "class": "del",
+            "similarity": 0.8081
+          },
+          {
+            "class": "P",
+            "similarity": 0.807
+          },
+          {
+            "class": "space",
+            "similarity": 0.8069
+          },
+          {
+            "class": "M",
+            "similarity": 0.7912
+          }
+        ],
+        "prototype_match": "N",
+        "prototype_similarity": 0.8342,
+        "proto_rank_of_true_class": 4,
+        "proto_sim_of_true_class": 0.7912,
+        "hand_presence_status": "VALID_HAND",
+        "hand_score": 0.829,
+        "fg_ratio": 0.407,
+        "cnt_ratio": 0.29,
+        "edge_density": 0.058,
+        "quality_sharpness": 442.9,
+        "quality_brightness": 129.4,
+        "quality_contrast": 78.6,
+        "scale_factor": 0.68,
+        "hand_px": 326,
+        "dx": 8,
+        "dy": -8,
+        "rotation": -5.0,
+        "brightness_factor": 0.92,
+        "crop_size": 345,
+        "crop_x": 147,
+        "crop_y": 67,
+        "paste_x": 165,
+        "paste_y": 69
+      },
+      {
+        "frame_id": "M_06",
+        "true_class": "M",
+        "file_source": "M2804.jpg",
+        "predicted_class": "N",
+        "raw_top_class": "N",
+        "is_correct": false,
+        "confidence": 95.11,
+        "top5_predictions": [
+          {
+            "class": "N",
+            "confidence": 95.11
+          },
+          {
+            "class": "M",
+            "confidence": 2.7
+          },
+          {
+            "class": "Q",
+            "confidence": 0.91
+          },
+          {
+            "class": "del",
+            "confidence": 0.49
+          },
+          {
+            "class": "G",
+            "confidence": 0.31
+          }
+        ],
+        "is_uncertain": false,
+        "uncertainty_reason": null,
+        "prototype_ranking_top5": [
+          {
+            "class": "N",
+            "similarity": 0.8713
+          },
+          {
+            "class": "M",
+            "similarity": 0.8329
+          },
+          {
+            "class": "U",
+            "similarity": 0.8303
+          },
+          {
+            "class": "X",
+            "similarity": 0.8229
+          },
+          {
+            "class": "space",
+            "similarity": 0.8132
+          }
+        ],
+        "prototype_match": "N",
+        "prototype_similarity": 0.8713,
+        "proto_rank_of_true_class": 1,
+        "proto_sim_of_true_class": 0.8329,
+        "hand_presence_status": "VALID_HAND",
+        "hand_score": 1.0,
+        "fg_ratio": 0.543,
+        "cnt_ratio": 0.47,
+        "edge_density": 0.056,
+        "quality_sharpness": 350.3,
+        "quality_brightness": 139.0,
+        "quality_contrast": 81.6,
+        "scale_factor": 0.7,
+        "hand_px": 336,
+        "dx": 12,
+        "dy": -4,
+        "rotation": -2.5,
+        "brightness_factor": 0.96,
+        "crop_size": 345,
+        "crop_x": 147,
+        "crop_y": 67,
+        "paste_x": 164,
+        "paste_y": 68
+      },
+      {
+        "frame_id": "M_10",
+        "true_class": "M",
+        "file_source": "M2808.jpg",
+        "predicted_class": "Q",
+        "raw_top_class": "Q",
+        "is_correct": false,
+        "confidence": 60.22,
+        "top5_predictions": [
+          {
+            "class": "Q",
+            "confidence": 60.22
+          },
+          {
+            "class": "G",
+            "confidence": 28.5
+          },
+          {
+            "class": "P",
+            "confidence": 7.08
+          },
+          {
+            "class": "N",
+            "confidence": 2.19
+          },
+          {
+            "class": "C",
+            "confidence": 0.76
+          }
+        ],
+        "is_uncertain": false,
+        "uncertainty_reason": null,
+        "prototype_ranking_top5": [
+          {
+            "class": "N",
+            "similarity": 0.8054
+          },
+          {
+            "class": "U",
+            "similarity": 0.7904
+          },
+          {
+            "class": "space",
+            "similarity": 0.7877
+          },
+          {
+            "class": "M",
+            "similarity": 0.7871
+          },
+          {
+            "class": "P",
+            "similarity": 0.7847
+          }
+        ],
+        "prototype_match": "N",
+        "prototype_similarity": 0.8054,
+        "proto_rank_of_true_class": 3,
+        "proto_sim_of_true_class": 0.7871,
+        "hand_presence_status": "VALID_HAND",
+        "hand_score": 0.929,
+        "fg_ratio": 0.412,
+        "cnt_ratio": 0.325,
+        "edge_density": 0.057,
+        "quality_sharpness": 433.7,
+        "quality_brightness": 133.3,
+        "quality_contrast": 78.1,
+        "scale_factor": 0.68,
+        "hand_px": 326,
+        "dx": 0,
+        "dy": -8,
+        "rotation": -5.0,
+        "brightness_factor": 0.92,
+        "crop_size": 345,
+        "crop_x": 147,
+        "crop_y": 67,
+        "paste_x": 157,
+        "paste_y": 69
+      },
+      {
+        "frame_id": "M_11",
+        "true_class": "M",
+        "file_source": "M2809.jpg",
+        "predicted_class": "N",
+        "raw_top_class": "Q",
+        "is_correct": false,
+        "confidence": 46.57,
+        "top5_predictions": [
+          {
+            "class": "Q",
+            "confidence": 46.57
+          },
+          {
+            "class": "N",
+            "confidence": 31.3
+          },
+          {
+            "class": "M",
+            "confidence": 9.6
+          },
+          {
+            "class": "G",
+            "confidence": 4.97
+          },
+          {
+            "class": "P",
+            "confidence": 4.69
+          }
+        ],
+        "is_uncertain": false,
+        "uncertainty_reason": null,
+        "prototype_ranking_top5": [
+          {
+            "class": "N",
+            "similarity": 0.8456
+          },
+          {
+            "class": "P",
+            "similarity": 0.839
+          },
+          {
+            "class": "M",
+            "similarity": 0.8328
+          },
+          {
+            "class": "space",
+            "similarity": 0.8321
+          },
+          {
+            "class": "del",
+            "similarity": 0.8282
+          }
+        ],
+        "prototype_match": "N",
+        "prototype_similarity": 0.8456,
+        "proto_rank_of_true_class": 2,
+        "proto_sim_of_true_class": 0.8328,
+        "hand_presence_status": "VALID_HAND",
+        "hand_score": 1.0,
+        "fg_ratio": 0.515,
+        "cnt_ratio": 0.431,
+        "edge_density": 0.057,
+        "quality_sharpness": 364.2,
+        "quality_brightness": 141.4,
+        "quality_contrast": 82.5,
+        "scale_factor": 0.7,
+        "hand_px": 336,
+        "dx": 4,
+        "dy": -4,
+        "rotation": -2.5,
+        "brightness_factor": 0.96,
+        "crop_size": 345,
+        "crop_x": 147,
+        "crop_y": 67,
+        "paste_x": 156,
+        "paste_y": 68
+      },
+      {
+        "frame_id": "M_15",
+        "true_class": "M",
+        "file_source": "M2812.jpg",
+        "predicted_class": "G",
+        "raw_top_class": "G",
+        "is_correct": false,
+        "confidence": 49.21,
+        "top5_predictions": [
+          {
+            "class": "G",
+            "confidence": 49.21
+          },
+          {
+            "class": "N",
+            "confidence": 20.39
+          },
+          {
+            "class": "Q",
+            "confidence": 17.48
+          },
+          {
+            "class": "P",
+            "confidence": 8.02
+          },
+          {
+            "class": "M",
+            "confidence": 2.23
+          }
+        ],
+        "is_uncertain": false,
+        "uncertainty_reason": null,
+        "prototype_ranking_top5": [
+          {
+            "class": "N",
+            "similarity": 0.8372
+          },
+          {
+            "class": "M",
+            "similarity": 0.8153
+          },
+          {
+            "class": "space",
+            "similarity": 0.8078
+          },
+          {
+            "class": "del",
+            "similarity": 0.8051
+          },
+          {
+            "class": "P",
+            "similarity": 0.8017
+          }
+        ],
+        "prototype_match": "N",
+        "prototype_similarity": 0.8372,
+        "proto_rank_of_true_class": 1,
+        "proto_sim_of_true_class": 0.8153,
+        "hand_presence_status": "VALID_HAND",
+        "hand_score": 0.941,
+        "fg_ratio": 0.411,
+        "cnt_ratio": 0.329,
+        "edge_density": 0.056,
+        "quality_sharpness": 532.7,
+        "quality_brightness": 134.9,
+        "quality_contrast": 78.1,
+        "scale_factor": 0.68,
+        "hand_px": 326,
+        "dx": -8,
+        "dy": -8,
+        "rotation": -5.0,
+        "brightness_factor": 0.92,
+        "crop_size": 345,
+        "crop_x": 147,
+        "crop_y": 67,
+        "paste_x": 149,
+        "paste_y": 69
+      },
+      {
+        "frame_id": "M_16",
+        "true_class": "M",
+        "file_source": "M2813.jpg",
+        "predicted_class": "Uncertain \u2014 adjust your hand position",
+        "raw_top_class": "Q",
+        "is_correct": false,
+        "confidence": 36.85,
+        "top5_predictions": [
+          {
+            "class": "Q",
+            "confidence": 36.85
+          },
+          {
+            "class": "G",
+            "confidence": 32.76
+          },
+          {
+            "class": "N",
+            "confidence": 16.13
+          },
+          {
+            "class": "M",
+            "confidence": 12.65
+          },
+          {
+            "class": "P",
+            "confidence": 0.77
+          }
+        ],
+        "is_uncertain": true,
+        "uncertainty_reason": "Low recognition confidence (36.85%) \u2014 align hand with guide",
+        "prototype_ranking_top5": [
+          {
+            "class": "N",
+            "similarity": 0.8332
+          },
+          {
+            "class": "M",
+            "similarity": 0.832
+          },
+          {
+            "class": "space",
+            "similarity": 0.8064
+          },
+          {
+            "class": "U",
+            "similarity": 0.8028
+          },
+          {
+            "class": "X",
+            "similarity": 0.7869
+          }
+        ],
+        "prototype_match": "N",
+        "prototype_similarity": 0.8332,
+        "proto_rank_of_true_class": 1,
+        "proto_sim_of_true_class": 0.832,
+        "hand_presence_status": "VALID_HAND",
+        "hand_score": 1.0,
+        "fg_ratio": 0.507,
+        "cnt_ratio": 0.493,
+        "edge_density": 0.061,
+        "quality_sharpness": 432.6,
+        "quality_brightness": 142.5,
+        "quality_contrast": 82.5,
+        "scale_factor": 0.7,
+        "hand_px": 336,
+        "dx": -4,
+        "dy": -4,
+        "rotation": -2.5,
+        "brightness_factor": 0.96,
+        "crop_size": 345,
+        "crop_x": 147,
+        "crop_y": 67,
+        "paste_x": 148,
+        "paste_y": 68
+      },
+      {
+        "frame_id": "M_17",
+        "true_class": "M",
+        "file_source": "M2814.jpg",
+        "predicted_class": "N",
+        "raw_top_class": "N",
+        "is_correct": false,
+        "confidence": 78.92,
+        "top5_predictions": [
+          {
+            "class": "N",
+            "confidence": 78.92
+          },
+          {
+            "class": "M",
+            "confidence": 18.94
+          },
+          {
+            "class": "Q",
+            "confidence": 1.68
+          },
+          {
+            "class": "P",
+            "confidence": 0.14
+          },
+          {
+            "class": "X",
+            "confidence": 0.07
+          }
+        ],
+        "is_uncertain": false,
+        "uncertainty_reason": null,
+        "prototype_ranking_top5": [
+          {
+            "class": "N",
+            "similarity": 0.8671
+          },
+          {
+            "class": "U",
+            "similarity": 0.8541
+          },
+          {
+            "class": "M",
+            "similarity": 0.8517
+          },
+          {
+            "class": "X",
+            "similarity": 0.8293
+          },
+          {
+            "class": "R",
+            "similarity": 0.8095
+          }
+        ],
+        "prototype_match": "N",
+        "prototype_similarity": 0.8671,
+        "proto_rank_of_true_class": 2,
+        "proto_sim_of_true_class": 0.8517,
+        "hand_presence_status": "VALID_HAND",
+        "hand_score": 1.0,
+        "fg_ratio": 0.504,
+        "cnt_ratio": 0.409,
+        "edge_density": 0.051,
+        "quality_sharpness": 374.8,
+        "quality_brightness": 149.8,
+        "quality_contrast": 87.6,
+        "scale_factor": 0.72,
+        "hand_px": 345,
+        "dx": 0,
+        "dy": 0,
+        "rotation": 0.0,
+        "brightness_factor": 1.0,
+        "crop_size": 345,
+        "crop_x": 147,
+        "crop_y": 67,
+        "paste_x": 147,
+        "paste_y": 67
+      },
+      {
+        "frame_id": "M_20",
+        "true_class": "M",
+        "file_source": "M2817.jpg",
+        "predicted_class": "Q",
+        "raw_top_class": "Q",
+        "is_correct": false,
+        "confidence": 88.24,
+        "top5_predictions": [
+          {
+            "class": "Q",
+            "confidence": 88.24
+          },
+          {
+            "class": "del",
+            "confidence": 8.9
+          },
+          {
+            "class": "P",
+            "confidence": 1.34
+          },
+          {
+            "class": "G",
+            "confidence": 1.28
+          },
+          {
+            "class": "H",
+            "confidence": 0.12
+          }
+        ],
+        "is_uncertain": false,
+        "uncertainty_reason": null,
+        "prototype_ranking_top5": [
+          {
+            "class": "del",
+            "similarity": 0.8546
+          },
+          {
+            "class": "Q",
+            "similarity": 0.8318
+          },
+          {
+            "class": "P",
+            "similarity": 0.8223
+          },
+          {
+            "class": "N",
+            "similarity": 0.8098
+          },
+          {
+            "class": "space",
+            "similarity": 0.8042
+          }
+        ],
+        "prototype_match": "del",
+        "prototype_similarity": 0.8546,
+        "proto_rank_of_true_class": 5,
+        "proto_sim_of_true_class": 0.7632,
+        "hand_presence_status": "VALID_HAND",
+        "hand_score": 0.925,
+        "fg_ratio": 0.406,
+        "cnt_ratio": 0.324,
+        "edge_density": 0.052,
+        "quality_sharpness": 361.7,
+        "quality_brightness": 135.8,
+        "quality_contrast": 78.0,
+        "scale_factor": 0.68,
+        "hand_px": 326,
+        "dx": 12,
+        "dy": -8,
+        "rotation": -5.0,
+        "brightness_factor": 0.92,
+        "crop_size": 345,
+        "crop_x": 147,
+        "crop_y": 67,
+        "paste_x": 169,
+        "paste_y": 69
+      },
+      {
+        "frame_id": "M_21",
+        "true_class": "M",
+        "file_source": "M2818.jpg",
+        "predicted_class": "Uncertain \u2014 adjust your hand position",
+        "raw_top_class": "G",
+        "is_correct": false,
+        "confidence": 41.91,
+        "top5_predictions": [
+          {
+            "class": "G",
+            "confidence": 41.91
+          },
+          {
+            "class": "M",
+            "confidence": 24.36
+          },
+          {
+            "class": "N",
+            "confidence": 17.97
+          },
+          {
+            "class": "Q",
+            "confidence": 6.68
+          },
+          {
+            "class": "del",
+            "confidence": 4.0
+          }
+        ],
+        "is_uncertain": true,
+        "uncertainty_reason": "Low recognition confidence (41.91%) \u2014 align hand with guide",
+        "prototype_ranking_top5": [
+          {
+            "class": "N",
+            "similarity": 0.8506
+          },
+          {
+            "class": "M",
+            "similarity": 0.8377
+          },
+          {
+            "class": "U",
+            "similarity": 0.824
+          },
+          {
+            "class": "X",
+            "similarity": 0.8238
+          },
+          {
+            "class": "del",
+            "similarity": 0.8152
+          }
+        ],
+        "prototype_match": "N",
+        "prototype_similarity": 0.8506,
+        "proto_rank_of_true_class": 1,
+        "proto_sim_of_true_class": 0.8377,
+        "hand_presence_status": "VALID_HAND",
+        "hand_score": 1.0,
+        "fg_ratio": 0.517,
+        "cnt_ratio": 0.51,
+        "edge_density": 0.053,
+        "quality_sharpness": 338.5,
+        "quality_brightness": 145.0,
+        "quality_contrast": 82.0,
+        "scale_factor": 0.7,
+        "hand_px": 336,
+        "dx": -12,
+        "dy": -4,
+        "rotation": -2.5,
+        "brightness_factor": 0.96,
+        "crop_size": 345,
+        "crop_x": 147,
+        "crop_y": 67,
+        "paste_x": 140,
+        "paste_y": 68
+      },
+      {
+        "frame_id": "M_25",
+        "true_class": "M",
+        "file_source": "M2821.jpg",
+        "predicted_class": "Q",
+        "raw_top_class": "Q",
+        "is_correct": false,
+        "confidence": 81.61,
+        "top5_predictions": [
+          {
+            "class": "Q",
+            "confidence": 81.61
+          },
+          {
+            "class": "del",
+            "confidence": 9.88
+          },
+          {
+            "class": "G",
+            "confidence": 3.08
+          },
+          {
+            "class": "N",
+            "confidence": 3.03
+          },
+          {
+            "class": "P",
+            "confidence": 2.05
+          }
+        ],
+        "is_uncertain": false,
+        "uncertainty_reason": null,
+        "prototype_ranking_top5": [
+          {
+            "class": "del",
+            "similarity": 0.8212
+          },
+          {
+            "class": "N",
+            "similarity": 0.8201
+          },
+          {
+            "class": "P",
+            "similarity": 0.7954
+          },
+          {
+            "class": "space",
+            "similarity": 0.7909
+          },
+          {
+            "class": "Q",
+            "similarity": 0.7884
+          }
+        ],
+        "prototype_match": "del",
+        "prototype_similarity": 0.8212,
+        "proto_rank_of_true_class": 5,
+        "proto_sim_of_true_class": 0.771,
+        "hand_presence_status": "VALID_HAND",
+        "hand_score": 0.901,
+        "fg_ratio": 0.4,
+        "cnt_ratio": 0.315,
+        "edge_density": 0.057,
+        "quality_sharpness": 426.7,
+        "quality_brightness": 135.8,
+        "quality_contrast": 79.1,
+        "scale_factor": 0.68,
+        "hand_px": 326,
+        "dx": 4,
+        "dy": -8,
+        "rotation": -5.0,
+        "brightness_factor": 0.92,
+        "crop_size": 345,
+        "crop_x": 147,
+        "crop_y": 67,
+        "paste_x": 161,
+        "paste_y": 69
+      },
+      {
+        "frame_id": "M_26",
+        "true_class": "M",
+        "file_source": "M2822.jpg",
+        "predicted_class": "G",
+        "raw_top_class": "G",
+        "is_correct": false,
+        "confidence": 46.0,
+        "top5_predictions": [
+          {
+            "class": "G",
+            "confidence": 46.0
+          },
+          {
+            "class": "Q",
+            "confidence": 32.08
+          },
+          {
+            "class": "P",
+            "confidence": 7.87
+          },
+          {
+            "class": "del",
+            "confidence": 7.01
+          },
+          {
+            "class": "N",
+            "confidence": 3.52
+          }
+        ],
+        "is_uncertain": false,
+        "uncertainty_reason": null,
+        "prototype_ranking_top5": [
+          {
+            "class": "space",
+            "similarity": 0.835
+          },
+          {
+            "class": "del",
+            "similarity": 0.8259
+          },
+          {
+            "class": "P",
+            "similarity": 0.8214
+          },
+          {
+            "class": "N",
+            "similarity": 0.819
+          },
+          {
+            "class": "U",
+            "similarity": 0.7961
+          }
+        ],
+        "prototype_match": "space",
+        "prototype_similarity": 0.835,
+        "proto_rank_of_true_class": 5,
+        "proto_sim_of_true_class": 0.792,
+        "hand_presence_status": "VALID_HAND",
+        "hand_score": 1.0,
+        "fg_ratio": 0.501,
+        "cnt_ratio": 0.431,
+        "edge_density": 0.055,
+        "quality_sharpness": 317.0,
+        "quality_brightness": 144.2,
+        "quality_contrast": 82.9,
+        "scale_factor": 0.7,
+        "hand_px": 336,
+        "dx": 8,
+        "dy": -4,
+        "rotation": -2.5,
+        "brightness_factor": 0.96,
+        "crop_size": 345,
+        "crop_x": 147,
+        "crop_y": 67,
+        "paste_x": 160,
+        "paste_y": 68
+      }
+    ],
+    "B": [
+      {
+        "frame_id": "B_00",
+        "true_class": "B",
+        "file_source": "B28.jpg",
+        "predicted_class": "del",
+        "raw_top_class": "del",
+        "is_correct": false,
+        "confidence": 77.84,
+        "top5_predictions": [
+          {
+            "class": "del",
+            "confidence": 77.84
+          },
+          {
+            "class": "B",
+            "confidence": 10.1
+          },
+          {
+            "class": "X",
+            "confidence": 6.21
+          },
+          {
+            "class": "E",
+            "confidence": 3.48
+          },
+          {
+            "class": "U",
+            "confidence": 1.44
+          }
+        ],
+        "is_uncertain": false,
+        "uncertainty_reason": null,
+        "prototype_ranking_top5": [
+          {
+            "class": "B",
+            "similarity": 0.8517
+          },
+          {
+            "class": "E",
+            "similarity": 0.8429
+          },
+          {
+            "class": "U",
+            "similarity": 0.7786
+          },
+          {
+            "class": "del",
+            "similarity": 0.7765
+          },
+          {
+            "class": "N",
+            "similarity": 0.7551
+          }
+        ],
+        "prototype_match": "B",
+        "prototype_similarity": 0.8517,
+        "proto_rank_of_true_class": 0,
+        "proto_sim_of_true_class": 0.8517,
+        "hand_presence_status": "VALID_HAND",
+        "hand_score": 1.0,
+        "fg_ratio": 0.439,
+        "cnt_ratio": 0.403,
+        "edge_density": 0.05,
+        "quality_sharpness": 359.2,
+        "quality_brightness": 98.2,
+        "quality_contrast": 56.7,
+        "scale_factor": 0.68,
+        "hand_px": 326,
+        "dx": -12,
+        "dy": -8,
+        "rotation": -5.0,
+        "brightness_factor": 0.92,
+        "crop_size": 345,
+        "crop_x": 147,
+        "crop_y": 67,
+        "paste_x": 145,
+        "paste_y": 69
+      },
+      {
+        "frame_id": "B_02",
+        "true_class": "B",
+        "file_source": "B2800.jpg",
+        "predicted_class": "S",
+        "raw_top_class": "S",
+        "is_correct": false,
+        "confidence": 63.72,
+        "top5_predictions": [
+          {
+            "class": "S",
+            "confidence": 63.72
+          },
+          {
+            "class": "R",
+            "confidence": 10.53
+          },
+          {
+            "class": "X",
+            "confidence": 8.37
+          },
+          {
+            "class": "space",
+            "confidence": 5.56
+          },
+          {
+            "class": "U",
+            "confidence": 3.36
+          }
+        ],
+        "is_uncertain": false,
+        "uncertainty_reason": null,
+        "prototype_ranking_top5": [
+          {
+            "class": "U",
+            "similarity": 0.8744
+          },
+          {
+            "class": "S",
+            "similarity": 0.8737
+          },
+          {
+            "class": "X",
+            "similarity": 0.8526
+          },
+          {
+            "class": "N",
+            "similarity": 0.8476
+          },
+          {
+            "class": "M",
+            "similarity": 0.839
+          }
+        ],
+        "prototype_match": "U",
+        "prototype_similarity": 0.8744,
+        "proto_rank_of_true_class": 16,
+        "proto_sim_of_true_class": 0.7668,
+        "hand_presence_status": "VALID_HAND",
+        "hand_score": 0.858,
+        "fg_ratio": 0.407,
+        "cnt_ratio": 0.3,
+        "edge_density": 0.059,
+        "quality_sharpness": 316.2,
+        "quality_brightness": 141.9,
+        "quality_contrast": 88.1,
+        "scale_factor": 0.72,
+        "hand_px": 345,
+        "dx": -4,
+        "dy": 0,
+        "rotation": 0.0,
+        "brightness_factor": 1.0,
+        "crop_size": 345,
+        "crop_x": 147,
+        "crop_y": 67,
+        "paste_x": 143,
+        "paste_y": 67
+      },
+      {
+        "frame_id": "B_05",
+        "true_class": "B",
+        "file_source": "B2803.jpg",
+        "predicted_class": "Uncertain \u2014 adjust your hand position",
+        "raw_top_class": "B",
+        "is_correct": false,
+        "confidence": 37.23,
+        "top5_predictions": [
+          {
+            "class": "B",
+            "confidence": 37.23
+          },
+          {
+            "class": "del",
+            "confidence": 35.28
+          },
+          {
+            "class": "U",
+            "confidence": 19.81
+          },
+          {
+            "class": "O",
+            "confidence": 4.12
+          },
+          {
+            "class": "C",
+            "confidence": 0.91
+          }
+        ],
+        "is_uncertain": true,
+        "uncertainty_reason": "Low recognition confidence (37.23%) \u2014 align hand with guide",
+        "prototype_ranking_top5": [
+          {
+            "class": "U",
+            "similarity": 0.8063
+          },
+          {
+            "class": "del",
+            "similarity": 0.7926
+          },
+          {
+            "class": "O",
+            "similarity": 0.788
+          },
+          {
+            "class": "X",
+            "similarity": 0.7757
+          },
+          {
+            "class": "N",
+            "similarity": 0.7638
+          }
+        ],
+        "prototype_match": "U",
+        "prototype_similarity": 0.8063,
+        "proto_rank_of_true_class": 16,
+        "proto_sim_of_true_class": 0.7057,
+        "hand_presence_status": "VALID_HAND",
+        "hand_score": 0.731,
+        "fg_ratio": 0.348,
+        "cnt_ratio": 0.256,
+        "edge_density": 0.062,
+        "quality_sharpness": 460.4,
+        "quality_brightness": 126.5,
+        "quality_contrast": 79.2,
+        "scale_factor": 0.68,
+        "hand_px": 326,
+        "dx": 8,
+        "dy": -8,
+        "rotation": -5.0,
+        "brightness_factor": 0.92,
+        "crop_size": 345,
+        "crop_x": 147,
+        "crop_y": 67,
+        "paste_x": 165,
+        "paste_y": 69
+      },
+      {
+        "frame_id": "B_10",
+        "true_class": "B",
+        "file_source": "B2808.jpg",
+        "predicted_class": "Uncertain \u2014 adjust your hand position",
+        "raw_top_class": "U",
+        "is_correct": false,
+        "confidence": 36.35,
+        "top5_predictions": [
+          {
+            "class": "U",
+            "confidence": 36.35
+          },
+          {
+            "class": "del",
+            "confidence": 33.01
+          },
+          {
+            "class": "B",
+            "confidence": 20.67
+          },
+          {
+            "class": "space",
+            "confidence": 5.22
+          },
+          {
+            "class": "X",
+            "confidence": 1.79
+          }
+        ],
+        "is_uncertain": true,
+        "uncertainty_reason": "Low recognition confidence (36.35%) \u2014 align hand with guide",
+        "prototype_ranking_top5": [
+          {
+            "class": "U",
+            "similarity": 0.8206
+          },
+          {
+            "class": "del",
+            "similarity": 0.8114
+          },
+          {
+            "class": "N",
+            "similarity": 0.8018
+          },
+          {
+            "class": "S",
+            "similarity": 0.7996
+          },
+          {
+            "class": "X",
+            "similarity": 0.7905
+          }
+        ],
+        "prototype_match": "U",
+        "prototype_similarity": 0.8206,
+        "proto_rank_of_true_class": 9,
+        "proto_sim_of_true_class": 0.7567,
+        "hand_presence_status": "VALID_HAND",
+        "hand_score": 0.648,
+        "fg_ratio": 0.356,
+        "cnt_ratio": 0.227,
+        "edge_density": 0.061,
+        "quality_sharpness": 462.5,
+        "quality_brightness": 125.0,
+        "quality_contrast": 78.9,
+        "scale_factor": 0.68,
+        "hand_px": 326,
+        "dx": 0,
+        "dy": -8,
+        "rotation": -5.0,
+        "brightness_factor": 0.92,
+        "crop_size": 345,
+        "crop_x": 147,
+        "crop_y": 67,
+        "paste_x": 157,
+        "paste_y": 69
+      },
+      {
+        "frame_id": "B_11",
+        "true_class": "B",
+        "file_source": "B2809.jpg",
+        "predicted_class": "Uncertain \u2014 adjust your hand position",
+        "raw_top_class": "X",
+        "is_correct": false,
+        "confidence": 34.01,
+        "top5_predictions": [
+          {
+            "class": "X",
+            "confidence": 34.01
+          },
+          {
+            "class": "B",
+            "confidence": 17.18
+          },
+          {
+            "class": "space",
+            "confidence": 13.43
+          },
+          {
+            "class": "U",
+            "confidence": 12.35
+          },
+          {
+            "class": "N",
+            "confidence": 8.03
+          }
+        ],
+        "is_uncertain": true,
+        "uncertainty_reason": "Low recognition confidence (34.01%) \u2014 align hand with guide",
+        "prototype_ranking_top5": [
+          {
+            "class": "U",
+            "similarity": 0.8642
+          },
+          {
+            "class": "N",
+            "similarity": 0.853
+          },
+          {
+            "class": "X",
+            "similarity": 0.8467
+          },
+          {
+            "class": "S",
+            "similarity": 0.837
+          },
+          {
+            "class": "O",
+            "similarity": 0.8194
+          }
+        ],
+        "prototype_match": "U",
+        "prototype_similarity": 0.8642,
+        "proto_rank_of_true_class": 12,
+        "proto_sim_of_true_class": 0.7604,
+        "hand_presence_status": "VALID_HAND",
+        "hand_score": 0.966,
+        "fg_ratio": 0.447,
+        "cnt_ratio": 0.338,
+        "edge_density": 0.06,
+        "quality_sharpness": 419.4,
+        "quality_brightness": 132.0,
+        "quality_contrast": 83.3,
+        "scale_factor": 0.7,
+        "hand_px": 336,
+        "dx": 4,
+        "dy": -4,
+        "rotation": -2.5,
+        "brightness_factor": 0.96,
+        "crop_size": 345,
+        "crop_x": 147,
+        "crop_y": 67,
+        "paste_x": 156,
+        "paste_y": 68
+      },
+      {
+        "frame_id": "B_15",
+        "true_class": "B",
+        "file_source": "B2812.jpg",
+        "predicted_class": "Uncertain \u2014 adjust your hand position",
+        "raw_top_class": "B",
+        "is_correct": false,
+        "confidence": 29.69,
+        "top5_predictions": [
+          {
+            "class": "B",
+            "confidence": 29.69
+          },
+          {
+            "class": "del",
+            "confidence": 28.55
+          },
+          {
+            "class": "X",
+            "confidence": 18.87
+          },
+          {
+            "class": "U",
+            "confidence": 11.11
+          },
+          {
+            "class": "space",
+            "confidence": 10.09
+          }
+        ],
+        "is_uncertain": true,
+        "uncertainty_reason": "Low recognition confidence (29.69%) \u2014 align hand with guide",
+        "prototype_ranking_top5": [
+          {
+            "class": "U",
+            "similarity": 0.8279
+          },
+          {
+            "class": "X",
+            "similarity": 0.8175
+          },
+          {
+            "class": "N",
+            "similarity": 0.8095
+          },
+          {
+            "class": "del",
+            "similarity": 0.8053
+          },
+          {
+            "class": "S",
+            "similarity": 0.7931
+          }
+        ],
+        "prototype_match": "U",
+        "prototype_similarity": 0.8279,
+        "proto_rank_of_true_class": 10,
+        "proto_sim_of_true_class": 0.7579,
+        "hand_presence_status": "VALID_HAND",
+        "hand_score": 0.607,
+        "fg_ratio": 0.372,
+        "cnt_ratio": 0.212,
+        "edge_density": 0.06,
+        "quality_sharpness": 565.7,
+        "quality_brightness": 125.2,
+        "quality_contrast": 78.8,
+        "scale_factor": 0.68,
+        "hand_px": 326,
+        "dx": -8,
+        "dy": -8,
+        "rotation": -5.0,
+        "brightness_factor": 0.92,
+        "crop_size": 345,
+        "crop_x": 147,
+        "crop_y": 67,
+        "paste_x": 149,
+        "paste_y": 69
+      },
+      {
+        "frame_id": "B_20",
+        "true_class": "B",
+        "file_source": "B2817.jpg",
+        "predicted_class": "Uncertain \u2014 adjust your hand position",
+        "raw_top_class": "U",
+        "is_correct": false,
+        "confidence": 32.59,
+        "top5_predictions": [
+          {
+            "class": "U",
+            "confidence": 32.59
+          },
+          {
+            "class": "del",
+            "confidence": 31.32
+          },
+          {
+            "class": "B",
+            "confidence": 24.98
+          },
+          {
+            "class": "O",
+            "confidence": 7.07
+          },
+          {
+            "class": "space",
+            "confidence": 2.12
+          }
+        ],
+        "is_uncertain": true,
+        "uncertainty_reason": "Low recognition confidence (32.59%) \u2014 align hand with guide",
+        "prototype_ranking_top5": [
+          {
+            "class": "U",
+            "similarity": 0.8318
+          },
+          {
+            "class": "del",
+            "similarity": 0.8107
+          },
+          {
+            "class": "O",
+            "similarity": 0.8007
+          },
+          {
+            "class": "S",
+            "similarity": 0.7955
+          },
+          {
+            "class": "X",
+            "similarity": 0.7904
+          }
+        ],
+        "prototype_match": "U",
+        "prototype_similarity": 0.8318,
+        "proto_rank_of_true_class": 9,
+        "proto_sim_of_true_class": 0.7517,
+        "hand_presence_status": "VALID_HAND",
+        "hand_score": 0.579,
+        "fg_ratio": 0.372,
+        "cnt_ratio": 0.203,
+        "edge_density": 0.056,
+        "quality_sharpness": 398.6,
+        "quality_brightness": 125.5,
+        "quality_contrast": 78.2,
+        "scale_factor": 0.68,
+        "hand_px": 326,
+        "dx": 12,
+        "dy": -8,
+        "rotation": -5.0,
+        "brightness_factor": 0.92,
+        "crop_size": 345,
+        "crop_x": 147,
+        "crop_y": 67,
+        "paste_x": 169,
+        "paste_y": 69
+      },
+      {
+        "frame_id": "B_24",
+        "true_class": "B",
+        "file_source": "B2820.jpg",
+        "predicted_class": "U",
+        "raw_top_class": "B",
+        "is_correct": false,
+        "confidence": 55.75,
+        "top5_predictions": [
+          {
+            "class": "B",
+            "confidence": 55.75
+          },
+          {
+            "class": "U",
+            "confidence": 42.59
+          },
+          {
+            "class": "R",
+            "confidence": 1.09
+          },
+          {
+            "class": "S",
+            "confidence": 0.25
+          },
+          {
+            "class": "O",
+            "confidence": 0.17
+          }
+        ],
+        "is_uncertain": false,
+        "uncertainty_reason": null,
+        "prototype_ranking_top5": [
+          {
+            "class": "U",
+            "similarity": 0.8633
+          },
+          {
+            "class": "S",
+            "similarity": 0.8252
+          },
+          {
+            "class": "B",
+            "similarity": 0.8144
+          },
+          {
+            "class": "N",
+            "similarity": 0.7933
+          },
+          {
+            "class": "X",
+            "similarity": 0.7879
+          }
+        ],
+        "prototype_match": "U",
+        "prototype_similarity": 0.8633,
+        "proto_rank_of_true_class": 2,
+        "proto_sim_of_true_class": 0.8144,
+        "hand_presence_status": "VALID_HAND",
+        "hand_score": 0.785,
+        "fg_ratio": 0.477,
+        "cnt_ratio": 0.275,
+        "edge_density": 0.047,
+        "quality_sharpness": 122.5,
+        "quality_brightness": 144.8,
+        "quality_contrast": 90.7,
+        "scale_factor": 0.76,
+        "hand_px": 364,
+        "dx": 0,
+        "dy": 8,
+        "rotation": 5.0,
+        "brightness_factor": 1.08,
+        "crop_size": 345,
+        "crop_x": 147,
+        "crop_y": 67,
+        "paste_x": 138,
+        "paste_y": 66
+      },
+      {
+        "frame_id": "B_25",
+        "true_class": "B",
+        "file_source": "B2821.jpg",
+        "predicted_class": "Uncertain \u2014 adjust your hand position",
+        "raw_top_class": "del",
+        "is_correct": false,
+        "confidence": 39.96,
+        "top5_predictions": [
+          {
+            "class": "del",
+            "confidence": 39.96
+          },
+          {
+            "class": "B",
+            "confidence": 35.43
+          },
+          {
+            "class": "U",
+            "confidence": 10.01
+          },
+          {
+            "class": "space",
+            "confidence": 7.34
+          },
+          {
+            "class": "Q",
+            "confidence": 2.66
+          }
+        ],
+        "is_uncertain": true,
+        "uncertainty_reason": "Low recognition confidence (39.96%) \u2014 align hand with guide",
+        "prototype_ranking_top5": [
+          {
+            "class": "U",
+            "similarity": 0.82
+          },
+          {
+            "class": "del",
+            "similarity": 0.8019
+          },
+          {
+            "class": "X",
+            "similarity": 0.799
+          },
+          {
+            "class": "O",
+            "similarity": 0.7937
+          },
+          {
+            "class": "N",
+            "similarity": 0.7854
+          }
+        ],
+        "prototype_match": "U",
+        "prototype_similarity": 0.82,
+        "proto_rank_of_true_class": 18,
+        "proto_sim_of_true_class": 0.7242,
+        "hand_presence_status": "VALID_HAND",
+        "hand_score": 0.551,
+        "fg_ratio": 0.384,
+        "cnt_ratio": 0.193,
+        "edge_density": 0.06,
+        "quality_sharpness": 463.0,
+        "quality_brightness": 125.2,
+        "quality_contrast": 78.5,
+        "scale_factor": 0.68,
+        "hand_px": 326,
+        "dx": 4,
+        "dy": -8,
+        "rotation": -5.0,
+        "brightness_factor": 0.92,
+        "crop_size": 345,
+        "crop_x": 147,
+        "crop_y": 67,
+        "paste_x": 161,
+        "paste_y": 69
+      }
+    ],
+    "R": [
+      {
+        "frame_id": "R_00",
+        "true_class": "R",
+        "file_source": "R28.jpg",
+        "predicted_class": "X",
+        "raw_top_class": "X",
+        "is_correct": false,
+        "confidence": 62.77,
+        "top5_predictions": [
+          {
+            "class": "X",
+            "confidence": 62.77
+          },
+          {
+            "class": "R",
+            "confidence": 36.18
+          },
+          {
+            "class": "V",
+            "confidence": 0.64
+          },
+          {
+            "class": "del",
+            "confidence": 0.36
+          },
+          {
+            "class": "U",
+            "confidence": 0.04
+          }
+        ],
+        "is_uncertain": false,
+        "uncertainty_reason": null,
+        "prototype_ranking_top5": [
+          {
+            "class": "X",
+            "similarity": 0.875
+          },
+          {
+            "class": "U",
+            "similarity": 0.8616
+          },
+          {
+            "class": "R",
+            "similarity": 0.8552
+          },
+          {
+            "class": "V",
+            "similarity": 0.8497
+          },
+          {
+            "class": "del",
+            "similarity": 0.7744
+          }
+        ],
+        "prototype_match": "X",
+        "prototype_similarity": 0.875,
+        "proto_rank_of_true_class": 2,
+        "proto_sim_of_true_class": 0.8552,
+        "hand_presence_status": "VALID_HAND",
+        "hand_score": 1.0,
+        "fg_ratio": 0.472,
+        "cnt_ratio": 0.46,
+        "edge_density": 0.051,
+        "quality_sharpness": 303.4,
+        "quality_brightness": 109.7,
+        "quality_contrast": 48.6,
+        "scale_factor": 0.68,
+        "hand_px": 326,
+        "dx": -12,
+        "dy": -8,
+        "rotation": -5.0,
+        "brightness_factor": 0.92,
+        "crop_size": 345,
+        "crop_x": 147,
+        "crop_y": 67,
+        "paste_x": 145,
+        "paste_y": 69
+      },
+      {
+        "frame_id": "R_05",
+        "true_class": "R",
+        "file_source": "R2803.jpg",
+        "predicted_class": "space",
+        "raw_top_class": "space",
+        "is_correct": false,
+        "confidence": 70.03,
+        "top5_predictions": [
+          {
+            "class": "space",
+            "confidence": 70.03
+          },
+          {
+            "class": "R",
+            "confidence": 12.61
+          },
+          {
+            "class": "del",
+            "confidence": 8.86
+          },
+          {
+            "class": "X",
+            "confidence": 7.15
+          },
+          {
+            "class": "V",
+            "confidence": 0.88
+          }
+        ],
+        "is_uncertain": false,
+        "uncertainty_reason": null,
+        "prototype_ranking_top5": [
+          {
+            "class": "space",
+            "similarity": 0.8523
+          },
+          {
+            "class": "R",
+            "similarity": 0.8504
+          },
+          {
+            "class": "U",
+            "similarity": 0.8224
+          },
+          {
+            "class": "del",
+            "similarity": 0.8075
+          },
+          {
+            "class": "X",
+            "similarity": 0.8067
+          }
+        ],
+        "prototype_match": "space",
+        "prototype_similarity": 0.8523,
+        "proto_rank_of_true_class": 1,
+        "proto_sim_of_true_class": 0.8504,
+        "hand_presence_status": "VALID_HAND",
+        "hand_score": 0.854,
+        "fg_ratio": 0.385,
+        "cnt_ratio": 0.299,
+        "edge_density": 0.061,
+        "quality_sharpness": 443.8,
+        "quality_brightness": 143.6,
+        "quality_contrast": 73.9,
+        "scale_factor": 0.68,
+        "hand_px": 326,
+        "dx": 8,
+        "dy": -8,
+        "rotation": -5.0,
+        "brightness_factor": 0.92,
+        "crop_size": 345,
+        "crop_x": 147,
+        "crop_y": 67,
+        "paste_x": 165,
+        "paste_y": 69
+      },
+      {
+        "frame_id": "R_10",
+        "true_class": "R",
+        "file_source": "R2808.jpg",
+        "predicted_class": "space",
+        "raw_top_class": "space",
+        "is_correct": false,
+        "confidence": 54.16,
+        "top5_predictions": [
+          {
+            "class": "space",
+            "confidence": 54.16
+          },
+          {
+            "class": "del",
+            "confidence": 21.01
+          },
+          {
+            "class": "R",
+            "confidence": 18.73
+          },
+          {
+            "class": "X",
+            "confidence": 3.66
+          },
+          {
+            "class": "V",
+            "confidence": 1.91
+          }
+        ],
+        "is_uncertain": false,
+        "uncertainty_reason": null,
+        "prototype_ranking_top5": [
+          {
+            "class": "R",
+            "similarity": 0.8438
+          },
+          {
+            "class": "space",
+            "similarity": 0.8347
+          },
+          {
+            "class": "U",
+            "similarity": 0.823
+          },
+          {
+            "class": "del",
+            "similarity": 0.793
+          },
+          {
+            "class": "X",
+            "similarity": 0.7882
+          }
+        ],
+        "prototype_match": "R",
+        "prototype_similarity": 0.8438,
+        "proto_rank_of_true_class": 0,
+        "proto_sim_of_true_class": 0.8438,
+        "hand_presence_status": "VALID_HAND",
+        "hand_score": 0.904,
+        "fg_ratio": 0.39,
+        "cnt_ratio": 0.316,
+        "edge_density": 0.062,
+        "quality_sharpness": 440.1,
+        "quality_brightness": 144.7,
+        "quality_contrast": 73.1,
+        "scale_factor": 0.68,
+        "hand_px": 326,
+        "dx": 0,
+        "dy": -8,
+        "rotation": -5.0,
+        "brightness_factor": 0.92,
+        "crop_size": 345,
+        "crop_x": 147,
+        "crop_y": 67,
+        "paste_x": 157,
+        "paste_y": 69
+      },
+      {
+        "frame_id": "R_15",
+        "true_class": "R",
+        "file_source": "R2812.jpg",
+        "predicted_class": "del",
+        "raw_top_class": "del",
+        "is_correct": false,
+        "confidence": 59.61,
+        "top5_predictions": [
+          {
+            "class": "del",
+            "confidence": 59.61
+          },
+          {
+            "class": "space",
+            "confidence": 26.82
+          },
+          {
+            "class": "R",
+            "confidence": 7.93
+          },
+          {
+            "class": "V",
+            "confidence": 3.92
+          },
+          {
+            "class": "X",
+            "confidence": 1.37
+          }
+        ],
+        "is_uncertain": false,
+        "uncertainty_reason": null,
+        "prototype_ranking_top5": [
+          {
+            "class": "space",
+            "similarity": 0.8356
+          },
+          {
+            "class": "R",
+            "similarity": 0.8218
+          },
+          {
+            "class": "U",
+            "similarity": 0.8088
+          },
+          {
+            "class": "del",
+            "similarity": 0.804
+          },
+          {
+            "class": "X",
+            "similarity": 0.7779
+          }
+        ],
+        "prototype_match": "space",
+        "prototype_similarity": 0.8356,
+        "proto_rank_of_true_class": 1,
+        "proto_sim_of_true_class": 0.8218,
+        "hand_presence_status": "VALID_HAND",
+        "hand_score": 0.89,
+        "fg_ratio": 0.39,
+        "cnt_ratio": 0.311,
+        "edge_density": 0.058,
+        "quality_sharpness": 536.6,
+        "quality_brightness": 145.3,
+        "quality_contrast": 72.6,
+        "scale_factor": 0.68,
+        "hand_px": 326,
+        "dx": -8,
+        "dy": -8,
+        "rotation": -5.0,
+        "brightness_factor": 0.92,
+        "crop_size": 345,
+        "crop_x": 147,
+        "crop_y": 67,
+        "paste_x": 149,
+        "paste_y": 69
+      },
+      {
+        "frame_id": "R_20",
+        "true_class": "R",
+        "file_source": "R2817.jpg",
+        "predicted_class": "del",
+        "raw_top_class": "del",
+        "is_correct": false,
+        "confidence": 75.22,
+        "top5_predictions": [
+          {
+            "class": "del",
+            "confidence": 75.22
+          },
+          {
+            "class": "space",
+            "confidence": 23.22
+          },
+          {
+            "class": "Q",
+            "confidence": 0.79
+          },
+          {
+            "class": "V",
+            "confidence": 0.27
+          },
+          {
+            "class": "R",
+            "confidence": 0.27
+          }
+        ],
+        "is_uncertain": false,
+        "uncertainty_reason": null,
+        "prototype_ranking_top5": [
+          {
+            "class": "space",
+            "similarity": 0.8491
+          },
+          {
+            "class": "del",
+            "similarity": 0.8391
+          },
+          {
+            "class": "U",
+            "similarity": 0.817
+          },
+          {
+            "class": "R",
+            "similarity": 0.8168
+          },
+          {
+            "class": "N",
+            "similarity": 0.7798
+          }
+        ],
+        "prototype_match": "space",
+        "prototype_similarity": 0.8491,
+        "proto_rank_of_true_class": 3,
+        "proto_sim_of_true_class": 0.8168,
+        "hand_presence_status": "VALID_HAND",
+        "hand_score": 0.919,
+        "fg_ratio": 0.395,
+        "cnt_ratio": 0.322,
+        "edge_density": 0.056,
+        "quality_sharpness": 368.7,
+        "quality_brightness": 146.4,
+        "quality_contrast": 71.5,
+        "scale_factor": 0.68,
+        "hand_px": 326,
+        "dx": 12,
+        "dy": -8,
+        "rotation": -5.0,
+        "brightness_factor": 0.92,
+        "crop_size": 345,
+        "crop_x": 147,
+        "crop_y": 67,
+        "paste_x": 169,
+        "paste_y": 69
+      },
+      {
+        "frame_id": "R_21",
+        "true_class": "R",
+        "file_source": "R2818.jpg",
+        "predicted_class": "space",
+        "raw_top_class": "space",
+        "is_correct": false,
+        "confidence": 72.86,
+        "top5_predictions": [
+          {
+            "class": "space",
+            "confidence": 72.86
+          },
+          {
+            "class": "R",
+            "confidence": 24.22
+          },
+          {
+            "class": "V",
+            "confidence": 2.37
+          },
+          {
+            "class": "del",
+            "confidence": 0.23
+          },
+          {
+            "class": "D",
+            "confidence": 0.15
+          }
+        ],
+        "is_uncertain": false,
+        "uncertainty_reason": null,
+        "prototype_ranking_top5": [
+          {
+            "class": "R",
+            "similarity": 0.8553
+          },
+          {
+            "class": "U",
+            "similarity": 0.8422
+          },
+          {
+            "class": "space",
+            "similarity": 0.8365
+          },
+          {
+            "class": "K",
+            "similarity": 0.8103
+          },
+          {
+            "class": "V",
+            "similarity": 0.8077
+          }
+        ],
+        "prototype_match": "R",
+        "prototype_similarity": 0.8553,
+        "proto_rank_of_true_class": 0,
+        "proto_sim_of_true_class": 0.8553,
+        "hand_presence_status": "VALID_HAND",
+        "hand_score": 1.0,
+        "fg_ratio": 0.506,
+        "cnt_ratio": 0.505,
+        "edge_density": 0.059,
+        "quality_sharpness": 351.8,
+        "quality_brightness": 156.9,
+        "quality_contrast": 73.8,
+        "scale_factor": 0.7,
+        "hand_px": 336,
+        "dx": -12,
+        "dy": -4,
+        "rotation": -2.5,
+        "brightness_factor": 0.96,
+        "crop_size": 345,
+        "crop_x": 147,
+        "crop_y": 67,
+        "paste_x": 140,
+        "paste_y": 68
+      },
+      {
+        "frame_id": "R_25",
+        "true_class": "R",
+        "file_source": "R2821.jpg",
+        "predicted_class": "del",
+        "raw_top_class": "del",
+        "is_correct": false,
+        "confidence": 77.76,
+        "top5_predictions": [
+          {
+            "class": "del",
+            "confidence": 77.76
+          },
+          {
+            "class": "space",
+            "confidence": 21.02
+          },
+          {
+            "class": "Q",
+            "confidence": 0.55
+          },
+          {
+            "class": "V",
+            "confidence": 0.47
+          },
+          {
+            "class": "X",
+            "confidence": 0.1
+          }
+        ],
+        "is_uncertain": false,
+        "uncertainty_reason": null,
+        "prototype_ranking_top5": [
+          {
+            "class": "space",
+            "similarity": 0.8322
+          },
+          {
+            "class": "del",
+            "similarity": 0.8186
+          },
+          {
+            "class": "U",
+            "similarity": 0.7766
+          },
+          {
+            "class": "R",
+            "similarity": 0.7758
+          },
+          {
+            "class": "N",
+            "similarity": 0.7538
+          }
+        ],
+        "prototype_match": "space",
+        "prototype_similarity": 0.8322,
+        "proto_rank_of_true_class": 3,
+        "proto_sim_of_true_class": 0.7758,
+        "hand_presence_status": "VALID_HAND",
+        "hand_score": 0.931,
+        "fg_ratio": 0.405,
+        "cnt_ratio": 0.326,
+        "edge_density": 0.061,
+        "quality_sharpness": 429.7,
+        "quality_brightness": 146.5,
+        "quality_contrast": 71.8,
+        "scale_factor": 0.68,
+        "hand_px": 326,
+        "dx": 4,
+        "dy": -8,
+        "rotation": -5.0,
+        "brightness_factor": 0.92,
+        "crop_size": 345,
+        "crop_x": 147,
+        "crop_y": 67,
+        "paste_x": 161,
+        "paste_y": 69
+      }
+    ],
+    "E": [
+      {
+        "frame_id": "E_00",
+        "true_class": "E",
+        "file_source": "E28.jpg",
+        "predicted_class": "Uncertain \u2014 adjust your hand position",
+        "raw_top_class": "del",
+        "is_correct": false,
+        "confidence": 40.74,
+        "top5_predictions": [
+          {
+            "class": "del",
+            "confidence": 40.74
+          },
+          {
+            "class": "X",
+            "confidence": 30.61
+          },
+          {
+            "class": "E",
+            "confidence": 26.18
+          },
+          {
+            "class": "Z",
+            "confidence": 1.16
+          },
+          {
+            "class": "S",
+            "confidence": 0.5
+          }
+        ],
+        "is_uncertain": true,
+        "uncertainty_reason": "Low recognition confidence (40.74%) \u2014 align hand with guide",
+        "prototype_ranking_top5": [
+          {
+            "class": "E",
+            "similarity": 0.8876
+          },
+          {
+            "class": "del",
+            "similarity": 0.8008
+          },
+          {
+            "class": "A",
+            "similarity": 0.7917
+          },
+          {
+            "class": "X",
+            "similarity": 0.7891
+          },
+          {
+            "class": "N",
+            "similarity": 0.784
+          }
+        ],
+        "prototype_match": "E",
+        "prototype_similarity": 0.8876,
+        "proto_rank_of_true_class": 0,
+        "proto_sim_of_true_class": 0.8876,
+        "hand_presence_status": "VALID_HAND",
+        "hand_score": 0.902,
+        "fg_ratio": 0.336,
+        "cnt_ratio": 0.316,
+        "edge_density": 0.048,
+        "quality_sharpness": 356.1,
+        "quality_brightness": 91.9,
+        "quality_contrast": 60.4,
+        "scale_factor": 0.68,
+        "hand_px": 326,
+        "dx": -12,
+        "dy": -8,
+        "rotation": -5.0,
+        "brightness_factor": 0.92,
+        "crop_size": 345,
+        "crop_x": 147,
+        "crop_y": 67,
+        "paste_x": 145,
+        "paste_y": 69
+      },
+      {
+        "frame_id": "E_05",
+        "true_class": "E",
+        "file_source": "E2803.jpg",
+        "predicted_class": "G",
+        "raw_top_class": "G",
+        "is_correct": false,
+        "confidence": 86.28,
+        "top5_predictions": [
+          {
+            "class": "G",
+            "confidence": 86.28
+          },
+          {
+            "class": "P",
+            "confidence": 6.78
+          },
+          {
+            "class": "E",
+            "confidence": 2.64
+          },
+          {
+            "class": "Y",
+            "confidence": 2.08
+          },
+          {
+            "class": "del",
+            "confidence": 1.21
+          }
+        ],
+        "is_uncertain": false,
+        "uncertainty_reason": null,
+        "prototype_ranking_top5": [
+          {
+            "class": "space",
+            "similarity": 0.8123
+          },
+          {
+            "class": "Y",
+            "similarity": 0.8106
+          },
+          {
+            "class": "P",
+            "similarity": 0.8036
+          },
+          {
+            "class": "J",
+            "similarity": 0.7976
+          },
+          {
+            "class": "del",
+            "similarity": 0.7832
+          }
+        ],
+        "prototype_match": "space",
+        "prototype_similarity": 0.8123,
+        "proto_rank_of_true_class": 5,
+        "proto_sim_of_true_class": 0.7684,
+        "hand_presence_status": "VALID_HAND",
+        "hand_score": 1.0,
+        "fg_ratio": 0.511,
+        "cnt_ratio": 0.427,
+        "edge_density": 0.061,
+        "quality_sharpness": 471.1,
+        "quality_brightness": 100.6,
+        "quality_contrast": 77.3,
+        "scale_factor": 0.68,
+        "hand_px": 326,
+        "dx": 8,
+        "dy": -8,
+        "rotation": -5.0,
+        "brightness_factor": 0.92,
+        "crop_size": 345,
+        "crop_x": 147,
+        "crop_y": 67,
+        "paste_x": 165,
+        "paste_y": 69
+      },
+      {
+        "frame_id": "E_10",
+        "true_class": "E",
+        "file_source": "E2808.jpg",
+        "predicted_class": "Uncertain \u2014 adjust your hand position",
+        "raw_top_class": "G",
+        "is_correct": false,
+        "confidence": 41.49,
+        "top5_predictions": [
+          {
+            "class": "G",
+            "confidence": 41.49
+          },
+          {
+            "class": "E",
+            "confidence": 26.08
+          },
+          {
+            "class": "del",
+            "confidence": 21.02
+          },
+          {
+            "class": "P",
+            "confidence": 5.33
+          },
+          {
+            "class": "X",
+            "confidence": 3.64
+          }
+        ],
+        "is_uncertain": true,
+        "uncertainty_reason": "Low recognition confidence (41.49%) \u2014 align hand with guide",
+        "prototype_ranking_top5": [
+          {
+            "class": "del",
+            "similarity": 0.826
+          },
+          {
+            "class": "space",
+            "similarity": 0.8152
+          },
+          {
+            "class": "N",
+            "similarity": 0.7943
+          },
+          {
+            "class": "E",
+            "similarity": 0.7942
+          },
+          {
+            "class": "P",
+            "similarity": 0.7928
+          }
+        ],
+        "prototype_match": "del",
+        "prototype_similarity": 0.826,
+        "proto_rank_of_true_class": 3,
+        "proto_sim_of_true_class": 0.7942,
+        "hand_presence_status": "VALID_HAND",
+        "hand_score": 1.0,
+        "fg_ratio": 0.499,
+        "cnt_ratio": 0.413,
+        "edge_density": 0.061,
+        "quality_sharpness": 469.5,
+        "quality_brightness": 103.0,
+        "quality_contrast": 77.9,
+        "scale_factor": 0.68,
+        "hand_px": 326,
+        "dx": 0,
+        "dy": -8,
+        "rotation": -5.0,
+        "brightness_factor": 0.92,
+        "crop_size": 345,
+        "crop_x": 147,
+        "crop_y": 67,
+        "paste_x": 157,
+        "paste_y": 69
+      },
+      {
+        "frame_id": "E_15",
+        "true_class": "E",
+        "file_source": "E2812.jpg",
+        "predicted_class": "del",
+        "raw_top_class": "del",
+        "is_correct": false,
+        "confidence": 63.48,
+        "top5_predictions": [
+          {
+            "class": "del",
+            "confidence": 63.48
+          },
+          {
+            "class": "E",
+            "confidence": 32.3
+          },
+          {
+            "class": "S",
+            "confidence": 1.74
+          },
+          {
+            "class": "G",
+            "confidence": 0.87
+          },
+          {
+            "class": "M",
+            "confidence": 0.6
+          }
+        ],
+        "is_uncertain": false,
+        "uncertainty_reason": null,
+        "prototype_ranking_top5": [
+          {
+            "class": "del",
+            "similarity": 0.8695
+          },
+          {
+            "class": "E",
+            "similarity": 0.8208
+          },
+          {
+            "class": "S",
+            "similarity": 0.8057
+          },
+          {
+            "class": "space",
+            "similarity": 0.796
+          },
+          {
+            "class": "N",
+            "similarity": 0.7943
+          }
+        ],
+        "prototype_match": "del",
+        "prototype_similarity": 0.8695,
+        "proto_rank_of_true_class": 1,
+        "proto_sim_of_true_class": 0.8208,
+        "hand_presence_status": "VALID_HAND",
+        "hand_score": 1.0,
+        "fg_ratio": 0.507,
+        "cnt_ratio": 0.416,
+        "edge_density": 0.06,
+        "quality_sharpness": 560.7,
+        "quality_brightness": 104.0,
+        "quality_contrast": 78.1,
+        "scale_factor": 0.68,
+        "hand_px": 326,
+        "dx": -8,
+        "dy": -8,
+        "rotation": -5.0,
+        "brightness_factor": 0.92,
+        "crop_size": 345,
+        "crop_x": 147,
+        "crop_y": 67,
+        "paste_x": 149,
+        "paste_y": 69
+      },
+      {
+        "frame_id": "E_20",
+        "true_class": "E",
+        "file_source": "E2817.jpg",
+        "predicted_class": "G",
+        "raw_top_class": "G",
+        "is_correct": false,
+        "confidence": 64.0,
+        "top5_predictions": [
+          {
+            "class": "G",
+            "confidence": 64.0
+          },
+          {
+            "class": "del",
+            "confidence": 16.31
+          },
+          {
+            "class": "E",
+            "confidence": 10.12
+          },
+          {
+            "class": "S",
+            "confidence": 6.31
+          },
+          {
+            "class": "X",
+            "confidence": 1.79
+          }
+        ],
+        "is_uncertain": false,
+        "uncertainty_reason": null,
+        "prototype_ranking_top5": [
+          {
+            "class": "del",
+            "similarity": 0.8412
+          },
+          {
+            "class": "S",
+            "similarity": 0.8251
+          },
+          {
+            "class": "E",
+            "similarity": 0.8092
+          },
+          {
+            "class": "J",
+            "similarity": 0.807
+          },
+          {
+            "class": "X",
+            "similarity": 0.7994
+          }
+        ],
+        "prototype_match": "del",
+        "prototype_similarity": 0.8412,
+        "proto_rank_of_true_class": 2,
+        "proto_sim_of_true_class": 0.8092,
+        "hand_presence_status": "VALID_HAND",
+        "hand_score": 1.0,
+        "fg_ratio": 0.497,
+        "cnt_ratio": 0.447,
+        "edge_density": 0.054,
+        "quality_sharpness": 384.6,
+        "quality_brightness": 105.4,
+        "quality_contrast": 77.7,
+        "scale_factor": 0.68,
+        "hand_px": 326,
+        "dx": 12,
+        "dy": -8,
+        "rotation": -5.0,
+        "brightness_factor": 0.92,
+        "crop_size": 345,
+        "crop_x": 147,
+        "crop_y": 67,
+        "paste_x": 169,
+        "paste_y": 69
+      },
+      {
+        "frame_id": "E_25",
+        "true_class": "E",
+        "file_source": "E2821.jpg",
+        "predicted_class": "del",
+        "raw_top_class": "del",
+        "is_correct": false,
+        "confidence": 79.63,
+        "top5_predictions": [
+          {
+            "class": "del",
+            "confidence": 79.63
+          },
+          {
+            "class": "G",
+            "confidence": 12.97
+          },
+          {
+            "class": "X",
+            "confidence": 5.13
+          },
+          {
+            "class": "E",
+            "confidence": 0.86
+          },
+          {
+            "class": "space",
+            "confidence": 0.45
+          }
+        ],
+        "is_uncertain": false,
+        "uncertainty_reason": null,
+        "prototype_ranking_top5": [
+          {
+            "class": "del",
+            "similarity": 0.8685
+          },
+          {
+            "class": "space",
+            "similarity": 0.8178
+          },
+          {
+            "class": "S",
+            "similarity": 0.817
+          },
+          {
+            "class": "X",
+            "similarity": 0.8156
+          },
+          {
+            "class": "N",
+            "similarity": 0.8
+          }
+        ],
+        "prototype_match": "del",
+        "prototype_similarity": 0.8685,
+        "proto_rank_of_true_class": 6,
+        "proto_sim_of_true_class": 0.7818,
+        "hand_presence_status": "VALID_HAND",
+        "hand_score": 1.0,
+        "fg_ratio": 0.496,
+        "cnt_ratio": 0.443,
+        "edge_density": 0.06,
+        "quality_sharpness": 444.6,
+        "quality_brightness": 105.9,
+        "quality_contrast": 78.2,
+        "scale_factor": 0.68,
+        "hand_px": 326,
+        "dx": 4,
+        "dy": -8,
+        "rotation": -5.0,
+        "brightness_factor": 0.92,
+        "crop_size": 345,
+        "crop_x": 147,
+        "crop_y": 67,
+        "paste_x": 161,
+        "paste_y": 69
+      }
+    ],
+    "I": [
+      {
+        "frame_id": "I_05",
+        "true_class": "I",
+        "file_source": "I2803.jpg",
+        "predicted_class": "space",
+        "raw_top_class": "space",
+        "is_correct": false,
+        "confidence": 82.63,
+        "top5_predictions": [
+          {
+            "class": "space",
+            "confidence": 82.63
+          },
+          {
+            "class": "del",
+            "confidence": 12.97
+          },
+          {
+            "class": "I",
+            "confidence": 3.23
+          },
+          {
+            "class": "D",
+            "confidence": 0.56
+          },
+          {
+            "class": "Y",
+            "confidence": 0.2
+          }
+        ],
+        "is_uncertain": false,
+        "uncertainty_reason": null,
+        "prototype_ranking_top5": [
+          {
+            "class": "I",
+            "similarity": 0.8298
+          },
+          {
+            "class": "space",
+            "similarity": 0.8282
+          },
+          {
+            "class": "D",
+            "similarity": 0.8107
+          },
+          {
+            "class": "del",
+            "similarity": 0.7776
+          },
+          {
+            "class": "N",
+            "similarity": 0.7614
+          }
+        ],
+        "prototype_match": "I",
+        "prototype_similarity": 0.8298,
+        "proto_rank_of_true_class": 0,
+        "proto_sim_of_true_class": 0.8298,
+        "hand_presence_status": "VALID_HAND",
+        "hand_score": 0.524,
+        "fg_ratio": 0.42,
+        "cnt_ratio": 0.183,
+        "edge_density": 0.062,
+        "quality_sharpness": 476.2,
+        "quality_brightness": 119.8,
+        "quality_contrast": 78.3,
+        "scale_factor": 0.68,
+        "hand_px": 326,
+        "dx": 8,
+        "dy": -8,
+        "rotation": -5.0,
+        "brightness_factor": 0.92,
+        "crop_size": 345,
+        "crop_x": 147,
+        "crop_y": 67,
+        "paste_x": 165,
+        "paste_y": 69
+      },
+      {
+        "frame_id": "I_10",
+        "true_class": "I",
+        "file_source": "I2808.jpg",
+        "predicted_class": "space",
+        "raw_top_class": "space",
+        "is_correct": false,
+        "confidence": 61.56,
+        "top5_predictions": [
+          {
+            "class": "space",
+            "confidence": 61.56
+          },
+          {
+            "class": "Y",
+            "confidence": 17.12
+          },
+          {
+            "class": "I",
+            "confidence": 11.2
+          },
+          {
+            "class": "del",
+            "confidence": 4.54
+          },
+          {
+            "class": "P",
+            "confidence": 3.08
+          }
+        ],
+        "is_uncertain": false,
+        "uncertainty_reason": null,
+        "prototype_ranking_top5": [
+          {
+            "class": "I",
+            "similarity": 0.8203
+          },
+          {
+            "class": "space",
+            "similarity": 0.8187
+          },
+          {
+            "class": "D",
+            "similarity": 0.7818
+          },
+          {
+            "class": "del",
+            "similarity": 0.7704
+          },
+          {
+            "class": "J",
+            "similarity": 0.754
+          }
+        ],
+        "prototype_match": "I",
+        "prototype_similarity": 0.8203,
+        "proto_rank_of_true_class": 0,
+        "proto_sim_of_true_class": 0.8203,
+        "hand_presence_status": "VALID_HAND",
+        "hand_score": 1.0,
+        "fg_ratio": 0.424,
+        "cnt_ratio": 0.374,
+        "edge_density": 0.062,
+        "quality_sharpness": 476.2,
+        "quality_brightness": 120.4,
+        "quality_contrast": 78.2,
+        "scale_factor": 0.68,
+        "hand_px": 326,
+        "dx": 0,
+        "dy": -8,
+        "rotation": -5.0,
+        "brightness_factor": 0.92,
+        "crop_size": 345,
+        "crop_x": 147,
+        "crop_y": 67,
+        "paste_x": 157,
+        "paste_y": 69
+      },
+      {
+        "frame_id": "I_15",
+        "true_class": "I",
+        "file_source": "I2812.jpg",
+        "predicted_class": "space",
+        "raw_top_class": "space",
+        "is_correct": false,
+        "confidence": 62.6,
+        "top5_predictions": [
+          {
+            "class": "space",
+            "confidence": 62.6
+          },
+          {
+            "class": "Y",
+            "confidence": 21.66
+          },
+          {
+            "class": "del",
+            "confidence": 8.71
+          },
+          {
+            "class": "I",
+            "confidence": 5.23
+          },
+          {
+            "class": "N",
+            "confidence": 0.93
+          }
+        ],
+        "is_uncertain": false,
+        "uncertainty_reason": null,
+        "prototype_ranking_top5": [
+          {
+            "class": "I",
+            "similarity": 0.8173
+          },
+          {
+            "class": "space",
+            "similarity": 0.8121
+          },
+          {
+            "class": "del",
+            "similarity": 0.7898
+          },
+          {
+            "class": "J",
+            "similarity": 0.7787
+          },
+          {
+            "class": "N",
+            "similarity": 0.7641
+          }
+        ],
+        "prototype_match": "I",
+        "prototype_similarity": 0.8173,
+        "proto_rank_of_true_class": 0,
+        "proto_sim_of_true_class": 0.8173,
+        "hand_presence_status": "VALID_HAND",
+        "hand_score": 0.93,
+        "fg_ratio": 0.416,
+        "cnt_ratio": 0.325,
+        "edge_density": 0.063,
+        "quality_sharpness": 576.9,
+        "quality_brightness": 121.3,
+        "quality_contrast": 78.2,
+        "scale_factor": 0.68,
+        "hand_px": 326,
+        "dx": -8,
+        "dy": -8,
+        "rotation": -5.0,
+        "brightness_factor": 0.92,
+        "crop_size": 345,
+        "crop_x": 147,
+        "crop_y": 67,
+        "paste_x": 149,
+        "paste_y": 69
+      },
+      {
+        "frame_id": "I_21",
+        "true_class": "I",
+        "file_source": "I2818.jpg",
+        "predicted_class": "Uncertain \u2014 adjust your hand position",
+        "raw_top_class": "I",
+        "is_correct": false,
+        "confidence": 43.67,
+        "top5_predictions": [
+          {
+            "class": "I",
+            "confidence": 43.67
+          },
+          {
+            "class": "Y",
+            "confidence": 31.02
+          },
+          {
+            "class": "space",
+            "confidence": 15.28
+          },
+          {
+            "class": "N",
+            "confidence": 9.82
+          },
+          {
+            "class": "D",
+            "confidence": 0.07
+          }
+        ],
+        "is_uncertain": true,
+        "uncertainty_reason": "Low recognition confidence (43.67%) \u2014 align hand with guide",
+        "prototype_ranking_top5": [
+          {
+            "class": "I",
+            "similarity": 0.8797
+          },
+          {
+            "class": "space",
+            "similarity": 0.8362
+          },
+          {
+            "class": "N",
+            "similarity": 0.8036
+          },
+          {
+            "class": "Y",
+            "similarity": 0.8028
+          },
+          {
+            "class": "J",
+            "similarity": 0.7946
+          }
+        ],
+        "prototype_match": "I",
+        "prototype_similarity": 0.8797,
+        "proto_rank_of_true_class": 0,
+        "proto_sim_of_true_class": 0.8797,
+        "hand_presence_status": "VALID_HAND",
+        "hand_score": 1.0,
+        "fg_ratio": 0.543,
+        "cnt_ratio": 0.582,
+        "edge_density": 0.06,
+        "quality_sharpness": 385.0,
+        "quality_brightness": 130.0,
+        "quality_contrast": 81.9,
+        "scale_factor": 0.7,
+        "hand_px": 336,
+        "dx": -12,
+        "dy": -4,
+        "rotation": -2.5,
+        "brightness_factor": 0.96,
+        "crop_size": 345,
+        "crop_x": 147,
+        "crop_y": 67,
+        "paste_x": 140,
+        "paste_y": 68
+      },
+      {
+        "frame_id": "I_25",
+        "true_class": "I",
+        "file_source": "I2821.jpg",
+        "predicted_class": "space",
+        "raw_top_class": "space",
+        "is_correct": false,
+        "confidence": 63.88,
+        "top5_predictions": [
+          {
+            "class": "space",
+            "confidence": 63.88
+          },
+          {
+            "class": "del",
+            "confidence": 32.37
+          },
+          {
+            "class": "I",
+            "confidence": 1.52
+          },
+          {
+            "class": "G",
+            "confidence": 0.61
+          },
+          {
+            "class": "N",
+            "confidence": 0.59
+          }
+        ],
+        "is_uncertain": false,
+        "uncertainty_reason": null,
+        "prototype_ranking_top5": [
+          {
+            "class": "space",
+            "similarity": 0.8123
+          },
+          {
+            "class": "del",
+            "similarity": 0.7998
+          },
+          {
+            "class": "I",
+            "similarity": 0.7981
+          },
+          {
+            "class": "D",
+            "similarity": 0.7804
+          },
+          {
+            "class": "N",
+            "similarity": 0.7703
+          }
+        ],
+        "prototype_match": "space",
+        "prototype_similarity": 0.8123,
+        "proto_rank_of_true_class": 2,
+        "proto_sim_of_true_class": 0.7981,
+        "hand_presence_status": "VALID_HAND",
+        "hand_score": 0.946,
+        "fg_ratio": 0.421,
+        "cnt_ratio": 0.331,
+        "edge_density": 0.063,
+        "quality_sharpness": 466.1,
+        "quality_brightness": 122.6,
+        "quality_contrast": 78.4,
+        "scale_factor": 0.68,
+        "hand_px": 326,
+        "dx": 4,
+        "dy": -8,
+        "rotation": -5.0,
+        "brightness_factor": 0.92,
+        "crop_size": 345,
+        "crop_x": 147,
+        "crop_y": 67,
+        "paste_x": 161,
+        "paste_y": 69
+      },
+      {
+        "frame_id": "I_26",
+        "true_class": "I",
+        "file_source": "I2822.jpg",
+        "predicted_class": "Uncertain \u2014 adjust your hand position",
+        "raw_top_class": "I",
+        "is_correct": false,
+        "confidence": 44.37,
+        "top5_predictions": [
+          {
+            "class": "I",
+            "confidence": 44.37
+          },
+          {
+            "class": "space",
+            "confidence": 21.77
+          },
+          {
+            "class": "N",
+            "confidence": 15.78
+          },
+          {
+            "class": "del",
+            "confidence": 10.05
+          },
+          {
+            "class": "Y",
+            "confidence": 7.66
+          }
+        ],
+        "is_uncertain": true,
+        "uncertainty_reason": "Low recognition confidence (44.37%) \u2014 align hand with guide",
+        "prototype_ranking_top5": [
+          {
+            "class": "I",
+            "similarity": 0.8624
+          },
+          {
+            "class": "space",
+            "similarity": 0.8338
+          },
+          {
+            "class": "del",
+            "similarity": 0.8284
+          },
+          {
+            "class": "N",
+            "similarity": 0.8149
+          },
+          {
+            "class": "J",
+            "similarity": 0.7929
+          }
+        ],
+        "prototype_match": "I",
+        "prototype_similarity": 0.8624,
+        "proto_rank_of_true_class": 0,
+        "proto_sim_of_true_class": 0.8624,
+        "hand_presence_status": "VALID_HAND",
+        "hand_score": 1.0,
+        "fg_ratio": 0.522,
+        "cnt_ratio": 0.489,
+        "edge_density": 0.06,
+        "quality_sharpness": 357.4,
+        "quality_brightness": 130.6,
+        "quality_contrast": 82.5,
+        "scale_factor": 0.7,
+        "hand_px": 336,
+        "dx": 8,
+        "dy": -4,
+        "rotation": -2.5,
+        "brightness_factor": 0.96,
+        "crop_size": 345,
+        "crop_x": 147,
+        "crop_y": 67,
+        "paste_x": 160,
+        "paste_y": 68
+      }
+    ]
+  },
+  "weak_class_prototype_analysis": {
+    "K": {
+      "failures": 19,
+      "proto_agrees_with_wrong_pred": 19,
+      "proto_is_true_class": 0,
+      "mean_proto_rank_of_true": 1.21,
+      "mean_proto_sim_of_true": 0.8452
+    },
+    "A": {
+      "failures": 13,
+      "proto_agrees_with_wrong_pred": 6,
+      "proto_is_true_class": 1,
+      "mean_proto_rank_of_true": 2.08,
+      "mean_proto_sim_of_true": 0.8439
+    },
+    "F": {
+      "failures": 11,
+      "proto_agrees_with_wrong_pred": 10,
+      "proto_is_true_class": 0,
+      "mean_proto_rank_of_true": 1.0,
+      "mean_proto_sim_of_true": 0.8024
+    },
+    "M": {
+      "failures": 12,
+      "proto_agrees_with_wrong_pred": 4,
+      "proto_is_true_class": 0,
+      "mean_proto_rank_of_true": 2.58,
+      "mean_proto_sim_of_true": 0.8169
+    },
+    "B": {
+      "failures": 9,
+      "proto_agrees_with_wrong_pred": 1,
+      "proto_is_true_class": 1,
+      "mean_proto_rank_of_true": 10.22,
+      "mean_proto_sim_of_true": 0.7655
+    },
+    "R": {
+      "failures": 7,
+      "proto_agrees_with_wrong_pred": 2,
+      "proto_is_true_class": 2,
+      "mean_proto_rank_of_true": 1.43,
+      "mean_proto_sim_of_true": 0.8313
+    },
+    "E": {
+      "failures": 6,
+      "proto_agrees_with_wrong_pred": 2,
+      "proto_is_true_class": 1,
+      "mean_proto_rank_of_true": 2.83,
+      "mean_proto_sim_of_true": 0.8103
+    },
+    "I": {
+      "failures": 6,
+      "proto_agrees_with_wrong_pred": 1,
+      "proto_is_true_class": 5,
+      "mean_proto_rank_of_true": 0.33,
+      "mean_proto_sim_of_true": 0.8346
+    }
+  }
+}

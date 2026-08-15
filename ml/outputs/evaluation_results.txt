@@ -1,0 +1,156 @@
+================================================================================
+AI-BASED SIGN LANGUAGE RECOGNITION - FINAL EVALUATION REPORT
+================================================================================
+
+Model Path               : D:\ITR\ITR ASSIGNMENTS COPY BRANCH\DeepLearning Project\ml\models\sign_language_model.keras
+Total Dataset Images     : 87000
+Training Samples (70%)   : 60900
+Validation Samples (15%) : 13050
+Test Samples (15%)       : 13050
+Actual Test Accuracy     : 99.00%
+
+CLASSIFICATION REPORT:
+              precision    recall  f1-score   support
+
+           A     0.9933    0.9822    0.9877       450
+           B     1.0000    0.9178    0.9571       450
+           C     1.0000    0.9978    0.9989       450
+           D     1.0000    0.9956    0.9978       450
+           E     1.0000    0.9400    0.9691       450
+           F     1.0000    0.9800    0.9899       450
+           G     0.9934    1.0000    0.9967       450
+           H     0.9933    0.9889    0.9911       450
+           I     1.0000    0.9733    0.9865       450
+           J     0.9825    0.9978    0.9901       450
+           K     0.9978    1.0000    0.9989       450
+           L     1.0000    0.9867    0.9933       450
+           M     0.9675    0.9933    0.9803       450
+           N     0.9934    1.0000    0.9967       450
+           O     0.9934    1.0000    0.9967       450
+           P     0.9912    1.0000    0.9956       450
+           Q     1.0000    0.9933    0.9967       450
+           R     0.9911    0.9933    0.9922       450
+           S     0.9823    0.9844    0.9834       450
+           T     0.9934    0.9978    0.9956       450
+           U     0.9177    0.9911    0.9530       450
+           V     1.0000    0.9956    0.9978       450
+           W     0.9847    1.0000    0.9923       450
+           X     0.9574    1.0000    0.9783       450
+           Y     0.9956    1.0000    0.9978       450
+           Z     0.9934    1.0000    0.9967       450
+         del     1.0000    1.0000    1.0000       450
+     nothing     1.0000    1.0000    1.0000       450
+       space     0.9978    1.0000    0.9989       450
+
+    accuracy                         0.9900     13050
+   macro avg     0.9903    0.9900    0.9900     13050
+weighted avg     0.9903    0.9900    0.9900     13050
+
+
+TOP CONFUSED PAIRS:
+   1. True 'B' -> Predicted 'U': 36 occurrences
+   2. True 'E' -> Predicted 'M': 10 occurrences
+   3. True 'I' -> Predicted 'J': 8 occurrences
+   4. True 'E' -> Predicted 'S': 7 occurrences
+   5. True 'F' -> Predicted 'W': 7 occurrences
+   6. True 'S' -> Predicted 'X': 7 occurrences
+   7. True 'E' -> Predicted 'X': 6 occurrences
+   8. True 'A' -> Predicted 'M': 5 occurrences
+   9. True 'E' -> Predicted 'A': 3 occurrences
+  10. True 'H' -> Predicted 'P': 3 occurrences
+  11. True 'L' -> Predicted 'T': 3 occurrences
+  12. True 'L' -> Predicted 'Z': 3 occurrences
+  13. True 'M' -> Predicted 'N': 3 occurrences
+  14. True 'Q' -> Predicted 'H': 3 occurrences
+  15. True 'R' -> Predicted 'U': 3 occurrences
+
+================================================================================
+29-CLASS INDEPENDENT INFERENCE TABLE:
+================================================================================
+A          | A1586.jpg        | A          | 100.00%      | [MATCH]  | [A: 100.0%, Z: 0.0%, X: 0.0%]
+A          | A859.jpg         | A          |  99.95%      | [MATCH]  | [A: 99.9%, Z: 0.0%, X: 0.0%]
+A          | A1913.jpg        | A          | 100.00%      | [MATCH]  | [A: 100.0%, M: 0.0%, G: 0.0%]
+B          | B2877.jpg        | U          |  76.52%      | [DIFF]   | [U: 76.5%, B: 21.3%, S: 1.2%]
+B          | B2585.jpg        | B          |  95.03%      | [MATCH]  | [B: 95.0%, V: 2.6%, K: 0.9%]
+B          | B345.jpg         | B          |  99.98%      | [MATCH]  | [B: 100.0%, N: 0.0%, A: 0.0%]
+C          | C1834.jpg        | C          | 100.00%      | [MATCH]  | [C: 100.0%, Z: 0.0%, X: 0.0%]
+C          | C2945.jpg        | C          | 100.00%      | [MATCH]  | [C: 100.0%, Z: 0.0%, X: 0.0%]
+C          | C1880.jpg        | C          |  99.96%      | [MATCH]  | [C: 100.0%, Z: 0.0%, X: 0.0%]
+D          | D1063.jpg        | D          | 100.00%      | [MATCH]  | [D: 100.0%, O: 0.0%, F: 0.0%]
+D          | D7.jpg           | D          |  94.75%      | [MATCH]  | [D: 94.7%, Y: 4.2%, F: 0.4%]
+D          | D2831.jpg        | D          |  98.91%      | [MATCH]  | [D: 98.9%, space: 1.1%, O: 0.0%]
+E          | E1672.jpg        | E          |  99.33%      | [MATCH]  | [E: 99.3%, I: 0.2%, G: 0.2%]
+E          | E1816.jpg        | E          |  99.99%      | [MATCH]  | [E: 100.0%, I: 0.0%, S: 0.0%]
+E          | E1644.jpg        | E          |  97.78%      | [MATCH]  | [E: 97.8%, A: 1.1%, S: 0.5%]
+F          | F804.jpg         | F          | 100.00%      | [MATCH]  | [F: 100.0%, B: 0.0%, A: 0.0%]
+F          | F409.jpg         | F          | 100.00%      | [MATCH]  | [F: 100.0%, Y: 0.0%, T: 0.0%]
+F          | F310.jpg         | F          |  99.99%      | [MATCH]  | [F: 100.0%, Y: 0.0%, T: 0.0%]
+G          | G580.jpg         | G          | 100.00%      | [MATCH]  | [G: 100.0%, H: 0.0%, space: 0.0%]
+G          | G1090.jpg        | G          |  99.95%      | [MATCH]  | [G: 99.9%, H: 0.1%, P: 0.0%]
+G          | G1021.jpg        | G          | 100.00%      | [MATCH]  | [G: 100.0%, H: 0.0%, P: 0.0%]
+H          | H2709.jpg        | H          |  99.99%      | [MATCH]  | [H: 100.0%, G: 0.0%, del: 0.0%]
+H          | H70.jpg          | H          | 100.00%      | [MATCH]  | [H: 100.0%, del: 0.0%, G: 0.0%]
+H          | H2365.jpg        | H          |  99.86%      | [MATCH]  | [H: 99.9%, G: 0.1%, P: 0.0%]
+I          | I2028.jpg        | I          |  98.21%      | [MATCH]  | [I: 98.2%, K: 0.6%, space: 0.5%]
+I          | I2703.jpg        | I          |  83.08%      | [MATCH]  | [I: 83.1%, space: 7.9%, Y: 7.3%]
+I          | I594.jpg         | I          |  99.89%      | [MATCH]  | [I: 99.9%, space: 0.1%, J: 0.0%]
+J          | J2238.jpg        | J          |  99.95%      | [MATCH]  | [J: 99.9%, G: 0.0%, Y: 0.0%]
+J          | J702.jpg         | J          |  99.67%      | [MATCH]  | [J: 99.7%, Y: 0.3%, space: 0.0%]
+J          | J2668.jpg        | J          | 100.00%      | [MATCH]  | [J: 100.0%, space: 0.0%, Y: 0.0%]
+K          | K13.jpg          | K          |  99.91%      | [MATCH]  | [K: 99.9%, R: 0.1%, space: 0.0%]
+K          | K417.jpg         | K          |  99.99%      | [MATCH]  | [K: 100.0%, R: 0.0%, V: 0.0%]
+K          | K1222.jpg        | K          | 100.00%      | [MATCH]  | [K: 100.0%, V: 0.0%, G: 0.0%]
+L          | L760.jpg         | L          |  99.98%      | [MATCH]  | [L: 100.0%, Z: 0.0%, C: 0.0%]
+L          | L416.jpg         | L          | 100.00%      | [MATCH]  | [L: 100.0%, space: 0.0%, C: 0.0%]
+L          | L2459.jpg        | L          |  97.97%      | [MATCH]  | [L: 98.0%, T: 1.7%, X: 0.3%]
+M          | M2681.jpg        | M          |  99.83%      | [MATCH]  | [M: 99.8%, N: 0.1%, del: 0.0%]
+M          | M1182.jpg        | M          |  99.99%      | [MATCH]  | [M: 100.0%, N: 0.0%, A: 0.0%]
+M          | M21.jpg          | M          |  99.99%      | [MATCH]  | [M: 100.0%, N: 0.0%, A: 0.0%]
+N          | N59.jpg          | N          |  99.86%      | [MATCH]  | [N: 99.9%, M: 0.1%, A: 0.0%]
+N          | N1183.jpg        | N          |  86.12%      | [MATCH]  | [N: 86.1%, Z: 12.6%, nothing: 0.7%]
+N          | N429.jpg         | N          |  99.93%      | [MATCH]  | [N: 99.9%, M: 0.1%, A: 0.0%]
+O          | O1087.jpg        | O          | 100.00%      | [MATCH]  | [O: 100.0%, space: 0.0%, Q: 0.0%]
+O          | O1918.jpg        | O          |  99.96%      | [MATCH]  | [O: 100.0%, Z: 0.0%, D: 0.0%]
+O          | O542.jpg         | O          | 100.00%      | [MATCH]  | [O: 100.0%, Y: 0.0%, space: 0.0%]
+P          | P1921.jpg        | P          |  99.85%      | [MATCH]  | [P: 99.8%, Q: 0.2%, F: 0.0%]
+P          | P978.jpg         | P          | 100.00%      | [MATCH]  | [P: 100.0%, Q: 0.0%, space: 0.0%]
+P          | P2868.jpg        | P          | 100.00%      | [MATCH]  | [P: 100.0%, del: 0.0%, Q: 0.0%]
+Q          | Q827.jpg         | Q          | 100.00%      | [MATCH]  | [Q: 100.0%, del: 0.0%, P: 0.0%]
+Q          | Q21.jpg          | Q          |  99.94%      | [MATCH]  | [Q: 99.9%, del: 0.1%, Z: 0.0%]
+Q          | Q2722.jpg        | Q          |  99.77%      | [MATCH]  | [Q: 99.8%, del: 0.2%, P: 0.0%]
+R          | R1833.jpg        | R          |  99.89%      | [MATCH]  | [R: 99.9%, K: 0.1%, space: 0.0%]
+R          | R892.jpg         | R          | 100.00%      | [MATCH]  | [R: 100.0%, K: 0.0%, L: 0.0%]
+R          | R1408.jpg        | R          | 100.00%      | [MATCH]  | [R: 100.0%, X: 0.0%, K: 0.0%]
+S          | S1212.jpg        | S          |  99.04%      | [MATCH]  | [S: 99.0%, T: 0.4%, O: 0.2%]
+S          | S2516.jpg        | S          |  99.92%      | [MATCH]  | [S: 99.9%, X: 0.1%, C: 0.0%]
+S          | S48.jpg          | S          |  99.94%      | [MATCH]  | [S: 99.9%, M: 0.1%, A: 0.0%]
+T          | T827.jpg         | T          | 100.00%      | [MATCH]  | [T: 100.0%, Z: 0.0%, L: 0.0%]
+T          | T2404.jpg        | T          |  99.93%      | [MATCH]  | [T: 99.9%, X: 0.0%, Z: 0.0%]
+T          | T2829.jpg        | T          |  99.99%      | [MATCH]  | [T: 100.0%, S: 0.0%, Y: 0.0%]
+U          | U984.jpg         | U          |  99.98%      | [MATCH]  | [U: 100.0%, R: 0.0%, B: 0.0%]
+U          | U2230.jpg        | U          | 100.00%      | [MATCH]  | [U: 100.0%, X: 0.0%, R: 0.0%]
+U          | U2034.jpg        | U          | 100.00%      | [MATCH]  | [U: 100.0%, R: 0.0%, X: 0.0%]
+V          | V134.jpg         | V          |  97.30%      | [MATCH]  | [V: 97.3%, R: 1.9%, K: 0.6%]
+V          | V2323.jpg        | V          |  97.84%      | [MATCH]  | [V: 97.8%, W: 1.0%, K: 0.9%]
+V          | V1272.jpg        | V          |  95.12%      | [MATCH]  | [V: 95.1%, K: 4.8%, space: 0.1%]
+W          | W2759.jpg        | W          | 100.00%      | [MATCH]  | [W: 100.0%, F: 0.0%, V: 0.0%]
+W          | W2944.jpg        | W          | 100.00%      | [MATCH]  | [W: 100.0%, Y: 0.0%, V: 0.0%]
+W          | W1550.jpg        | W          | 100.00%      | [MATCH]  | [W: 100.0%, V: 0.0%, K: 0.0%]
+X          | X897.jpg         | X          |  99.99%      | [MATCH]  | [X: 100.0%, T: 0.0%, Z: 0.0%]
+X          | X2350.jpg        | X          | 100.00%      | [MATCH]  | [X: 100.0%, G: 0.0%, U: 0.0%]
+X          | X2530.jpg        | X          |  99.96%      | [MATCH]  | [X: 100.0%, R: 0.0%, U: 0.0%]
+Y          | Y147.jpg         | Y          | 100.00%      | [MATCH]  | [Y: 100.0%, space: 0.0%, J: 0.0%]
+Y          | Y205.jpg         | Y          | 100.00%      | [MATCH]  | [Y: 100.0%, J: 0.0%, space: 0.0%]
+Y          | Y1293.jpg        | Y          | 100.00%      | [MATCH]  | [Y: 100.0%, T: 0.0%, L: 0.0%]
+Z          | Z1772.jpg        | Z          | 100.00%      | [MATCH]  | [Z: 100.0%, L: 0.0%, T: 0.0%]
+Z          | Z375.jpg         | Z          | 100.00%      | [MATCH]  | [Z: 100.0%, T: 0.0%, Y: 0.0%]
+Z          | Z517.jpg         | Z          | 100.00%      | [MATCH]  | [Z: 100.0%, A: 0.0%, L: 0.0%]
+del        | del1713.jpg      | del        |  93.07%      | [MATCH]  | [del: 93.1%, Q: 6.9%, H: 0.0%]
+del        | del443.jpg       | del        | 100.00%      | [MATCH]  | [del: 100.0%, N: 0.0%, E: 0.0%]
+del        | del1448.jpg      | del        |  99.42%      | [MATCH]  | [del: 99.4%, Q: 0.5%, M: 0.0%]
+nothing    | nothing631.jpg   | nothing    | 100.00%      | [MATCH]  | [nothing: 100.0%, A: 0.0%, K: 0.0%]
+nothing    | nothing986.jpg   | nothing    | 100.00%      | [MATCH]  | [nothing: 100.0%, G: 0.0%, A: 0.0%]
+nothing    | nothing1754.jpg  | nothing    | 100.00%      | [MATCH]  | [nothing: 100.0%, K: 0.0%, B: 0.0%]
+space      | space2577.jpg    | space      | 100.00%      | [MATCH]  | [space: 100.0%, V: 0.0%, P: 0.0%]
+space      | space808.jpg     | space      | 100.00%      | [MATCH]  | [space: 100.0%, P: 0.0%, J: 0.0%]
+space      | space2064.jpg    | space      | 100.00%      | [MATCH]  | [space: 100.0%, J: 0.0%, Y: 0.0%]

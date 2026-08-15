@@ -1,0 +1,336 @@
+====================================================================================================
+TARGETED FAILURE ANALYSIS FOR WEAK WEBCAM ASL CLASSES
+Focus: K, A, F, M, B, R, E, I
+====================================================================================================
+
+Total frames: 870
+Correct: 782 (89.89%)
+Incorrect: 69
+Uncertain: 49
+
+PER-CLASS ACCURACY:
+------------------------------------------------------------
+  A        17/30 ( 56.7%) ** WEAK
+  B        21/30 ( 70.0%) ** WEAK
+  C        30/30 (100.0%)
+  D        29/30 ( 96.7%)
+  E        24/30 ( 80.0%) ** WEAK
+  F        19/30 ( 63.3%) ** WEAK
+  G        30/30 (100.0%)
+  H        30/30 (100.0%)
+  I        24/30 ( 80.0%) ** WEAK
+  J        28/30 ( 93.3%)
+  K        11/30 ( 36.7%) ** WEAK
+  L        29/30 ( 96.7%)
+  M        18/30 ( 60.0%) ** WEAK
+  N        30/30 (100.0%)
+  O        30/30 (100.0%)
+  P        30/30 (100.0%)
+  Q        30/30 (100.0%)
+  R        23/30 ( 76.7%) ** WEAK
+  S        30/30 (100.0%)
+  T        30/30 (100.0%)
+  U        29/30 ( 96.7%)
+  V        30/30 (100.0%)
+  W        30/30 (100.0%)
+  X        30/30 (100.0%)
+  Y        30/30 (100.0%)
+  Z        30/30 (100.0%)
+  del      30/30 (100.0%)
+  nothing  30/30 (100.0%)
+  space    30/30 (100.0%)
+
+
+CONFUSION GROUPS (WEAK CLASSES):
+------------------------------------------------------------
+  K -> V                    : 19
+  F -> W                    : 10
+  A -> X                    :  7
+  B -> uncertain            :  6
+  M -> N                    :  4
+  I -> space                :  4
+  A -> uncertain            :  3
+  A -> M                    :  3
+  M -> uncertain            :  3
+  M -> Q                    :  3
+  R -> space                :  3
+  R -> del                  :  3
+  M -> G                    :  2
+  E -> uncertain            :  2
+  E -> G                    :  2
+  E -> del                  :  2
+  I -> uncertain            :  2
+  F -> uncertain            :  1
+  B -> del                  :  1
+  B -> S                    :  1
+  B -> U                    :  1
+  R -> X                    :  1
+
+
+DETAILED FAILURE RECORDS:
+----------------------------------------------------------------------------------------------------
+
+--- K FAILURES ---
+  K_00: true=K, pred=V, conf=75.3%, proto_match=V, proto_sim=0.8692, proto_rank_true=1, proto_sim_true=0.8546
+           top5: [('V', 75.34), ('K', 20.66), ('G', 3.65), ('U', 0.17), ('R', 0.07)]
+           proto_top5: [('V', 0.8692), ('K', 0.8546), ('U', 0.784), ('R', 0.7591), ('del', 0.7469)]
+  K_02: true=K, pred=V, conf=76.8%, proto_match=V, proto_sim=0.9006, proto_rank_true=1, proto_sim_true=0.8796
+           top5: [('V', 76.79), ('K', 23.14), ('G', 0.04), ('W', 0.02), ('R', 0.0)]
+           proto_top5: [('V', 0.9006), ('K', 0.8796), ('W', 0.8029), ('U', 0.7684), ('R', 0.7614)]
+  K_03: true=K, pred=V, conf=71.9%, proto_match=V, proto_sim=0.8889, proto_rank_true=1, proto_sim_true=0.8692
+           top5: [('V', 71.93), ('K', 28.02), ('W', 0.04), ('G', 0.02), ('R', 0.0)]
+           proto_top5: [('V', 0.8889), ('K', 0.8692), ('W', 0.7893), ('U', 0.745), ('R', 0.7282)]
+  K_05: true=K, pred=V, conf=99.6%, proto_match=V, proto_sim=0.8475, proto_rank_true=1, proto_sim_true=0.8055
+           top5: [('V', 99.61), ('K', 0.2), ('G', 0.19), ('W', 0.0), ('Q', 0.0)]
+           proto_top5: [('V', 0.8475), ('K', 0.8055), ('W', 0.76), ('space', 0.6915), ('U', 0.6792)]
+  K_06: true=K, pred=V, conf=99.1%, proto_match=V, proto_sim=0.8893, proto_rank_true=1, proto_sim_true=0.8513
+           top5: [('V', 99.1), ('K', 0.88), ('W', 0.02), ('G', 0.01), ('R', 0.0)]
+           proto_top5: [('V', 0.8893), ('K', 0.8513), ('W', 0.8094), ('U', 0.7056), ('space', 0.6829)]
+  K_07: true=K, pred=V, conf=81.5%, proto_match=V, proto_sim=0.8945, proto_rank_true=1, proto_sim_true=0.8691
+           top5: [('V', 81.46), ('K', 18.09), ('G', 0.35), ('W', 0.08), ('R', 0.01)]
+           proto_top5: [('V', 0.8945), ('K', 0.8691), ('W', 0.7987), ('U', 0.7707), ('R', 0.7481)]
+  K_10: true=K, pred=V, conf=99.8%, proto_match=V, proto_sim=0.8614, proto_rank_true=1, proto_sim_true=0.7948
+           top5: [('V', 99.75), ('K', 0.19), ('G', 0.06), ('W', 0.0), ('Q', 0.0)]
+           proto_top5: [('V', 0.8614), ('K', 0.7948), ('W', 0.7644), ('U', 0.7281), ('space', 0.7106)]
+  K_11: true=K, pred=V, conf=86.7%, proto_match=V, proto_sim=0.8848, proto_rank_true=1, proto_sim_true=0.8722
+           top5: [('V', 86.69), ('K', 11.98), ('G', 1.32), ('W', 0.01), ('Q', 0.0)]
+           proto_top5: [('V', 0.8848), ('K', 0.8722), ('W', 0.79), ('U', 0.7206), ('R', 0.7037)]
+  K_13: true=K, pred=V, conf=73.3%, proto_match=V, proto_sim=0.8981, proto_rank_true=1, proto_sim_true=0.8790
+           top5: [('V', 73.29), ('K', 26.56), ('W', 0.14), ('G', 0.01), ('R', 0.0)]
+           proto_top5: [('V', 0.8981), ('K', 0.879), ('W', 0.8136), ('U', 0.7396), ('L', 0.7222)]
+  K_15: true=K, pred=V, conf=99.9%, proto_match=V, proto_sim=0.8671, proto_rank_true=2, proto_sim_true=0.8030
+           top5: [('V', 99.91), ('K', 0.06), ('G', 0.01), ('W', 0.01), ('Q', 0.0)]
+           proto_top5: [('V', 0.8671), ('W', 0.8048), ('K', 0.803), ('space', 0.706), ('U', 0.6928)]
+  K_16: true=K, pred=V, conf=93.2%, proto_match=V, proto_sim=0.8637, proto_rank_true=1, proto_sim_true=0.8500
+           top5: [('V', 93.16), ('K', 5.96), ('G', 0.47), ('W', 0.42), ('E', 0.0)]
+           proto_top5: [('V', 0.8637), ('K', 0.85), ('W', 0.8344), ('T', 0.6865), ('U', 0.6698)]
+  K_17: true=K, pred=V, conf=89.2%, proto_match=V, proto_sim=0.8893, proto_rank_true=1, proto_sim_true=0.8700
+           top5: [('V', 89.2), ('K', 10.76), ('W', 0.03), ('G', 0.0), ('R', 0.0)]
+           proto_top5: [('V', 0.8893), ('K', 0.87), ('W', 0.8107), ('U', 0.7082), ('R', 0.698)]
+  K_20: true=K, pred=V, conf=99.1%, proto_match=V, proto_sim=0.8626, proto_rank_true=1, proto_sim_true=0.8193
+           top5: [('V', 99.06), ('K', 0.85), ('G', 0.07), ('W', 0.01), ('Q', 0.0)]
+           proto_top5: [('V', 0.8626), ('K', 0.8193), ('W', 0.7766), ('space', 0.7054), ('U', 0.6888)]
+  K_21: true=K, pred=V, conf=90.1%, proto_match=V, proto_sim=0.8508, proto_rank_true=2, proto_sim_true=0.8323
+           top5: [('V', 90.11), ('W', 7.49), ('K', 2.39), ('G', 0.02), ('F', 0.0)]
+           proto_top5: [('V', 0.8508), ('W', 0.8507), ('K', 0.8323), ('Y', 0.7086), ('T', 0.6748)]
+  K_25: true=K, pred=V, conf=99.7%, proto_match=V, proto_sim=0.8605, proto_rank_true=1, proto_sim_true=0.8041
+           top5: [('V', 99.74), ('K', 0.17), ('G', 0.06), ('W', 0.03), ('Q', 0.0)]
+           proto_top5: [('V', 0.8605), ('K', 0.8041), ('W', 0.7801), ('space', 0.7232), ('F', 0.6971)]
+  K_26: true=K, pred=V, conf=76.3%, proto_match=V, proto_sim=0.8706, proto_rank_true=1, proto_sim_true=0.8567
+           top5: [('V', 76.34), ('K', 23.17), ('G', 0.39), ('W', 0.09), ('E', 0.01)]
+           proto_top5: [('V', 0.8706), ('K', 0.8567), ('W', 0.8132), ('space', 0.7015), ('U', 0.6879)]
+  K_27: true=K, pred=V, conf=89.3%, proto_match=V, proto_sim=0.8755, proto_rank_true=2, proto_sim_true=0.8490
+           top5: [('V', 89.26), ('K', 9.34), ('W', 1.4), ('E', 0.0), ('G', 0.0)]
+           proto_top5: [('V', 0.8755), ('W', 0.8494), ('K', 0.849), ('T', 0.6821), ('L', 0.6805)]
+  K_28: true=K, pred=V, conf=87.3%, proto_match=V, proto_sim=0.8542, proto_rank_true=2, proto_sim_true=0.8306
+           top5: [('V', 87.28), ('W', 9.45), ('K', 3.26), ('G', 0.01), ('E', 0.0)]
+           proto_top5: [('V', 0.8542), ('W', 0.8335), ('K', 0.8306), ('U', 0.6647), ('T', 0.6643)]
+  K_29: true=K, pred=V, conf=50.7%, proto_match=V, proto_sim=0.8897, proto_rank_true=1, proto_sim_true=0.8690
+           top5: [('V', 50.69), ('K', 45.54), ('W', 3.74), ('G', 0.02), ('R', 0.0)]
+           proto_top5: [('V', 0.8897), ('K', 0.869), ('W', 0.8216), ('M', 0.7264), ('U', 0.7232)]
+
+--- A FAILURES ---
+  A_05: true=A, pred=X, conf=67.1%, proto_match=X, proto_sim=0.8742, proto_rank_true=1, proto_sim_true=0.8700
+           top5: [('X', 67.09), ('A', 31.63), ('Z', 0.89), ('S', 0.25), ('T', 0.04)]
+           proto_top5: [('X', 0.8742), ('A', 0.87), ('S', 0.8471), ('N', 0.8285), ('Z', 0.8102)]
+  A_10: true=A, pred=X, conf=81.2%, proto_match=X, proto_sim=0.8681, proto_rank_true=1, proto_sim_true=0.8583
+           top5: [('X', 81.23), ('A', 17.22), ('Z', 0.45), ('del', 0.3), ('N', 0.23)]
+           proto_top5: [('X', 0.8681), ('A', 0.8583), ('N', 0.8394), ('S', 0.8337), ('del', 0.8232)]
+  A_11: true=A, pred=X, conf=67.6%, proto_match=X, proto_sim=0.8866, proto_rank_true=2, proto_sim_true=0.8677
+           top5: [('X', 67.63), ('A', 29.82), ('S', 1.93), ('N', 0.27), ('T', 0.27)]
+           proto_top5: [('X', 0.8866), ('S', 0.8774), ('A', 0.8677), ('N', 0.8526), ('T', 0.8334)]
+  A_15: true=A, pred=X, conf=86.2%, proto_match=X, proto_sim=0.8670, proto_rank_true=2, proto_sim_true=0.8393
+           top5: [('X', 86.15), ('A', 10.07), ('del', 2.31), ('Z', 0.61), ('N', 0.26)]
+           proto_top5: [('X', 0.867), ('del', 0.8412), ('A', 0.8393), ('N', 0.8358), ('S', 0.8224)]
+  A_16: true=A, pred=X, conf=74.4%, proto_match=X, proto_sim=0.8736, proto_rank_true=2, proto_sim_true=0.8603
+           top5: [('X', 74.42), ('A', 21.92), ('S', 3.36), ('T', 0.12), ('M', 0.1)]
+           proto_top5: [('X', 0.8736), ('S', 0.8734), ('A', 0.8603), ('N', 0.8333), ('T', 0.8254)]
+  A_17: true=A, pred=X, conf=82.8%, proto_match=U, proto_sim=0.8649, proto_rank_true=3, proto_sim_true=0.8296
+           top5: [('X', 82.79), ('A', 7.48), ('S', 6.3), ('M', 3.2), ('U', 0.19)]
+           proto_top5: [('U', 0.8649), ('X', 0.8573), ('S', 0.8499), ('A', 0.8296), ('E', 0.8139)]
+  A_18: true=A, pred=Uncertain — adjust your hand position, conf=44.5%, proto_match=S, proto_sim=0.8703, proto_rank_true=1, proto_sim_true=0.8427
+           top5: [('M', 44.51), ('A', 32.15), ('S', 21.81), ('X', 1.47), ('Z', 0.03)]
+           proto_top5: [('S', 0.8703), ('A', 0.8427), ('M', 0.8422), ('U', 0.8388), ('X', 0.8317)]
+  A_19: true=A, pred=M, conf=85.4%, proto_match=S, proto_sim=0.8472, proto_rank_true=3, proto_sim_true=0.8267
+           top5: [('M', 85.36), ('A', 10.93), ('S', 3.56), ('X', 0.09), ('Z', 0.04)]
+           proto_top5: [('S', 0.8472), ('U', 0.8447), ('M', 0.8374), ('A', 0.8267), ('X', 0.8137)]
+  A_20: true=A, pred=X, conf=49.6%, proto_match=X, proto_sim=0.8521, proto_rank_true=1, proto_sim_true=0.8377
+           top5: [('X', 49.62), ('A', 43.61), ('del', 3.09), ('Z', 0.9), ('S', 0.84)]
+           proto_top5: [('X', 0.8521), ('A', 0.8377), ('del', 0.8334), ('S', 0.8294), ('N', 0.8034)]
+  A_22: true=A, pred=M, conf=48.2%, proto_match=U, proto_sim=0.8636, proto_rank_true=3, proto_sim_true=0.8308
+           top5: [('M', 48.21), ('S', 20.3), ('A', 19.78), ('X', 11.54), ('U', 0.14)]
+           proto_top5: [('U', 0.8636), ('S', 0.8535), ('X', 0.846), ('A', 0.8308), ('M', 0.8213)]
+  A_24: true=A, pred=M, conf=89.1%, proto_match=U, proto_sim=0.8574, proto_rank_true=4, proto_sim_true=0.8070
+           top5: [('M', 89.07), ('A', 4.82), ('S', 4.8), ('X', 0.79), ('U', 0.44)]
+           proto_top5: [('U', 0.8574), ('S', 0.8347), ('M', 0.8317), ('X', 0.8142), ('A', 0.807)]
+  A_27: true=A, pred=Uncertain — adjust your hand position, conf=44.8%, proto_match=U, proto_sim=0.8571, proto_rank_true=4, proto_sim_true=0.8365
+           top5: [('M', 44.76), ('A', 44.31), ('X', 9.68), ('S', 1.06), ('U', 0.09)]
+           proto_top5: [('U', 0.8571), ('X', 0.8421), ('M', 0.8419), ('S', 0.8413), ('A', 0.8365)]
+  A_29: true=A, pred=Uncertain — adjust your hand position, conf=51.1%, proto_match=A, proto_sim=0.8635, proto_rank_true=0, proto_sim_true=0.8635
+           top5: [('M', 51.06), ('A', 48.09), ('S', 0.65), ('X', 0.13), ('Z', 0.05)]
+           proto_top5: [('A', 0.8635), ('S', 0.8624), ('M', 0.86), ('X', 0.8292), ('U', 0.8273)]
+
+--- F FAILURES ---
+  F_10: true=F, pred=W, conf=83.7%, proto_match=W, proto_sim=0.8661, proto_rank_true=1, proto_sim_true=0.7950
+           top5: [('W', 83.67), ('F', 16.31), ('P', 0.01), ('Q', 0.0), ('H', 0.0)]
+           proto_top5: [('W', 0.8661), ('F', 0.795), ('Y', 0.7332), ('B', 0.6984), ('V', 0.6796)]
+  F_11: true=F, pred=W, conf=79.0%, proto_match=W, proto_sim=0.9019, proto_rank_true=1, proto_sim_true=0.8091
+           top5: [('W', 79.0), ('F', 20.99), ('B', 0.01), ('N', 0.0), ('Y', 0.0)]
+           proto_top5: [('W', 0.9019), ('F', 0.8091), ('B', 0.759), ('Y', 0.7113), ('K', 0.6606)]
+  F_13: true=F, pred=W, conf=76.2%, proto_match=W, proto_sim=0.8817, proto_rank_true=1, proto_sim_true=0.7687
+           top5: [('W', 76.22), ('F', 23.77), ('N', 0.0), ('Y', 0.0), ('B', 0.0)]
+           proto_top5: [('W', 0.8817), ('F', 0.7687), ('B', 0.7202), ('Y', 0.7045), ('M', 0.6318)]
+  F_15: true=F, pred=W, conf=86.0%, proto_match=W, proto_sim=0.8844, proto_rank_true=1, proto_sim_true=0.8040
+           top5: [('W', 85.96), ('F', 14.04), ('Y', 0.0), ('P', 0.0), ('Q', 0.0)]
+           proto_top5: [('W', 0.8844), ('F', 0.804), ('Y', 0.726), ('B', 0.7026), ('V', 0.6632)]
+  F_18: true=F, pred=W, conf=62.8%, proto_match=W, proto_sim=0.8077, proto_rank_true=1, proto_sim_true=0.7720
+           top5: [('W', 62.81), ('F', 36.73), ('Y', 0.46), ('P', 0.0), ('N', 0.0)]
+           proto_top5: [('W', 0.8077), ('F', 0.772), ('Y', 0.7337), ('B', 0.6966), ('T', 0.6545)]
+  F_19: true=F, pred=W, conf=54.4%, proto_match=W, proto_sim=0.8095, proto_rank_true=1, proto_sim_true=0.7898
+           top5: [('W', 54.35), ('F', 45.51), ('Y', 0.14), ('N', 0.0), ('M', 0.0)]
+           proto_top5: [('W', 0.8095), ('F', 0.7898), ('B', 0.7322), ('Y', 0.6991), ('M', 0.635)]
+  F_20: true=F, pred=W, conf=53.2%, proto_match=W, proto_sim=0.8596, proto_rank_true=1, proto_sim_true=0.8375
+           top5: [('W', 53.21), ('F', 46.78), ('Y', 0.01), ('P', 0.0), ('H', 0.0)]
+           proto_top5: [('W', 0.8596), ('F', 0.8375), ('Y', 0.7379), ('B', 0.7011), ('T', 0.6597)]
+  F_22: true=F, pred=Uncertain — adjust your hand position, conf=51.2%, proto_match=W, proto_sim=0.8361, proto_rank_true=1, proto_sim_true=0.8213
+           top5: [('W', 51.22), ('F', 48.67), ('Y', 0.11), ('O', 0.0), ('H', 0.0)]
+           proto_top5: [('W', 0.8361), ('F', 0.8213), ('Y', 0.7326), ('B', 0.7101), ('T', 0.6592)]
+  F_24: true=F, pred=W, conf=87.4%, proto_match=W, proto_sim=0.8343, proto_rank_true=1, proto_sim_true=0.8085
+           top5: [('W', 87.39), ('F', 12.51), ('Y', 0.1), ('N', 0.0), ('M', 0.0)]
+           proto_top5: [('W', 0.8343), ('F', 0.8085), ('B', 0.7375), ('Y', 0.7193), ('T', 0.663)]
+  F_27: true=F, pred=W, conf=80.5%, proto_match=W, proto_sim=0.8478, proto_rank_true=1, proto_sim_true=0.8160
+           top5: [('W', 80.46), ('F', 19.53), ('Y', 0.0), ('H', 0.0), ('P', 0.0)]
+           proto_top5: [('W', 0.8478), ('F', 0.816), ('Y', 0.7247), ('B', 0.7158), ('T', 0.654)]
+  F_28: true=F, pred=W, conf=89.0%, proto_match=W, proto_sim=0.8631, proto_rank_true=1, proto_sim_true=0.8042
+           top5: [('W', 89.0), ('F', 11.0), ('Y', 0.0), ('N', 0.0), ('M', 0.0)]
+           proto_top5: [('W', 0.8631), ('F', 0.8042), ('B', 0.7246), ('Y', 0.7113), ('T', 0.6512)]
+
+--- M FAILURES ---
+  M_02: true=M, pred=N, conf=60.1%, proto_match=N, proto_sim=0.9001, proto_rank_true=1, proto_sim_true=0.8960
+           top5: [('N', 60.15), ('M', 39.44), ('S', 0.32), ('X', 0.06), ('space', 0.02)]
+           proto_top5: [('N', 0.9001), ('M', 0.896), ('S', 0.8786), ('U', 0.8445), ('X', 0.8432)]
+  M_05: true=M, pred=Uncertain — adjust your hand position, conf=36.4%, proto_match=N, proto_sim=0.8342, proto_rank_true=4, proto_sim_true=0.7912
+           top5: [('N', 36.39), ('G', 29.58), ('Q', 28.65), ('del', 2.31), ('P', 2.05)]
+           proto_top5: [('N', 0.8342), ('del', 0.8081), ('P', 0.807), ('space', 0.8069), ('M', 0.7912)]
+  M_06: true=M, pred=N, conf=95.1%, proto_match=N, proto_sim=0.8713, proto_rank_true=1, proto_sim_true=0.8329
+           top5: [('N', 95.11), ('M', 2.7), ('Q', 0.91), ('del', 0.49), ('G', 0.31)]
+           proto_top5: [('N', 0.8713), ('M', 0.8329), ('U', 0.8303), ('X', 0.8229), ('space', 0.8132)]
+  M_10: true=M, pred=Q, conf=60.2%, proto_match=N, proto_sim=0.8054, proto_rank_true=3, proto_sim_true=0.7871
+           top5: [('Q', 60.22), ('G', 28.5), ('P', 7.08), ('N', 2.19), ('C', 0.76)]
+           proto_top5: [('N', 0.8054), ('U', 0.7904), ('space', 0.7877), ('M', 0.7871), ('P', 0.7847)]
+  M_11: true=M, pred=N, conf=46.6%, proto_match=N, proto_sim=0.8456, proto_rank_true=2, proto_sim_true=0.8328
+           top5: [('Q', 46.57), ('N', 31.3), ('M', 9.6), ('G', 4.97), ('P', 4.69)]
+           proto_top5: [('N', 0.8456), ('P', 0.839), ('M', 0.8328), ('space', 0.8321), ('del', 0.8282)]
+  M_15: true=M, pred=G, conf=49.2%, proto_match=N, proto_sim=0.8372, proto_rank_true=1, proto_sim_true=0.8153
+           top5: [('G', 49.21), ('N', 20.39), ('Q', 17.48), ('P', 8.02), ('M', 2.23)]
+           proto_top5: [('N', 0.8372), ('M', 0.8153), ('space', 0.8078), ('del', 0.8051), ('P', 0.8017)]
+  M_16: true=M, pred=Uncertain — adjust your hand position, conf=36.9%, proto_match=N, proto_sim=0.8332, proto_rank_true=1, proto_sim_true=0.8320
+           top5: [('Q', 36.85), ('G', 32.76), ('N', 16.13), ('M', 12.65), ('P', 0.77)]
+           proto_top5: [('N', 0.8332), ('M', 0.832), ('space', 0.8064), ('U', 0.8028), ('X', 0.7869)]
+  M_17: true=M, pred=N, conf=78.9%, proto_match=N, proto_sim=0.8671, proto_rank_true=2, proto_sim_true=0.8517
+           top5: [('N', 78.92), ('M', 18.94), ('Q', 1.68), ('P', 0.14), ('X', 0.07)]
+           proto_top5: [('N', 0.8671), ('U', 0.8541), ('M', 0.8517), ('X', 0.8293), ('R', 0.8095)]
+  M_20: true=M, pred=Q, conf=88.2%, proto_match=del, proto_sim=0.8546, proto_rank_true=5, proto_sim_true=0.7632
+           top5: [('Q', 88.24), ('del', 8.9), ('P', 1.34), ('G', 1.28), ('H', 0.12)]
+           proto_top5: [('del', 0.8546), ('Q', 0.8318), ('P', 0.8223), ('N', 0.8098), ('space', 0.8042)]
+  M_21: true=M, pred=Uncertain — adjust your hand position, conf=41.9%, proto_match=N, proto_sim=0.8506, proto_rank_true=1, proto_sim_true=0.8377
+           top5: [('G', 41.91), ('M', 24.36), ('N', 17.97), ('Q', 6.68), ('del', 4.0)]
+           proto_top5: [('N', 0.8506), ('M', 0.8377), ('U', 0.824), ('X', 0.8238), ('del', 0.8152)]
+  M_25: true=M, pred=Q, conf=81.6%, proto_match=del, proto_sim=0.8212, proto_rank_true=5, proto_sim_true=0.7710
+           top5: [('Q', 81.61), ('del', 9.88), ('G', 3.08), ('N', 3.03), ('P', 2.05)]
+           proto_top5: [('del', 0.8212), ('N', 0.8201), ('P', 0.7954), ('space', 0.7909), ('Q', 0.7884)]
+  M_26: true=M, pred=G, conf=46.0%, proto_match=space, proto_sim=0.8350, proto_rank_true=5, proto_sim_true=0.7920
+           top5: [('G', 46.0), ('Q', 32.08), ('P', 7.87), ('del', 7.01), ('N', 3.52)]
+           proto_top5: [('space', 0.835), ('del', 0.8259), ('P', 0.8214), ('N', 0.819), ('U', 0.7961)]
+
+--- B FAILURES ---
+  B_00: true=B, pred=del, conf=77.8%, proto_match=B, proto_sim=0.8517, proto_rank_true=0, proto_sim_true=0.8517
+           top5: [('del', 77.84), ('B', 10.1), ('X', 6.21), ('E', 3.48), ('U', 1.44)]
+           proto_top5: [('B', 0.8517), ('E', 0.8429), ('U', 0.7786), ('del', 0.7765), ('N', 0.7551)]
+  B_02: true=B, pred=S, conf=63.7%, proto_match=U, proto_sim=0.8744, proto_rank_true=16, proto_sim_true=0.7668
+           top5: [('S', 63.72), ('R', 10.53), ('X', 8.37), ('space', 5.56), ('U', 3.36)]
+           proto_top5: [('U', 0.8744), ('S', 0.8737), ('X', 0.8526), ('N', 0.8476), ('M', 0.839)]
+  B_05: true=B, pred=Uncertain — adjust your hand position, conf=37.2%, proto_match=U, proto_sim=0.8063, proto_rank_true=16, proto_sim_true=0.7057
+           top5: [('B', 37.23), ('del', 35.28), ('U', 19.81), ('O', 4.12), ('C', 0.91)]
+           proto_top5: [('U', 0.8063), ('del', 0.7926), ('O', 0.788), ('X', 0.7757), ('N', 0.7638)]
+  B_10: true=B, pred=Uncertain — adjust your hand position, conf=36.4%, proto_match=U, proto_sim=0.8206, proto_rank_true=9, proto_sim_true=0.7567
+           top5: [('U', 36.35), ('del', 33.01), ('B', 20.67), ('space', 5.22), ('X', 1.79)]
+           proto_top5: [('U', 0.8206), ('del', 0.8114), ('N', 0.8018), ('S', 0.7996), ('X', 0.7905)]
+  B_11: true=B, pred=Uncertain — adjust your hand position, conf=34.0%, proto_match=U, proto_sim=0.8642, proto_rank_true=12, proto_sim_true=0.7604
+           top5: [('X', 34.01), ('B', 17.18), ('space', 13.43), ('U', 12.35), ('N', 8.03)]
+           proto_top5: [('U', 0.8642), ('N', 0.853), ('X', 0.8467), ('S', 0.837), ('O', 0.8194)]
+  B_15: true=B, pred=Uncertain — adjust your hand position, conf=29.7%, proto_match=U, proto_sim=0.8279, proto_rank_true=10, proto_sim_true=0.7579
+           top5: [('B', 29.69), ('del', 28.55), ('X', 18.87), ('U', 11.11), ('space', 10.09)]
+           proto_top5: [('U', 0.8279), ('X', 0.8175), ('N', 0.8095), ('del', 0.8053), ('S', 0.7931)]
+  B_20: true=B, pred=Uncertain — adjust your hand position, conf=32.6%, proto_match=U, proto_sim=0.8318, proto_rank_true=9, proto_sim_true=0.7517
+           top5: [('U', 32.59), ('del', 31.32), ('B', 24.98), ('O', 7.07), ('space', 2.12)]
+           proto_top5: [('U', 0.8318), ('del', 0.8107), ('O', 0.8007), ('S', 0.7955), ('X', 0.7904)]
+  B_24: true=B, pred=U, conf=55.8%, proto_match=U, proto_sim=0.8633, proto_rank_true=2, proto_sim_true=0.8144
+           top5: [('B', 55.75), ('U', 42.59), ('R', 1.09), ('S', 0.25), ('O', 0.17)]
+           proto_top5: [('U', 0.8633), ('S', 0.8252), ('B', 0.8144), ('N', 0.7933), ('X', 0.7879)]
+  B_25: true=B, pred=Uncertain — adjust your hand position, conf=40.0%, proto_match=U, proto_sim=0.8200, proto_rank_true=18, proto_sim_true=0.7242
+           top5: [('del', 39.96), ('B', 35.43), ('U', 10.01), ('space', 7.34), ('Q', 2.66)]
+           proto_top5: [('U', 0.82), ('del', 0.8019), ('X', 0.799), ('O', 0.7937), ('N', 0.7854)]
+
+--- R FAILURES ---
+  R_00: true=R, pred=X, conf=62.8%, proto_match=X, proto_sim=0.8750, proto_rank_true=2, proto_sim_true=0.8552
+           top5: [('X', 62.77), ('R', 36.18), ('V', 0.64), ('del', 0.36), ('U', 0.04)]
+           proto_top5: [('X', 0.875), ('U', 0.8616), ('R', 0.8552), ('V', 0.8497), ('del', 0.7744)]
+  R_05: true=R, pred=space, conf=70.0%, proto_match=space, proto_sim=0.8523, proto_rank_true=1, proto_sim_true=0.8504
+           top5: [('space', 70.03), ('R', 12.61), ('del', 8.86), ('X', 7.15), ('V', 0.88)]
+           proto_top5: [('space', 0.8523), ('R', 0.8504), ('U', 0.8224), ('del', 0.8075), ('X', 0.8067)]
+  R_10: true=R, pred=space, conf=54.2%, proto_match=R, proto_sim=0.8438, proto_rank_true=0, proto_sim_true=0.8438
+           top5: [('space', 54.16), ('del', 21.01), ('R', 18.73), ('X', 3.66), ('V', 1.91)]
+           proto_top5: [('R', 0.8438), ('space', 0.8347), ('U', 0.823), ('del', 0.793), ('X', 0.7882)]
+  R_15: true=R, pred=del, conf=59.6%, proto_match=space, proto_sim=0.8356, proto_rank_true=1, proto_sim_true=0.8218
+           top5: [('del', 59.61), ('space', 26.82), ('R', 7.93), ('V', 3.92), ('X', 1.37)]
+           proto_top5: [('space', 0.8356), ('R', 0.8218), ('U', 0.8088), ('del', 0.804), ('X', 0.7779)]
+  R_20: true=R, pred=del, conf=75.2%, proto_match=space, proto_sim=0.8491, proto_rank_true=3, proto_sim_true=0.8168
+           top5: [('del', 75.22), ('space', 23.22), ('Q', 0.79), ('V', 0.27), ('R', 0.27)]
+           proto_top5: [('space', 0.8491), ('del', 0.8391), ('U', 0.817), ('R', 0.8168), ('N', 0.7798)]
+  R_21: true=R, pred=space, conf=72.9%, proto_match=R, proto_sim=0.8553, proto_rank_true=0, proto_sim_true=0.8553
+           top5: [('space', 72.86), ('R', 24.22), ('V', 2.37), ('del', 0.23), ('D', 0.15)]
+           proto_top5: [('R', 0.8553), ('U', 0.8422), ('space', 0.8365), ('K', 0.8103), ('V', 0.8077)]
+  R_25: true=R, pred=del, conf=77.8%, proto_match=space, proto_sim=0.8322, proto_rank_true=3, proto_sim_true=0.7758
+           top5: [('del', 77.76), ('space', 21.02), ('Q', 0.55), ('V', 0.47), ('X', 0.1)]
+           proto_top5: [('space', 0.8322), ('del', 0.8186), ('U', 0.7766), ('R', 0.7758), ('N', 0.7538)]
+
+--- E FAILURES ---
+  E_00: true=E, pred=Uncertain — adjust your hand position, conf=40.7%, proto_match=E, proto_sim=0.8876, proto_rank_true=0, proto_sim_true=0.8876
+           top5: [('del', 40.74), ('X', 30.61), ('E', 26.18), ('Z', 1.16), ('S', 0.5)]
+           proto_top5: [('E', 0.8876), ('del', 0.8008), ('A', 0.7917), ('X', 0.7891), ('N', 0.784)]
+  E_05: true=E, pred=G, conf=86.3%, proto_match=space, proto_sim=0.8123, proto_rank_true=5, proto_sim_true=0.7684
+           top5: [('G', 86.28), ('P', 6.78), ('E', 2.64), ('Y', 2.08), ('del', 1.21)]
+           proto_top5: [('space', 0.8123), ('Y', 0.8106), ('P', 0.8036), ('J', 0.7976), ('del', 0.7832)]
+  E_10: true=E, pred=Uncertain — adjust your hand position, conf=41.5%, proto_match=del, proto_sim=0.8260, proto_rank_true=3, proto_sim_true=0.7942
+           top5: [('G', 41.49), ('E', 26.08), ('del', 21.02), ('P', 5.33), ('X', 3.64)]
+           proto_top5: [('del', 0.826), ('space', 0.8152), ('N', 0.7943), ('E', 0.7942), ('P', 0.7928)]
+  E_15: true=E, pred=del, conf=63.5%, proto_match=del, proto_sim=0.8695, proto_rank_true=1, proto_sim_true=0.8208
+           top5: [('del', 63.48), ('E', 32.3), ('S', 1.74), ('G', 0.87), ('M', 0.6)]
+           proto_top5: [('del', 0.8695), ('E', 0.8208), ('S', 0.8057), ('space', 0.796), ('N', 0.7943)]
+  E_20: true=E, pred=G, conf=64.0%, proto_match=del, proto_sim=0.8412, proto_rank_true=2, proto_sim_true=0.8092
+           top5: [('G', 64.0), ('del', 16.31), ('E', 10.12), ('S', 6.31), ('X', 1.79)]
+           proto_top5: [('del', 0.8412), ('S', 0.8251), ('E', 0.8092), ('J', 0.807), ('X', 0.7994)]
+  E_25: true=E, pred=del, conf=79.6%, proto_match=del, proto_sim=0.8685, proto_rank_true=6, proto_sim_true=0.7818
+           top5: [('del', 79.63), ('G', 12.97), ('X', 5.13), ('E', 0.86), ('space', 0.45)]
+           proto_top5: [('del', 0.8685), ('space', 0.8178), ('S', 0.817), ('X', 0.8156), ('N', 0.8)]
+
+--- I FAILURES ---
+  I_05: true=I, pred=space, conf=82.6%, proto_match=I, proto_sim=0.8298, proto_rank_true=0, proto_sim_true=0.8298
+           top5: [('space', 82.63), ('del', 12.97), ('I', 3.23), ('D', 0.56), ('Y', 0.2)]
+           proto_top5: [('I', 0.8298), ('space', 0.8282), ('D', 0.8107), ('del', 0.7776), ('N', 0.7614)]
+  I_10: true=I, pred=space, conf=61.6%, proto_match=I, proto_sim=0.8203, proto_rank_true=0, proto_sim_true=0.8203
+           top5: [('space', 61.56), ('Y', 17.12), ('I', 11.2), ('del', 4.54), ('P', 3.08)]
+           proto_top5: [('I', 0.8203), ('space', 0.8187), ('D', 0.7818), ('del', 0.7704), ('J', 0.754)]
+  I_15: true=I, pred=space, conf=62.6%, proto_match=I, proto_sim=0.8173, proto_rank_true=0, proto_sim_true=0.8173
+           top5: [('space', 62.6), ('Y', 21.66), ('del', 8.71), ('I', 5.23), ('N', 0.93)]
+           proto_top5: [('I', 0.8173), ('space', 0.8121), ('del', 0.7898), ('J', 0.7787), ('N', 0.7641)]
+  I_21: true=I, pred=Uncertain — adjust your hand position, conf=43.7%, proto_match=I, proto_sim=0.8797, proto_rank_true=0, proto_sim_true=0.8797
+           top5: [('I', 43.67), ('Y', 31.02), ('space', 15.28), ('N', 9.82), ('D', 0.07)]
+           proto_top5: [('I', 0.8797), ('space', 0.8362), ('N', 0.8036), ('Y', 0.8028), ('J', 0.7946)]
+  I_25: true=I, pred=space, conf=63.9%, proto_match=space, proto_sim=0.8123, proto_rank_true=2, proto_sim_true=0.7981
+           top5: [('space', 63.88), ('del', 32.37), ('I', 1.52), ('G', 0.61), ('N', 0.59)]
+           proto_top5: [('space', 0.8123), ('del', 0.7998), ('I', 0.7981), ('D', 0.7804), ('N', 0.7703)]
+  I_26: true=I, pred=Uncertain — adjust your hand position, conf=44.4%, proto_match=I, proto_sim=0.8624, proto_rank_true=0, proto_sim_true=0.8624
+           top5: [('I', 44.37), ('space', 21.77), ('N', 15.78), ('del', 10.05), ('Y', 7.66)]
+           proto_top5: [('I', 0.8624), ('space', 0.8338), ('del', 0.8284), ('N', 0.8149), ('J', 0.7929)]

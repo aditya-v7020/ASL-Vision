@@ -1,0 +1,182 @@
+{
+  "classes": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H",
+    "I",
+    "J",
+    "K",
+    "L",
+    "M",
+    "N",
+    "O",
+    "P",
+    "Q",
+    "R",
+    "S",
+    "T",
+    "U",
+    "V",
+    "W",
+    "X",
+    "Y",
+    "Z",
+    "del",
+    "nothing",
+    "space"
+  ],
+  "clusters_per_class": 5,
+  "feature_dim": 256,
+  "class_stats": {
+    "A": {
+      "mean_max_sim": 0.986060619354248,
+      "min_max_sim": 0.8774417638778687,
+      "samples_used": 200
+    },
+    "B": {
+      "mean_max_sim": 0.9818469285964966,
+      "min_max_sim": 0.9435224533081055,
+      "samples_used": 200
+    },
+    "C": {
+      "mean_max_sim": 0.9844088554382324,
+      "min_max_sim": 0.9448264241218567,
+      "samples_used": 200
+    },
+    "D": {
+      "mean_max_sim": 0.9793212413787842,
+      "min_max_sim": 0.9132646322250366,
+      "samples_used": 200
+    },
+    "E": {
+      "mean_max_sim": 0.9789497256278992,
+      "min_max_sim": 0.856826663017273,
+      "samples_used": 200
+    },
+    "F": {
+      "mean_max_sim": 0.9768120050430298,
+      "min_max_sim": 0.9257614612579346,
+      "samples_used": 200
+    },
+    "G": {
+      "mean_max_sim": 0.9858701825141907,
+      "min_max_sim": 0.9153316020965576,
+      "samples_used": 200
+    },
+    "H": {
+      "mean_max_sim": 0.986196756362915,
+      "min_max_sim": 0.9541915655136108,
+      "samples_used": 200
+    },
+    "I": {
+      "mean_max_sim": 0.9781420826911926,
+      "min_max_sim": 0.9417722821235657,
+      "samples_used": 200
+    },
+    "J": {
+      "mean_max_sim": 0.9836576581001282,
+      "min_max_sim": 0.9430710077285767,
+      "samples_used": 200
+    },
+    "K": {
+      "mean_max_sim": 0.9855480790138245,
+      "min_max_sim": 0.9530399441719055,
+      "samples_used": 200
+    },
+    "L": {
+      "mean_max_sim": 0.9845190644264221,
+      "min_max_sim": 0.950480043888092,
+      "samples_used": 200
+    },
+    "M": {
+      "mean_max_sim": 0.9869844913482666,
+      "min_max_sim": 0.9658794403076172,
+      "samples_used": 200
+    },
+    "N": {
+      "mean_max_sim": 0.983559250831604,
+      "min_max_sim": 0.9559003710746765,
+      "samples_used": 200
+    },
+    "O": {
+      "mean_max_sim": 0.9830774664878845,
+      "min_max_sim": 0.8766887187957764,
+      "samples_used": 200
+    },
+    "P": {
+      "mean_max_sim": 0.9903520941734314,
+      "min_max_sim": 0.9420856833457947,
+      "samples_used": 200
+    },
+    "Q": {
+      "mean_max_sim": 0.9899047613143921,
+      "min_max_sim": 0.9453758597373962,
+      "samples_used": 200
+    },
+    "R": {
+      "mean_max_sim": 0.9886377453804016,
+      "min_max_sim": 0.936115026473999,
+      "samples_used": 200
+    },
+    "S": {
+      "mean_max_sim": 0.9880318641662598,
+      "min_max_sim": 0.9736132621765137,
+      "samples_used": 200
+    },
+    "T": {
+      "mean_max_sim": 0.9879642724990845,
+      "min_max_sim": 0.9546597003936768,
+      "samples_used": 200
+    },
+    "U": {
+      "mean_max_sim": 0.9859297871589661,
+      "min_max_sim": 0.9383612871170044,
+      "samples_used": 200
+    },
+    "V": {
+      "mean_max_sim": 0.98388671875,
+      "min_max_sim": 0.9540296792984009,
+      "samples_used": 200
+    },
+    "W": {
+      "mean_max_sim": 0.9863093495368958,
+      "min_max_sim": 0.9063543677330017,
+      "samples_used": 200
+    },
+    "X": {
+      "mean_max_sim": 0.9862282276153564,
+      "min_max_sim": 0.9505979418754578,
+      "samples_used": 200
+    },
+    "Y": {
+      "mean_max_sim": 0.9884950518608093,
+      "min_max_sim": 0.9431743025779724,
+      "samples_used": 200
+    },
+    "Z": {
+      "mean_max_sim": 0.9887159466743469,
+      "min_max_sim": 0.8969991207122803,
+      "samples_used": 200
+    },
+    "del": {
+      "mean_max_sim": 0.9840126037597656,
+      "min_max_sim": 0.9390711784362793,
+      "samples_used": 200
+    },
+    "nothing": {
+      "mean_max_sim": 0.9879929423332214,
+      "min_max_sim": 0.9200546741485596,
+      "samples_used": 200
+    },
+    "space": {
+      "mean_max_sim": 0.9883254170417786,
+      "min_max_sim": 0.9509778618812561,
+      "samples_used": 200
+    }
+  }
+}
